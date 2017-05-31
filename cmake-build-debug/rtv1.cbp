@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rtv1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rtv1">
+				<Option output="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug/rtv1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtv1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rtv1/fast">
+				<Option output="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug/rtv1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtv1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/rtv1.h">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/create_image.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/create_win.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/discriminant.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/emit_rays.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/events/buttons.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/init_pos_screen.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect_ray_cylinder.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect_ray_plane.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect_ray_sphere.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/main.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_cylinder.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_obj.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_plane.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_sphere.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/fill_objects.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/put_pixel.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/add.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/div.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/module.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/mult.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/new_vector.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/normal.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/scalar_mult.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/sub.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/v_copy.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

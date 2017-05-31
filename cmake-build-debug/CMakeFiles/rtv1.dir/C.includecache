@@ -1,0 +1,126 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+math.h
+-
+mlx.h
+-
+stdlib.h
+-
+pthread.h
+-
+unistd.h
+-
+stdio.h
+-
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_image.c
+../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_win.c
+../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/discriminant.c
+../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/emit_rays.c
+../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/buttons.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/init_pos_screen.c
+../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_cylinder.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_plane.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_sphere.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/main.c
+../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cylinder.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_obj.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_plane.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_sphere.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/fill_objects.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/put_pixel.c
+../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/add.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/div.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/module.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/mult.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/new_vector.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/normal.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/scalar_mult.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/sub.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/v_copy.c
+../../rtv1.h
+/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+
