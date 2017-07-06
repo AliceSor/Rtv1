@@ -4,7 +4,7 @@
 
 #include "../../rtv1.h"
 
-t_plane			*create_plane(t_v *c, t_v *n, int color)
+t_plane			*create_plane(t_v *c, t_v *n, int color, double dist)
 {
 	t_plane		*s;
 
@@ -14,6 +14,7 @@ t_plane			*create_plane(t_v *c, t_v *n, int color)
 		s->c = c;
 		s->n = n;
 		s->color = color;
+		s->dist = dist;
 		return (s);
 	}
 	exit(1);

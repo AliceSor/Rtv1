@@ -4,7 +4,7 @@
 
 #include "../../rtv1.h"
 
-t_sphere			*create_sphere(t_v *c)
+t_sphere			*create_sphere(t_v *c, double r, int color)
 {
 	t_sphere		*s;
 
@@ -12,8 +12,8 @@ t_sphere			*create_sphere(t_v *c)
 	if (s)
 	{
 		s->center = c;
-		s->radius = 100;
-		s->color = 0xFF00FF;
+		s->radius = r;
+		s->color = color;
 		return (s);
 	}
 	return (NULL);

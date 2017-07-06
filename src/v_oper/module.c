@@ -8,6 +8,8 @@ double				module(t_v *v)
 {
     double			res;
 
-    res = sqrt(scalar_mult(v, v));
+	res = 0;
+    if (v)
+		res = sqrt(scalar_mult(v, v));
     return (res);
 }

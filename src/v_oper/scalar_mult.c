@@ -8,7 +8,9 @@ double				scalar_mult(t_v *v1, t_v *v2)
 {
     double			res;
 
-    res = (v1->x * v2->x) + v1->y * v2->y + v1->z * v2->z;
+    res = 0;
+	if (v1 && v2)
+		res = (v1->x * v2->x) + v1->y * v2->y + v1->z * v2->z;
 //    res += v1->y * v2->y;
 //    res += v1->z * v2->z;
     return (res);

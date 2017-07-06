@@ -12,19 +12,14 @@
 
 #include "../../rtv1.h"
 
-t_v				*add(t_v *v1, t_v *v2)
+void			add(t_v *v1, t_v *v2, t_v *res)
 {
-	t_v			*res;
-
-	res = (t_v *)malloc(sizeof(t_v) + 1);
 	if (res)
 	{
 		res->x = v1->x + v2->x;
 		res->y = v1->y + v2->y;
 		res->z = v1->z + v2->z;
 //		printf("(%f, %f, %f) + (%f, %f, %f) = (%f, %f, %f)\n", v1->x, v1->y, v1->z, v2->x, v2->y, v2->z, res->x, res->y, res->z);
-		return (res);
 	}
 	/* return (NULL); */
-	exit(1);
 }

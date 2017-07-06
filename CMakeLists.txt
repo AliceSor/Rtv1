@@ -39,6 +39,20 @@ set(SOURCE_FILES
         src/objects/create_sphere.c
         src/objects/create_plane.c
         src/objects/create_cylinder.c
-        src/objects/fill_objects.c)
+        src/objects/fill_objects.c
+        src/v_oper/compare.c
+        src/objects/for_each_obj.c
+        src/events/change_pos.c
+        src/intersects/intersect_cone.c
+        src/objects/create_cone.c
+        src/events/move_plane.c
+        src/events/move_sphere.c
+        src/events/move_cylinder.c
+        src/events/move_cone.c
+        src/objects/create_light.c
+        src/b_zero.c
+        src/pull_color.c
+        src/color/integrate_color.c
+        src/color/create_color.c src/for_each_point.c src/ray_trace.c src/intersects/intersects_objects.c src/intersects/some_calculating.c src/intersects/identify_obj.c src/intersects/find_hit_point.c src/intersects/find_nrml_light_ray.c src/light/find_diffuse.c src/color/calc_color.c)
 
 add_executable(rtv1 ${SOURCE_FILES})

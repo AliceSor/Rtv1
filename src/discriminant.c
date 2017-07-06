@@ -7,7 +7,7 @@
 int	        	discriminant(double *t, t_abc abc)
 {
     abc.d = abc.b * abc.b - 4 * abc.a * abc.c;
-    if (abc.d < 0)
+    if (abc.d < 0.0f)
         return (0);
     abc.c = sqrt(abc.d);
     abc.t0 = (-abc.b + abc.c) / (2 * abc.a);

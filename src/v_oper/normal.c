@@ -4,20 +4,18 @@
 
 #include "../../rtv1.h"
 
-t_v				*normal(t_v *v1)
+void				normal(t_v *v1, t_v *res)
 {
-    t_v			*res;
-
-
-    res = (t_v *)malloc(sizeof(t_v) + 1);
-    if (res)
+//    t_v			temp;
+    if (res && v1)
     {
 //        write(1, "22\n", 3);
-
-        res = division(v1, module(v1));
+//		temp.x = v1->x;
+//		temp.y = v1->y;
+//		temp.z = v1->z;
+//        division(&temp, module(&temp), res);
+		division(v1, module(v1), res);
 //        printf("(%f, %f, %f) + (%f, %f, %f) = (%f, %f, %f)\n", v1->x, v1->y, v1->z, v2->x, v2->y, v2->z, res->x, res->y, res->z);
-        return (res);
     }
     /* return (NULL); */
-    exit(1);
 }
