@@ -7,7 +7,7 @@
 int				intersect_sphere(t_v *d, t_v *p0, t_sphere *s, double *t)
 {
 	t_abc		abc;
-//	double 		discr;
+	double 		disc;
 	t_v			temp_mul;
 	t_v			temp_sub;
 	t_v			*temp_sub1;
@@ -26,8 +26,51 @@ int				intersect_sphere(t_v *d, t_v *p0, t_sphere *s, double *t)
 //		*t = HUGE;
 //		return (NULL);
 //	}
-	return (discriminant(t, abc));
+	disc = abc.b * abc.b - 4 * abc.a * abc.c;
+	if (disc > 0.001f && discriminant(t, abc) == 1)
+		return (1);
+	return (0);
+//	return (discriminant(t, abc));
 }
+
+//
+//int		intrsctsphere(t_rtv *mst)
+//{
+//	t_vec	dist;
+//	float	a;
+//	float	b;
+//	float	c;
+//
+//	a = ft_vector_dot(&mst->ray.dir_n, &mst->ray.dir_n);
+//	dist = ft_vector_sub(&mst->ray.start, &mst->sphere.pos);
+//	b = 2 * ft_vector_dot(&mst->ray.dir_n, &dist);
+//	c = ft_vector_dot(&dist, &dist) - (mst->sphere.radius *
+//									   mst->sphere.radius);
+//	mst->discriminant = b * b - 4 * a * c;
+//	if (mst->discriminant > 0.001f && complicated_disc(a, b, c, mst) == 1)
+//		return (1);
+//	return (0);
+//}
+//
+//int		sphere(t_rtv *mst, t_vec *ray_light_dir_n, t_vec *point)
+//{
+//	t_vec	dist;
+//	float	a;
+//	float	b;
+//	float	c;
+//
+//	a = ft_vector_dot(ray_light_dir_n, ray_light_dir_n);
+//	dist = ft_vector_sub(point, &mst->sphere.pos);
+//	b = 2 * ft_vector_dot(ray_light_dir_n, &dist);
+//	c = ft_vector_dot(&dist, &dist) - (mst->sphere.radius *
+//									   mst->sphere.radius);
+//	mst->disc = b * b - 4 * a * c;
+//	if (mst->disc > 0.001f && disc(a, b, c, mst) == 1)
+//		return (1);
+//	return (0);
+//}
+
+
 
 int				intersect_plane(t_v *d,t_v *p0, t_plane *p, double *t)
 {

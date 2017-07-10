@@ -55,3 +55,22 @@ void 			for_each_point(t_rt *rt, void(*f)(t_v *, t_rt *))
 		(*f)(rt->screen->eye, rt);
 	}
 }
+
+void 			for_each_dir(t_rt *rt, void(*f)(t_v *, t_rt *))
+{
+	t_v			*p;
+	int 		i;
+	int 		i_max;
+
+	p = rt->screen->directions;
+	i = 0;
+	i_max = HEIGHT * WIDTH;
+	if (p && rt->screen->eye)
+	{
+		while (i < i_max) {
+			(*f)(&(p[i]), rt);
+			i++;
+		}
+//		(*f)(rt->screen->eye, rt);
+	}
+}

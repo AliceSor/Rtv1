@@ -23,7 +23,7 @@ int				main(void)
 //	}
 //	emit_rays(rt);
 	ray_trace(rt);
-	for_each_obj(rt, change_pos);
+//	for_each_obj(rt, change_pos);
 //	mlx_string_put(rt->mlx->mlx, rt->mlx->win, 100, 100, 0xFFFFFF, "kjbngjvklbfjlkzvb");
 	mlx_put_image_to_window(rt->mlx->mlx, rt->mlx->win, rt->mlx->im, -1, -1);
 	mlx_hook(rt->mlx->win, 2, 5, buttons, rt);

@@ -6,19 +6,24 @@
 
 static void		normal_cylinder(t_obj *obj, t_v *hit_p, t_v *res)
 {
-	t_v			center_hit_p;
-	double 		m;
-	t_v			temp_sub;
-	t_v			temp_mult;
-
-	sub(hit_p, obj->cl->c, &center_hit_p);
-//	sub(&center_hit_p, obj->cl->n, &temp_sub);
-	m = sqrt(scalar_mult(&center_hit_p, &center_hit_p) - obj->cl->r * obj->cl->r);
-	mult(obj->cl->n, m, &temp_mult);
-	sub(&center_hit_p, &temp_mult, &temp_sub);
-	sub(&temp_mult, &center_hit_p, &temp_sub);
-	normal(&temp_sub, res);
+//	t_v			center_hit_p;
+//	double 		m;
+//	t_v			temp_sub;
+//	t_v			temp_mult;
+//
+//	sub(hit_p, obj->cl->c, &center_hit_p);
+////	sub(&center_hit_p, obj->cl->n, &temp_sub);
+//	m = sqrt(scalar_mult(&center_hit_p, &center_hit_p) - obj->cl->r * obj->cl->r);
+//	mult(obj->cl->n, m, &temp_mult);
+//	sub(&center_hit_p, &temp_mult, &temp_sub);
+//	sub(&temp_mult, &center_hit_p, &temp_sub);
+//	normal(&temp_sub, res);
 //	mult(&temp_sub, 1 / (obj->cl->r), res);
+	t_v a,b,temp;
+	sub(hit_p, obj->cl->c, &b);
+	mult(obj->cl->n, scalar_mult(&b, obj->cl->n), &a);
+	sub(&a, &b, &temp);
+	normal(&temp, res);
 }
 
 static void		normal_cone(t_obj *obj, t_v *hit_p, t_v *res)
@@ -35,7 +40,7 @@ static void		normal_cone(t_obj *obj, t_v *hit_p, t_v *res)
 	normal(&temp_sub, res);
 }
 
-static void		find_normal(t_obj *obj, t_v *hit_p, t_v *res)
+void			find_normal(t_obj *obj, t_v *hit_p, t_v *res)
 {
 	t_v			temp;
 
@@ -52,6 +57,7 @@ static void		find_normal(t_obj *obj, t_v *hit_p, t_v *res)
 	if (obj->type_obj == 3)
 		normal_cone(obj, hit_p, res);
 }
+
  double 		find_diffuse(t_obj *obj, t_v *hit_p, t_v *light_ray)
 {
 	t_v			*nrml;

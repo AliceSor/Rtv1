@@ -81,28 +81,39 @@ int					buttons(int keycode, t_rt *rt)
 		put_image(rt);
 		rt->lights->f->l_change_pos = 0;
 	}
-	if (keycode == 7 && A < 40)
+	if (keycode == 7)// && A < 14)
 	{
-		A  += 1;
-//		for_each_point(rt, rotate_x_point);
-		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
-		for_each_obj(rt, change_pos);
+		A  += 10;
+		printf("%f ", A);
+		for_each_dir(rt, rotate_x_point);
+//		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
+//		for_each_obj(rt, change_pos);
 		put_image(rt);
+		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
 	}
-	if (keycode == 16 && B < 40)
+	if (keycode == 16)
 	{
-		B  += 1;
-//		for_each_point(rt, rotate_y_point);
-		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
-		for_each_obj(rt, change_pos);
+		B  -= 10;
+		for_each_dir(rt, rotate_y_point);
+		printf("%f ", B);
+//		for_each_obj(rt, change_pos);
 		put_image(rt);
+		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
+	}
+	if (keycode == 32 	)
+	{
+		B  += 10;
+		for_each_dir(rt, rotate_y_point);
+		printf("%f ", B);
+//		for_each_obj(rt, change_pos);
+		put_image(rt);
+		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
 	}
 	else if (keycode == 91)
 	{
 		for_each_point(rt, move_z_point);
-		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
-		for_each_obj(rt, change_pos);
 		put_image(rt);
+//		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
 	}
 
 	else if (keycode == 53)

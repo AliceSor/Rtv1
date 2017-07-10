@@ -46,7 +46,7 @@ void				fill_directions(t_v *p, t_v *directions, t_screen *screen, t_rt *rt)
 	t_v				*d;
 	t_v				temp;
 	t_v				temp_sub;
-//	t_v				*p1;
+//	t_v				p1;
 
 	i_max = HEIGHT * WIDTH;
 	i = -1;
@@ -54,13 +54,18 @@ void				fill_directions(t_v *p, t_v *directions, t_screen *screen, t_rt *rt)
 //	p1 = (t_v *)malloc(sizeof(t_v) + 1);
 	while (++i < i_max)
 	{
-//		v_copy(p1, &(p[i]));
+//		p1 = (t_v *)malloc(sizeof(t_v) + 1);
+//		v_copy(&p1, &(p[i]));
+//		p1.x = p[i].x;
+//		p1.y = p[i].y;
+//		p1.z = p[i].z;
 //		if (rt->costul == 1)
 //		{
-//			rotate_x_point(p1, rt);
-//			rotate_x_point(p1, rt);
-//			rotate_x_point(p1, rt);
+//			rotate_x_point(&p1, rt);
+//			rotate_y_point(&p1, rt);
+//			rotate_z_point(&p1, rt);
 //		}
+//		sub(&p1, screen->eye, &temp_sub);
 		sub(&(p[i]), screen->eye, &temp_sub);
 		normal(&temp_sub, &temp);
 		v_copy(&temp, d);
@@ -72,13 +77,13 @@ t_screen			*init_pos_screen(t_rt *rt)
 {
 	t_screen		*s;
 	s = (t_screen *)malloc(sizeof(t_screen) + 1);
-	s->alpha = 30;
-	s->beta = 30;
+	s->alpha = 0;
+	s->beta = 0;
 	s->gamma = 0;
 	s->eye = (t_v *)malloc(sizeof(t_v) + 1);
 	s->center = (t_v *)malloc(sizeof(t_v) + 1);
-	s->eye->x = 0.0f;
-	s->eye->y = 0.0f;
+	s->eye->x = 0;
+	s->eye->y = 0;
 	s->eye->z = -1000;
 	s->center->x = 0.0f;
 	s->center->y = 0.0f;
