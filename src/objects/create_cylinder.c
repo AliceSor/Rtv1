@@ -14,7 +14,7 @@ t_cylinder		*create_cylinder(t_v *c, t_v *n, int color)
 		s->c = c;
 		s->n = n;
 		s->color = color;
-		s->r = 50;
+		s->r = 100;
 		return (s);
 	}
 	exit(1);

@@ -22,6 +22,9 @@ int					destroy(void)
 
 int					buttons(int keycode, t_rt *rt)
 {
+	move_x(keycode, rt);
+	move_y(keycode, rt);
+	move_z(keycode, rt);
 	if (keycode == 115)
 	{
 		rt->chosen->f->chosen = 0;
@@ -40,82 +43,6 @@ int					buttons(int keycode, t_rt *rt)
 		move_cylinder(keycode, rt);
 	else if (rt->chosen->type_obj == 3)
 		move_cone(keycode, rt);
-
-	else if (keycode == 116)
-	{
-		rt->lights->l->c->z += 100;
-		put_image(rt);
-	}
-	else if (keycode == 121)
-	{
-		rt->lights->l->c->z -= 100;
-		rt->lights->f->l_change_pos = 1;
-		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
-	}
-	else if (keycode == 0)
-	{
-		rt->lights->l->c->x -= 100;
-		rt->lights->f->l_change_pos = 1;
-		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
-	}
-	else if (keycode == 2)
-	{
-		rt->lights->l->c->x += 100;
-		rt->lights->f->l_change_pos = 1;
-		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
-	}
-	else if (keycode == 1)
-	{
-		rt->lights->l->c->y -= 100;
-		rt->lights->f->l_change_pos = 1;
-		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
-	}
-	else if (keycode == 13)
-	{
-		rt->lights->l->c->y += 100;
-		rt->lights->f->l_change_pos = 1;
-		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
-	}
-	if (keycode == 7)// && A < 14)
-	{
-		A  += 10;
-		printf("%f ", A);
-		for_each_dir(rt, rotate_x_point);
-//		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
-//		for_each_obj(rt, change_pos);
-		put_image(rt);
-		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
-	}
-	if (keycode == 16)
-	{
-		B  -= 10;
-		for_each_dir(rt, rotate_y_point);
-		printf("%f ", B);
-//		for_each_obj(rt, change_pos);
-		put_image(rt);
-		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
-	}
-	if (keycode == 32 	)
-	{
-		B  += 10;
-		for_each_dir(rt, rotate_y_point);
-		printf("%f ", B);
-//		for_each_obj(rt, change_pos);
-		put_image(rt);
-		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
-	}
-	else if (keycode == 91)
-	{
-		for_each_point(rt, move_z_point);
-		put_image(rt);
-//		fill_directions(rt->screen->points, rt->screen->directions, rt->screen, rt);
-	}
-
 	else if (keycode == 53)
 		exit(0);
 	return (0);

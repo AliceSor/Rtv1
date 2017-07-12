@@ -20,57 +20,11 @@ int				intersect_sphere(t_v *d, t_v *p0, t_sphere *s, double *t)
 	sub(s->center, p0, temp_sub1);
 	abc.b = scalar_mult(&temp_mul, &temp_sub);
 	abc.c = scalar_mult(temp_sub1, temp_sub1) - (s->radius * s->radius);
-//	discr = abc.b * abc.b - 4 * abc.a * abc.c;
-//	if (discr < 0)
-//	{
-//		*t = HUGE;
-//		return (NULL);
-//	}
 	disc = abc.b * abc.b - 4 * abc.a * abc.c;
 	if (disc > 0.001f && discriminant(t, abc) == 1)
 		return (1);
 	return (0);
-//	return (discriminant(t, abc));
 }
-
-//
-//int		intrsctsphere(t_rtv *mst)
-//{
-//	t_vec	dist;
-//	float	a;
-//	float	b;
-//	float	c;
-//
-//	a = ft_vector_dot(&mst->ray.dir_n, &mst->ray.dir_n);
-//	dist = ft_vector_sub(&mst->ray.start, &mst->sphere.pos);
-//	b = 2 * ft_vector_dot(&mst->ray.dir_n, &dist);
-//	c = ft_vector_dot(&dist, &dist) - (mst->sphere.radius *
-//									   mst->sphere.radius);
-//	mst->discriminant = b * b - 4 * a * c;
-//	if (mst->discriminant > 0.001f && complicated_disc(a, b, c, mst) == 1)
-//		return (1);
-//	return (0);
-//}
-//
-//int		sphere(t_rtv *mst, t_vec *ray_light_dir_n, t_vec *point)
-//{
-//	t_vec	dist;
-//	float	a;
-//	float	b;
-//	float	c;
-//
-//	a = ft_vector_dot(ray_light_dir_n, ray_light_dir_n);
-//	dist = ft_vector_sub(point, &mst->sphere.pos);
-//	b = 2 * ft_vector_dot(ray_light_dir_n, &dist);
-//	c = ft_vector_dot(&dist, &dist) - (mst->sphere.radius *
-//									   mst->sphere.radius);
-//	mst->disc = b * b - 4 * a * c;
-//	if (mst->disc > 0.001f && disc(a, b, c, mst) == 1)
-//		return (1);
-//	return (0);
-//}
-
-
 
 int				intersect_plane(t_v *d,t_v *p0, t_plane *p, double *t)
 {
@@ -134,40 +88,14 @@ static void		calc_cone(t_abc *abc, t_v *d, t_v *p0, t_cone *cn)
 	r2 = scalar_mult(&dist, cn->n);
 	mult(cn->n, r2, &mul);
 	sub(&dist, &mul, sub_2);
-
 	abc->a = cn->cos_a * scalar_mult(sub_1, sub_1) - cn->sin_a * (r1 * r1);
 	abc->b = cn->cos_a2 * scalar_mult(sub_1, sub_2) - cn->sin_a2 * (r1 * r2);
 	abc->c = cn->cos_a * scalar_mult(sub_2, sub_2) - cn->sin_a * (r2 * r2);
-
-//	t_v			*d_p;
-//	t_v			*m_n_d_n;
-//	t_v			*m_n_d_p_n;
-//	t_v			*sub_d_ndn;
-//	t_v			*sub_some_shit;
-//	double 		d_n;
-//	double 		d_p_n;
-//
-//	d_p = (t_v *)malloc(sizeof(t_v) + 1);
-//	m_n_d_n = (t_v *)malloc(sizeof(t_v) + 1);
-//	m_n_d_p_n = (t_v *)malloc(sizeof(t_v) + 1);
-//	sub_d_ndn = (t_v *)malloc(sizeof(t_v) + 1);
-//	sub_some_shit = (t_v *)malloc(sizeof(t_v) + 1);
-//	sub(p0, cn->c, d_p);
-//	d_n = scalar_mult(d, cn->n);
-//	d_p_n = scalar_mult(d_p, cn->n);
-//	mult(cn->n, d_n, m_n_d_n);
-//	mult(cn->n,d_p_n, m_n_d_p_n);
-//	sub(d, m_n_d_n, sub_d_ndn);
-//	sub(d_p, m_n_d_p_n, sub_some_shit);
-//	abc->a = cn->cos_a * scalar_mult(sub_d_ndn, sub_d_ndn) -cn->sin_a * d_n * d_n;
-//	abc->b = cn->cos_a2 * scalar_mult(sub_d_ndn, sub_d_ndn) - cn->sin_a2 * d_n * scalar_mult(d_p,cn->n);
-//	abc->c = cn->cos_a * scalar_mult(sub_some_shit, sub_some_shit) - cn->sin_a * d_p_n * d_p_n;
 }
 
 int				intersect_cone(t_v *d, t_v *p0, t_cone *cn, double *t)
 {
 	t_abc	   *abc;
-
 
 	abc = (t_abc *)malloc(sizeof(t_abc) +1);
 	calc_cone(abc, d, p0, cn);

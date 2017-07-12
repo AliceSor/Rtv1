@@ -20,7 +20,6 @@ t_obj			*intersect(t_rt *rt, t_v *d, double *t)
 		*t = HUGE;
 		is_intersect = identify_obj(d, EYE, obj, t);
 		if (is_intersect)
-//			res = (*t < min_t) ? obj : res; //в целях оптимицации можно заменить на if
 			if (*t < min_t)
 			{
 				res = obj;
@@ -63,48 +62,6 @@ int				intersect_light(t_rt *rt, t_v *d, t_v *p0, double *t)
 	return (1);
 }
 
-int 		check_distanse(t_v *hit_p, t_v *light_hit, t_v *light_p)
-{
-	double 	dist_light;
-	double 	dist_hit;
-	t_v		temp_sub;
-
-	sub(light_p, hit_p, &temp_sub);
-	dist_light = module(&temp_sub);
-	sub(light_hit, hit_p, &temp_sub);
-	dist_hit = module(&temp_sub);
-	if (dist_light < dist_hit)
-		return (0);
-	else
-		return (1);
-}
-
-//
-//int		shadow(t_rtv *mst, float dist)
-//{
-//	t_vec temp;
-//	t_vec point;
-//	t_vec light_dir;
-//	t_vec dir_n;
-//	float len;
-//
-//	temp = ft_mult_vec(dist, &mst->ray.dir_n);
-//	point = ft_vector_add(&mst->ray.start, &temp);
-//	light_dir = ft_vector_sub(&mst->light.pos, &point);
-//	dir_n = normalize_vector(mst, light_dir.x, light_dir.y, light_dir.z);
-//	len = ft_vector_mod(&light_dir);
-//	if (cylinder(mst, &dir_n, &point) == 1 && LEN < len && (F == 2 || F == 6))
-//		return (0);
-//	if (sphere(mst, &dir_n, &point) == 1 && LEN < len && (F == 1 || F == 6))
-//		return (0);
-//	if (cone(mst, &dir_n, &point) == 1 && (LEN < len) && (F == 3 || F == 6))
-//		return (0);
-//	if (plane(mst, &dir_n, &point) == 1 && (LEN < len) && (F == 4 || F == 6))
-//		return (0);
-//	if (plane2(mst, &dir_n, &point) == 1 && (LEN < len) && (F == 4 || F == 6))
-//		return (0);
-//	return (1);
-
 void 		ray_trace(t_rt *rt)
 {
 	t_v     *d;
@@ -123,14 +80,11 @@ void 		ray_trace(t_rt *rt)
 
 	i = 0;
 	d = rt->screen->directions;
-//	t = HUGE;
 	/* move this code in rt-structure */
 	hit_point = (t_v *)malloc(sizeof(t_v) + 1);
 	light_ray = (t_v *)malloc(sizeof(t_v) + 1);
-//	is_shadow = 1;
 	while (i  < WIDTH * HEIGHT - 10)
 	{
-//		specular = 1;
 		obj = intersect(rt, &(d[i]), &t);
 		if (obj)
 		{
@@ -140,7 +94,6 @@ void 		ray_trace(t_rt *rt)
 			sub(hit_point, rt->lights->l->c, &temp_sub);
 			t = module(&temp_sub);
 			is_shadow = intersect_light(rt, light_ray, rt->lights->l->c, &t);
-//			if (is_shadow)
 				specular = find_specular(obj, hit_point, &(d[i]), light_ray);
 			color = calc_color(obj, diffuse, is_shadow, specular);
 		}
@@ -150,6 +103,3 @@ void 		ray_trace(t_rt *rt)
 		i += rt->speed;
 	}
 }
-////- Переделать intersect && intersect_light; - DONE
-////- Переделать пресечения с фигурами, чтобы они не высчитывали точку пересечения - DONE
-//Ну крч почти все переписать заново 😅

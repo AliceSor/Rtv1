@@ -135,11 +135,13 @@ typedef struct		s_obj
 	t_color			*color;
 }					t_obj;
 
-typedef struct		s_srceen
+typedef struct		s_screen
 {
 	t_v				*eye;
+	t_v				*r_eye;
 	t_v				*center;
 	t_v				*points;
+	t_v				*r_points;
 	t_v	   			*directions;
 	double 			alpha;
 	double			beta;
@@ -182,7 +184,6 @@ double				scalar_mult(t_v *v1, t_v *v2);
 //double				compare(t_v *v1, t_v *v2);
 
 
-void					emit_rays(t_rt *rt);
 
 t_v					*intersect_ray_sphere(t_v *d, t_v *p0, t_sphere *s, double *t);
 t_v					*intersect_ray_plane(t_v *d,t_v *p0, t_plane *plane, double *t);
@@ -191,8 +192,6 @@ t_v       	      	*intersect_ray_cone(t_v *d, t_v *p0, t_cone *cn, double *t);
 int					discriminant(double *t, t_abc abc);
 
 //int					intersect(t_rt *rt, t_v *d, int i);
-t_obj				*find_intersect(t_rt *rt, t_v *d, t_v *p0, int i);
-t_obj				*find_light_intersect(t_rt *rt, t_v *d, t_v *p0, int i);
 //buttons
 int					destroy(void);
 void 				change_pos(t_obj *obj);
@@ -204,7 +203,6 @@ void 				move_cylinder(int keycode, t_rt *rt);
 void 				move_cone(int keycode, t_rt *rt);
 
 t_color				*create_color(double r, double g, double b);
-int 					pull_color(t_obj *o0, t_obj *o1, t_light *l, int i);
 int 					integrate_color(double r, double g, double b);
 
 t_obj				*create_obj(int type_obj);
@@ -235,12 +233,18 @@ void 			for_each_point(t_rt *rt, void(*f)(t_v *, t_rt *));
 void				move_z_point(t_v *p, t_rt *rt);
 void				move_y_point(t_v *p, t_rt *rt);
 void				move_x_point(t_v *p, t_rt *rt);
-void				rotate_x_point(t_v *p, t_rt *rt);
-void				rotate_y_point(t_v *p, t_rt *rt);
-void				rotate_z_point(t_v *p, t_rt *rt);
+void				move_z_point_b(t_v *p, t_rt *rt);
+void				move_y_point_b(t_v *p, t_rt *rt);
+void				move_x_point_b(t_v *p, t_rt *rt);
+void				rotate_x_point(t_v *p, t_rt *rt, t_v *res);
+void				rotate_y_point(t_v *p, t_rt *rt, t_v *res);
+void				rotate_z_point(t_v *p, t_rt *rt, t_v *res);
 void 				for_each_dir(t_rt *rt, void(*f)(t_v *, t_rt *));
 void				find_normal(t_obj *obj, t_v *hit_p, t_v *res);
 double 				find_specular(t_obj *obj, t_v *hit_p, t_v *dir_ray, t_v *light_ray);
-
+void				fill_r_points(t_v *r_p, t_v *p, t_rt *rt);
+void 			move_x(int keycode, t_rt *rt);
+void 			move_y(int keycode, t_rt *rt);
+void 			move_z(int keycode, t_rt *rt);
 
 #endif
