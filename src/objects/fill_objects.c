@@ -28,7 +28,7 @@ void 			fill_objects(t_rt *rt)
 
 	obj_p1 = create_obj(1);
 	obj_p1->color = create_color(100, 150, 150);
-	obj_p1->p = create_plane(new_vector(0, -100, 10000), new_vector(0, 0, 1), 0x00AAAA, 1800);
+	obj_p1->p = create_plane(new_vector(0, -100, 10000), new_vector(0, 0, 1), 0x00AAAA, 4800);
 
 
 
@@ -68,5 +68,5 @@ void 			fill_objects(t_rt *rt)
 	add_obj(rt->obj, obj_cl);
 	add_obj(rt->obj, obj_cn);
 	add_obj(rt->obj, obj_p1);
-//	add_obj(rt->obj, obj_p);
+	add_obj(rt->obj, obj_p);
 }

@@ -32,7 +32,7 @@ void 			move_z(int keycode, t_rt *rt)
 	}
 	else if (keycode == 6)
 	{
-		G  += 20;
+		G  += 2 * rt->speed_rotate;
 		rt->costul = 3;
 //		printf("%f \n", A);
 //		for_each_dir(rt, rotate_x_point);
@@ -44,7 +44,7 @@ void 			move_z(int keycode, t_rt *rt)
 	}
 	else if (keycode == 261)
 	{
-		G  -= 10;
+		G  -= 2 * rt->speed_rotate;
 		rt->costul = 3;
 //		printf("%f \n", A);
 //		for_each_dir(rt, rotate_x_point);

@@ -14,6 +14,8 @@ int				main(void)
 	rt->chosen = rt->obj;
 	rt->chosen->f->chosen = 1;
 	rt->speed = 1;
+	rt->speed_move = 10;
+	rt->speed_rotate = 5;
 
 //	obj = rt->obj;
 //	while (obj)

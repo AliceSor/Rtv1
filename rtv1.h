@@ -158,6 +158,8 @@ typedef struct		s_rt
 	double 			speed;
 	double 			dist;
 	int 				costul;
+	double 			speed_move;
+	double 			speed_rotate;
 }					t_rt;
 
 //typedef struct		s_thrd
@@ -246,5 +248,6 @@ void				fill_r_points(t_v *r_p, t_v *p, t_rt *rt);
 void 			move_x(int keycode, t_rt *rt);
 void 			move_y(int keycode, t_rt *rt);
 void 			move_z(int keycode, t_rt *rt);
+void 			absolute_rotate(t_v *p, t_rt *rt, t_v *res);
 
 #endif

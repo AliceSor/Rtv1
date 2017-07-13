@@ -38,6 +38,24 @@ int				intersect_plane(t_v *d,t_v *p0, t_plane *p, double *t)
 	}
 	temp1 = p->dist - scalar_mult(p->n, p0);
 	*t = temp1 / temp;
+	if (*t < 0)
+	{
+		*t = HUGE;
+		return (0);
+	}
+
+
+//		double      temp;
+
+//		if ((temp = scalar_mult(d, p->n)) == 0.00f)
+//		{
+//			*t = HUGE;
+//			return (0);
+//		}
+//		else
+//		{
+//			*t = (scalar_mult(p->n, p0) - scalar_mult(p->c, p->n)) / temp;
+//		}
 	return (1);
 }
 

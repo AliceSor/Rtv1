@@ -22,7 +22,7 @@ void 			move_x(int keycode, t_rt *rt)
 	}
 	else if (keycode == 7)// && A < 14)
 	{
-		A  += 30;
+		A  += 2 * rt->speed_rotate;
 		rt->costul = 1;
 		fill_r_points(rt->screen->r_points, rt->screen->points, rt);
 		fill_directions(rt->screen->r_points, rt->screen->directions, rt->screen, rt);
@@ -30,7 +30,7 @@ void 			move_x(int keycode, t_rt *rt)
 	}
 	else if (keycode == 8)// && A < 14)
 	{
-		A  -= 10;
+		A  -= 2 * rt->speed_rotate;
 		rt->costul = 1;
 		fill_r_points(rt->screen->r_points, rt->screen->points, rt);
 		fill_directions(rt->screen->r_points, rt->screen->directions, rt->screen, rt);

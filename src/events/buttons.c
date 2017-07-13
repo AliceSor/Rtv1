@@ -43,6 +43,23 @@ int					buttons(int keycode, t_rt *rt)
 		move_cylinder(keycode, rt);
 	else if (rt->chosen->type_obj == 3)
 		move_cone(keycode, rt);
+
+	else if (keycode == 92)
+	{
+		rt->speed_move += 10;
+	}
+	else if (keycode == 85)
+	{
+		rt->speed_move -= 10;
+	}
+	else if (keycode == 82)
+	{
+		rt->speed_rotate -= 5;
+	}
+	else if (keycode == 65)
+	{
+		rt->speed_rotate += 5;
+	}
 	else if (keycode == 53)
 		exit(0);
 	return (0);

@@ -67,9 +67,12 @@ void				fill_r_points(t_v *r_p, t_v *p, t_rt *rt)
 	{
 		if (rt->costul > 0)
 		{
-			(rt->costul == 1) ? rotate_x_point(&(p[i]), rt, &(r_p[i])) : 0;
-			(rt->costul == 2) ? rotate_y_point(&(p[i]), rt, &(r_p[i])) : 0;
-			(rt->costul == 3) ? rotate_z_point(&(p[i]), rt, &(r_p[i])) : 0;;
+//			(rt->costul == 1) ? rotate_x_point(&(p[i]), rt, &(r_p[i])) : 0;
+//			(rt->costul == 2) ? rotate_y_point(&(p[i]), rt, &(r_p[i])) : 0;
+		if (rt->costul == 3)
+			rotate_z_point(&(p[i]), rt, &(r_p[i]));
+		else
+			absolute_rotate(&(p[i]), rt, &(r_p[i]));
 		}
 		else
 		{
@@ -79,12 +82,17 @@ void				fill_r_points(t_v *r_p, t_v *p, t_rt *rt)
 		}
 		i += 1;
 	}
-//	if (rt->costul == 1)
-//	{
-		(rt->costul == 1) ? rotate_x_point(rt->screen->eye, rt, rt->screen->r_eye) : 0;
-		(rt->costul == 2) ? rotate_x_point(rt->screen->eye, rt, rt->screen->r_eye) : 0;
-		(rt->costul == 3) ? rotate_x_point(rt->screen->eye, rt, rt->screen->r_eye) : 0;
-//	}
+	if (rt->costul > 0)
+	{
+		if (rt->costul == 3)
+			rotate_x_point(rt->screen->eye, rt, rt->screen->r_eye);
+		else
+			absolute_rotate(rt->screen->eye, rt, rt->screen->r_eye);
+
+//		(rt->costul == 1) ? rotate_x_point(rt->screen->eye, rt, rt->screen->r_eye) : 0;
+//		(rt->costul == 2) ? rotate_x_point(rt->screen->eye, rt, rt->screen->r_eye) : 0;
+//		(rt->costul == 3) ?  : 0;
+	}
 }
 
 t_screen			*init_pos_screen(t_rt *rt)

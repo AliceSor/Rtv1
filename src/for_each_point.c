@@ -24,34 +24,42 @@ void			rotate_z_point(t_v *p, t_rt *rt, t_v *res)
 	res->y = p->x * sin(G * RAD) + p->y * cos(G * RAD);
 }
 
+void 			absolute_rotate(t_v *p, t_rt *rt, t_v *res) {
+//	res->x = p->x * cos(G * RAD) * cos(B * RAD) + p->y * sin(G * RAD) * cos(B * RAD) - p->z *sin(G * RAD);
+//	res->y = p->x *(cos(G * RAD) * sin (B * RAD) * sin(A * RAD) - sin(G * RAD) * cos(A * RAD)) + p->y * (sin(G * RAD) * sin(A * RAD) * sin (B * RAD) + cos(G * RAD) * cos(A * RAD)) + p->z * cos(B * RAD) * sin(A * RAD);
+//	res->z = p->x *(cos(G * RAD) * sin(B * RAD) * cos(A * RAD) - sin(G * RAD) * sin(A * RAD)) + p->y * (sin(G * RAD) * sin(B * RAD) * cos(A * RAD) - cos(G * RAD) * sin(A * RAD)) + p->z * cos(B * RAD) * cos(A * RAD);
+	res->x = p->x * cos(G * RAD) * cos(B * RAD) + p->y * (cos(G * RAD) * sin (B * RAD) * sin(A * RAD) - sin(G * RAD) * cos(A * RAD)) + p->z * (cos(G * RAD) * sin(B * RAD) * cos(A * RAD) - sin(G * RAD) * sin(A * RAD));
+	res->y = p->x * sin(G * RAD) * cos(B * RAD) + p->y * (sin(G * RAD) * sin(A * RAD) * sin (B * RAD) + cos(G * RAD) * cos(A * RAD)) + p->z * (sin(G * RAD) * sin(B * RAD) * cos(A * RAD) - cos(G * RAD) * sin(A * RAD));
+	res->z = p->x * ( - p->z *sin(G * RAD)) + p->y * cos(B * RAD) * sin(A * RAD) + p->z * cos(B * RAD) * cos(A * RAD);
+}
 void			move_x_point(t_v *p, t_rt *rt)
 {
-	p->x += 1000;
+	p->x += 5 * rt->speed_move;
 }
 
 void			move_y_point(t_v *p, t_rt *rt)
 {
-	p->y += 1000;
+	p->y += 5 * rt->speed_move;
 }
 
 void			move_z_point(t_v *p, t_rt *rt)
 {
-	p->z += 1000;
+	p->z += 5 * rt->speed_move;
 }
 
 void			move_x_point_b(t_v *p, t_rt *rt)
 {
-	p->x -= 1000;
+	p->x -= 5 * rt->speed_move;
 }
 
 void			move_y_point_b(t_v *p, t_rt *rt)
 {
-	p->y -= 1000;
+	p->y -= 5 * rt->speed_move;
 }
 
 void			move_z_point_b(t_v *p, t_rt *rt)
 {
-	p->z -= 1000;
+	p->z -= 5 * rt->speed_move;
 }
 
 void 			for_each_point(t_rt *rt, void(*f)(t_v *, t_rt *))
