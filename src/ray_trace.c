@@ -92,12 +92,12 @@ void 		ray_trace(t_rt *rt)
 			specular = 0;
 			find_hit_point(t, &(d[i]), EYE, hit_point);
 			find_nrml_light_ray(hit_point, rt->lights->l->c, light_ray);
+			sub(hit_point, rt->lights->l->c, &temp_sub);
+			t = module(&temp_sub);
 			is_shadow = intersect_light(rt, light_ray, rt->lights->l->c, &t);
 			if (is_shadow)
 			{
 				diffuse = find_diffuse(obj, hit_point, light_ray);
-				sub(hit_point, rt->lights->l->c, &temp_sub);
-				t = module(&temp_sub);
 				specular = find_specular(obj, hit_point, &(d[i]), light_ray);
 			}
 			color = calc_color(obj, diffuse, is_shadow, specular);

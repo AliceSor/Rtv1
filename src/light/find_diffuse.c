@@ -47,12 +47,26 @@ void			find_normal(t_obj *obj, t_v *hit_p, t_v *res)
  double 		find_diffuse(t_obj *obj, t_v *hit_p, t_v *light_ray)
 {
 	t_v			*nrml;
+	t_v			temp;
 	double 		diffuse;
 
 	nrml = (t_v *)malloc(sizeof(t_v) + 1);
-	find_normal(obj, hit_p, nrml);
-	diffuse = scalar_mult(nrml, light_ray);
-	if (diffuse < 0.0f)
-		diffuse = 0.0f;
+//	if (obj->type_obj == 1)
+//	{
+//		nrml = obj->p->n;
+//		diffuse = scalar_mult(nrml, light_ray);
+//		if (diffuse < 0.0f)
+//			mult(nrml, -1, &temp);
+//		diffuse = scalar_mult(&temp, light_ray);
+//		if (diffuse < 0.0f)
+//			diffuse = 0.0f;
+//	}
+//	else
+//	{
+		find_normal(obj, hit_p, nrml);
+		diffuse = scalar_mult(nrml, light_ray);
+		if (diffuse < 0.0f)
+			diffuse = 0.0f;
+//	}
 	return (diffuse);
 }

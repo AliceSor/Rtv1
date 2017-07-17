@@ -9,6 +9,7 @@ CMakeFiles/rtv1.dir/src/color/calc_color.c.o: ../src/color/calc_color.c
 CMakeFiles/rtv1.dir/src/color/create_color.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/color/create_color.c.o: ../src/color/create_color.c
 
+CMakeFiles/rtv1.dir/src/color/integrate_color.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/color/integrate_color.c.o: ../src/color/integrate_color.c
 
 CMakeFiles/rtv1.dir/src/create_image.c.o: ../rtv1.h
@@ -40,6 +41,15 @@ CMakeFiles/rtv1.dir/src/events/move_plane.c.o: ../src/events/move_plane.c
 
 CMakeFiles/rtv1.dir/src/events/move_sphere.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/events/move_sphere.c.o: ../src/events/move_sphere.c
+
+CMakeFiles/rtv1.dir/src/events/move_x.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/events/move_x.c.o: ../src/events/move_x.c
+
+CMakeFiles/rtv1.dir/src/events/move_y.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/events/move_y.c.o: ../src/events/move_y.c
+
+CMakeFiles/rtv1.dir/src/events/move_z.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/events/move_z.c.o: ../src/events/move_z.c
 
 CMakeFiles/rtv1.dir/src/for_each_point.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/for_each_point.c.o: ../src/for_each_point.c
@@ -78,6 +88,9 @@ CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o: ../src/intersects/some_
 
 CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o: ../src/light/find_diffuse.c
+
+CMakeFiles/rtv1.dir/src/light/find_specular.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/light/find_specular.c.o: ../src/light/find_specular.c
 
 CMakeFiles/rtv1.dir/src/main.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/main.c.o: ../src/main.c

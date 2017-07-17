@@ -8,6 +8,8 @@ void 			fill_objects(t_rt *rt)
 {
 	t_obj		*obj_p;
 	t_obj		*obj_p1;
+	t_obj		*obj_pp;
+	t_obj		*obj_pp1;
 	t_obj		*obj_s;
 	t_obj		*obj_s1;
 	t_obj		*obj_cl;
@@ -24,12 +26,20 @@ void 			fill_objects(t_rt *rt)
 	temp = new_vector(0, 1, 0);
 	tmp = new_vector(0, 1, 1);//malloc
 	normal(temp, tmp);
-	obj_p->p = create_plane(new_vector(0, -100, 10000), tmp, 0x00AAAA, 1500);
+	obj_p->p = create_plane(new_vector(0, -100, 10000), tmp, 0x00AAAA, 1501);
 
 	obj_p1 = create_obj(1);
 	obj_p1->color = create_color(100, 150, 150);
 	obj_p1->p = create_plane(new_vector(0, -100, 10000), new_vector(0, 0, 1), 0x00AAAA, 4800);
 
+
+	obj_pp = create_obj(1);
+	obj_pp->color = create_color(0, 150, 150);
+	obj_pp->p = create_plane(new_vector(0, -100, 10000), new_vector(0, 1 , 0), 0x00AAAA, 1500.0);
+
+	obj_pp1 = create_obj(1);
+	obj_pp1->color = create_color(100, 150, 150);
+	obj_pp1->p = create_plane(new_vector(0, -100, 10000), new_vector(0, 0, 1), 0x00AAAA, 4801);
 
 
 	obj_s = create_obj(0);
@@ -59,7 +69,7 @@ void 			fill_objects(t_rt *rt)
 
 
 	rt->lights = create_obj(4);
-	rt->lights->l = create_light(new_vector(500, -800, -1000), 10);
+	rt->lights->l = create_light(new_vector(500, -800, 10000), 10);
 
 
 
@@ -68,5 +78,7 @@ void 			fill_objects(t_rt *rt)
 	add_obj(rt->obj, obj_cl);
 	add_obj(rt->obj, obj_cn);
 	add_obj(rt->obj, obj_p1);
+//	add_obj(rt->obj, obj_pp1);
 	add_obj(rt->obj, obj_p);
+//	add_obj(rt->obj, obj_pp);
 }

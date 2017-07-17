@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/nfs/2016/a/asoroka/Clion's projets/rtv1"
+CMAKE_SOURCE_DIR = /nfs/2016/a/asoroka/rtv1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug"
+CMAKE_BINARY_DIR = /nfs/2016/a/asoroka/rtv1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles /nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -501,6 +501,87 @@ src/events/move_sphere.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_sphere.c.s
 .PHONY : src/events/move_sphere.c.s
 
+src/events/move_x.o: src/events/move_x.c.o
+
+.PHONY : src/events/move_x.o
+
+# target to build an object file
+src/events/move_x.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_x.c.o
+.PHONY : src/events/move_x.c.o
+
+src/events/move_x.i: src/events/move_x.c.i
+
+.PHONY : src/events/move_x.i
+
+# target to preprocess a source file
+src/events/move_x.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_x.c.i
+.PHONY : src/events/move_x.c.i
+
+src/events/move_x.s: src/events/move_x.c.s
+
+.PHONY : src/events/move_x.s
+
+# target to generate assembly for a file
+src/events/move_x.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_x.c.s
+.PHONY : src/events/move_x.c.s
+
+src/events/move_y.o: src/events/move_y.c.o
+
+.PHONY : src/events/move_y.o
+
+# target to build an object file
+src/events/move_y.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_y.c.o
+.PHONY : src/events/move_y.c.o
+
+src/events/move_y.i: src/events/move_y.c.i
+
+.PHONY : src/events/move_y.i
+
+# target to preprocess a source file
+src/events/move_y.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_y.c.i
+.PHONY : src/events/move_y.c.i
+
+src/events/move_y.s: src/events/move_y.c.s
+
+.PHONY : src/events/move_y.s
+
+# target to generate assembly for a file
+src/events/move_y.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_y.c.s
+.PHONY : src/events/move_y.c.s
+
+src/events/move_z.o: src/events/move_z.c.o
+
+.PHONY : src/events/move_z.o
+
+# target to build an object file
+src/events/move_z.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_z.c.o
+.PHONY : src/events/move_z.c.o
+
+src/events/move_z.i: src/events/move_z.c.i
+
+.PHONY : src/events/move_z.i
+
+# target to preprocess a source file
+src/events/move_z.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_z.c.i
+.PHONY : src/events/move_z.c.i
+
+src/events/move_z.s: src/events/move_z.c.s
+
+.PHONY : src/events/move_z.s
+
+# target to generate assembly for a file
+src/events/move_z.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_z.c.s
+.PHONY : src/events/move_z.c.s
+
 src/for_each_point.o: src/for_each_point.c.o
 
 .PHONY : src/for_each_point.o
@@ -851,6 +932,33 @@ src/light/find_diffuse.s: src/light/find_diffuse.c.s
 src/light/find_diffuse.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/light/find_diffuse.c.s
 .PHONY : src/light/find_diffuse.c.s
+
+src/light/find_specular.o: src/light/find_specular.c.o
+
+.PHONY : src/light/find_specular.o
+
+# target to build an object file
+src/light/find_specular.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/light/find_specular.c.o
+.PHONY : src/light/find_specular.c.o
+
+src/light/find_specular.i: src/light/find_specular.c.i
+
+.PHONY : src/light/find_specular.i
+
+# target to preprocess a source file
+src/light/find_specular.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/light/find_specular.c.i
+.PHONY : src/light/find_specular.c.i
+
+src/light/find_specular.s: src/light/find_specular.c.s
+
+.PHONY : src/light/find_specular.s
+
+# target to generate assembly for a file
+src/light/find_specular.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/light/find_specular.c.s
+.PHONY : src/light/find_specular.c.s
 
 src/main.o: src/main.c.o
 
@@ -1497,6 +1605,15 @@ help:
 	@echo "... src/events/move_sphere.o"
 	@echo "... src/events/move_sphere.i"
 	@echo "... src/events/move_sphere.s"
+	@echo "... src/events/move_x.o"
+	@echo "... src/events/move_x.i"
+	@echo "... src/events/move_x.s"
+	@echo "... src/events/move_y.o"
+	@echo "... src/events/move_y.i"
+	@echo "... src/events/move_y.s"
+	@echo "... src/events/move_z.o"
+	@echo "... src/events/move_z.i"
+	@echo "... src/events/move_z.s"
 	@echo "... src/for_each_point.o"
 	@echo "... src/for_each_point.i"
 	@echo "... src/for_each_point.s"
@@ -1536,6 +1653,9 @@ help:
 	@echo "... src/light/find_diffuse.o"
 	@echo "... src/light/find_diffuse.i"
 	@echo "... src/light/find_diffuse.s"
+	@echo "... src/light/find_specular.o"
+	@echo "... src/light/find_specular.i"
+	@echo "... src/light/find_specular.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

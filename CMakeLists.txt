@@ -1,3 +1,4 @@
+
 cmake_minimum_required(VERSION 3.6)
 project(rtv1)
 
@@ -53,6 +54,19 @@ set(SOURCE_FILES
         src/b_zero.c
         src/pull_color.c
         src/color/integrate_color.c
-        src/color/create_color.c src/for_each_point.c src/ray_trace.c src/intersects/intersects_objects.c src/intersects/some_calculating.c src/intersects/identify_obj.c src/intersects/find_hit_point.c src/intersects/find_nrml_light_ray.c src/light/find_diffuse.c src/color/calc_color.c)
+        src/color/create_color.c
+        src/for_each_point.c
+        src/ray_trace.c
+        src/intersects/intersects_objects.c
+        src/intersects/some_calculating.c
+        src/intersects/identify_obj.c
+        src/intersects/find_hit_point.c
+        src/intersects/find_nrml_light_ray.c
+        src/light/find_diffuse.c
+        src/color/calc_color.c
+        src/light/find_specular.c
+        src/events/move_x.c
+        src/events/move_y.c
+        src/events/move_z.c)
 
 add_executable(rtv1 ${SOURCE_FILES})

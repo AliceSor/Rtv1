@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 math.h
 -
 mlx.h
@@ -20,193 +20,211 @@ unistd.h
 stdio.h
 -
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/b_zero.c
+/nfs/2016/a/asoroka/rtv1/src/b_zero.c
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/calc_color.c
+/nfs/2016/a/asoroka/rtv1/src/color/calc_color.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/create_color.c
+/nfs/2016/a/asoroka/rtv1/src/color/create_color.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/integrate_color.c
+/nfs/2016/a/asoroka/rtv1/src/color/integrate_color.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_image.c
+/nfs/2016/a/asoroka/rtv1/src/create_image.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_win.c
+/nfs/2016/a/asoroka/rtv1/src/create_win.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/discriminant.c
+/nfs/2016/a/asoroka/rtv1/src/discriminant.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/emit_rays.c
+/nfs/2016/a/asoroka/rtv1/src/emit_rays.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/buttons.c
+/nfs/2016/a/asoroka/rtv1/src/events/buttons.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/change_pos.c
+/nfs/2016/a/asoroka/rtv1/src/events/change_pos.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_cone.c
+/nfs/2016/a/asoroka/rtv1/src/events/move_cone.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_cylinder.c
+/nfs/2016/a/asoroka/rtv1/src/events/move_cylinder.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_plane.c
+/nfs/2016/a/asoroka/rtv1/src/events/move_plane.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_sphere.c
+/nfs/2016/a/asoroka/rtv1/src/events/move_sphere.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/for_each_point.c
+/nfs/2016/a/asoroka/rtv1/src/events/move_x.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/rtv1/src/events/move_y.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/rtv1/src/events/move_z.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/rtv1/src/for_each_point.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/init_pos_screen.c
+/nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/find_hit_point.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/find_hit_point.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/find_nrml_light_ray.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/find_nrml_light_ray.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/identify_obj.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/identify_obj.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/intersect.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_cone.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_cone.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_cylinder.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_cylinder.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_plane.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_plane.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_sphere.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_sphere.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersects_objects.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/intersects_objects.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/some_calculating.c
+/nfs/2016/a/asoroka/rtv1/src/intersects/some_calculating.c
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/light/find_diffuse.c
+/nfs/2016/a/asoroka/rtv1/src/light/find_diffuse.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/main.c
+/nfs/2016/a/asoroka/rtv1/src/light/find_specular.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/rtv1/src/main.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cone.c
+/nfs/2016/a/asoroka/rtv1/src/objects/create_cone.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cylinder.c
+/nfs/2016/a/asoroka/rtv1/src/objects/create_cylinder.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_light.c
+/nfs/2016/a/asoroka/rtv1/src/objects/create_light.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_obj.c
+/nfs/2016/a/asoroka/rtv1/src/objects/create_obj.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_plane.c
+/nfs/2016/a/asoroka/rtv1/src/objects/create_plane.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_sphere.c
+/nfs/2016/a/asoroka/rtv1/src/objects/create_sphere.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/fill_objects.c
+/nfs/2016/a/asoroka/rtv1/src/objects/fill_objects.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/for_each_obj.c
+/nfs/2016/a/asoroka/rtv1/src/objects/for_each_obj.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/pull_color.c
+/nfs/2016/a/asoroka/rtv1/src/pull_color.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/put_pixel.c
+/nfs/2016/a/asoroka/rtv1/src/put_pixel.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/ray_trace.c
+/nfs/2016/a/asoroka/rtv1/src/ray_trace.c
 ../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/add.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/add.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/compare.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/compare.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/div.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/div.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/module.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/module.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/mult.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/mult.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/new_vector.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/new_vector.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/normal.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/normal.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/scalar_mult.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/scalar_mult.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/sub.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/sub.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/v_copy.c
+/nfs/2016/a/asoroka/rtv1/src/v_oper/v_copy.c
 ../../rtv1.h
-/nfs/2016/a/asoroka/Clion's projets/rtv1/rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 

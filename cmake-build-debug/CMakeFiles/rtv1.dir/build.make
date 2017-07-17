@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/nfs/2016/a/asoroka/Clion's projets/rtv1"
+CMAKE_SOURCE_DIR = /nfs/2016/a/asoroka/rtv1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug"
+CMAKE_BINARY_DIR = /nfs/2016/a/asoroka/rtv1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rtv1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/rtv1.dir/flags.make
 
 CMakeFiles/rtv1.dir/src/main.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtv1.dir/src/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/main.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtv1.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/main.c.o   -c /nfs/2016/a/asoroka/rtv1/src/main.c
 
 CMakeFiles/rtv1.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/main.c" > CMakeFiles/rtv1.dir/src/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/main.c > CMakeFiles/rtv1.dir/src/main.c.i
 
 CMakeFiles/rtv1.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/main.c" -o CMakeFiles/rtv1.dir/src/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/main.c -o CMakeFiles/rtv1.dir/src/main.c.s
 
 CMakeFiles/rtv1.dir/src/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/rtv1.dir/src/main.c.o.provides.build: CMakeFiles/rtv1.dir/src/main.c.
 
 CMakeFiles/rtv1.dir/src/create_image.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/create_image.c.o: ../src/create_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtv1.dir/src/create_image.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/create_image.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_image.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtv1.dir/src/create_image.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/create_image.c.o   -c /nfs/2016/a/asoroka/rtv1/src/create_image.c
 
 CMakeFiles/rtv1.dir/src/create_image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/create_image.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_image.c" > CMakeFiles/rtv1.dir/src/create_image.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/create_image.c > CMakeFiles/rtv1.dir/src/create_image.c.i
 
 CMakeFiles/rtv1.dir/src/create_image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/create_image.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_image.c" -o CMakeFiles/rtv1.dir/src/create_image.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/create_image.c -o CMakeFiles/rtv1.dir/src/create_image.c.s
 
 CMakeFiles/rtv1.dir/src/create_image.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/rtv1.dir/src/create_image.c.o.provides.build: CMakeFiles/rtv1.dir/src
 
 CMakeFiles/rtv1.dir/src/create_win.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/create_win.c.o: ../src/create_win.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtv1.dir/src/create_win.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/create_win.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_win.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtv1.dir/src/create_win.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/create_win.c.o   -c /nfs/2016/a/asoroka/rtv1/src/create_win.c
 
 CMakeFiles/rtv1.dir/src/create_win.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/create_win.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_win.c" > CMakeFiles/rtv1.dir/src/create_win.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/create_win.c > CMakeFiles/rtv1.dir/src/create_win.c.i
 
 CMakeFiles/rtv1.dir/src/create_win.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/create_win.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/create_win.c" -o CMakeFiles/rtv1.dir/src/create_win.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/create_win.c -o CMakeFiles/rtv1.dir/src/create_win.c.s
 
 CMakeFiles/rtv1.dir/src/create_win.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/rtv1.dir/src/create_win.c.o.provides.build: CMakeFiles/rtv1.dir/src/c
 
 CMakeFiles/rtv1.dir/src/init_pos_screen.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/init_pos_screen.c.o: ../src/init_pos_screen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtv1.dir/src/init_pos_screen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/init_pos_screen.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/init_pos_screen.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtv1.dir/src/init_pos_screen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/init_pos_screen.c.o   -c /nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c
 
 CMakeFiles/rtv1.dir/src/init_pos_screen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/init_pos_screen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/init_pos_screen.c" > CMakeFiles/rtv1.dir/src/init_pos_screen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c > CMakeFiles/rtv1.dir/src/init_pos_screen.c.i
 
 CMakeFiles/rtv1.dir/src/init_pos_screen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/init_pos_screen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/init_pos_screen.c" -o CMakeFiles/rtv1.dir/src/init_pos_screen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c -o CMakeFiles/rtv1.dir/src/init_pos_screen.c.s
 
 CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.provides.build: CMakeFiles/rtv1.dir/
 
 CMakeFiles/rtv1.dir/src/put_pixel.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/put_pixel.c.o: ../src/put_pixel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtv1.dir/src/put_pixel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/put_pixel.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/put_pixel.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtv1.dir/src/put_pixel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/put_pixel.c.o   -c /nfs/2016/a/asoroka/rtv1/src/put_pixel.c
 
 CMakeFiles/rtv1.dir/src/put_pixel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/put_pixel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/put_pixel.c" > CMakeFiles/rtv1.dir/src/put_pixel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/put_pixel.c > CMakeFiles/rtv1.dir/src/put_pixel.c.i
 
 CMakeFiles/rtv1.dir/src/put_pixel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/put_pixel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/put_pixel.c" -o CMakeFiles/rtv1.dir/src/put_pixel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/put_pixel.c -o CMakeFiles/rtv1.dir/src/put_pixel.c.s
 
 CMakeFiles/rtv1.dir/src/put_pixel.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/rtv1.dir/src/put_pixel.c.o.provides.build: CMakeFiles/rtv1.dir/src/pu
 
 CMakeFiles/rtv1.dir/src/v_oper/add.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/add.c.o: ../src/v_oper/add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtv1.dir/src/v_oper/add.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/add.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/add.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtv1.dir/src/v_oper/add.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/add.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/add.c
 
 CMakeFiles/rtv1.dir/src/v_oper/add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/add.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/add.c" > CMakeFiles/rtv1.dir/src/v_oper/add.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/add.c > CMakeFiles/rtv1.dir/src/v_oper/add.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/add.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/add.c" -o CMakeFiles/rtv1.dir/src/v_oper/add.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/add.c -o CMakeFiles/rtv1.dir/src/v_oper/add.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/add.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/rtv1.dir/src/v_oper/add.c.o.provides.build: CMakeFiles/rtv1.dir/src/v
 
 CMakeFiles/rtv1.dir/src/v_oper/sub.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/sub.c.o: ../src/v_oper/sub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtv1.dir/src/v_oper/sub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/sub.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/sub.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtv1.dir/src/v_oper/sub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/sub.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/sub.c
 
 CMakeFiles/rtv1.dir/src/v_oper/sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/sub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/sub.c" > CMakeFiles/rtv1.dir/src/v_oper/sub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/sub.c > CMakeFiles/rtv1.dir/src/v_oper/sub.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/sub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/sub.c" -o CMakeFiles/rtv1.dir/src/v_oper/sub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/sub.c -o CMakeFiles/rtv1.dir/src/v_oper/sub.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/sub.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/rtv1.dir/src/v_oper/sub.c.o.provides.build: CMakeFiles/rtv1.dir/src/v
 
 CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.o: ../src/v_oper/scalar_mult.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/scalar_mult.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/scalar_mult.c
 
 CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/scalar_mult.c" > CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/scalar_mult.c > CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/scalar_mult.c" -o CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/scalar_mult.c -o CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/rtv1.dir/src/v_oper/scalar_mult.c.o.provides.build: CMakeFiles/rtv1.d
 
 CMakeFiles/rtv1.dir/src/v_oper/mult.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/mult.c.o: ../src/v_oper/mult.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtv1.dir/src/v_oper/mult.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/mult.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/mult.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtv1.dir/src/v_oper/mult.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/mult.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/mult.c
 
 CMakeFiles/rtv1.dir/src/v_oper/mult.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/mult.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/mult.c" > CMakeFiles/rtv1.dir/src/v_oper/mult.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/mult.c > CMakeFiles/rtv1.dir/src/v_oper/mult.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/mult.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/mult.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/mult.c" -o CMakeFiles/rtv1.dir/src/v_oper/mult.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/mult.c -o CMakeFiles/rtv1.dir/src/v_oper/mult.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/mult.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/rtv1.dir/src/v_oper/mult.c.o.provides.build: CMakeFiles/rtv1.dir/src/
 
 CMakeFiles/rtv1.dir/src/emit_rays.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/emit_rays.c.o: ../src/emit_rays.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/rtv1.dir/src/emit_rays.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/emit_rays.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/emit_rays.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/rtv1.dir/src/emit_rays.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/emit_rays.c.o   -c /nfs/2016/a/asoroka/rtv1/src/emit_rays.c
 
 CMakeFiles/rtv1.dir/src/emit_rays.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/emit_rays.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/emit_rays.c" > CMakeFiles/rtv1.dir/src/emit_rays.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/emit_rays.c > CMakeFiles/rtv1.dir/src/emit_rays.c.i
 
 CMakeFiles/rtv1.dir/src/emit_rays.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/emit_rays.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/emit_rays.c" -o CMakeFiles/rtv1.dir/src/emit_rays.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/emit_rays.c -o CMakeFiles/rtv1.dir/src/emit_rays.c.s
 
 CMakeFiles/rtv1.dir/src/emit_rays.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/rtv1.dir/src/emit_rays.c.o.provides.build: CMakeFiles/rtv1.dir/src/em
 
 CMakeFiles/rtv1.dir/src/v_oper/div.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/div.c.o: ../src/v_oper/div.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/rtv1.dir/src/v_oper/div.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/div.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/div.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/rtv1.dir/src/v_oper/div.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/div.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/div.c
 
 CMakeFiles/rtv1.dir/src/v_oper/div.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/div.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/div.c" > CMakeFiles/rtv1.dir/src/v_oper/div.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/div.c > CMakeFiles/rtv1.dir/src/v_oper/div.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/div.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/div.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/div.c" -o CMakeFiles/rtv1.dir/src/v_oper/div.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/div.c -o CMakeFiles/rtv1.dir/src/v_oper/div.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/div.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/rtv1.dir/src/v_oper/div.c.o.provides.build: CMakeFiles/rtv1.dir/src/v
 
 CMakeFiles/rtv1.dir/src/v_oper/module.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/module.c.o: ../src/v_oper/module.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/rtv1.dir/src/v_oper/module.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/module.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/module.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/rtv1.dir/src/v_oper/module.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/module.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/module.c
 
 CMakeFiles/rtv1.dir/src/v_oper/module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/module.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/module.c" > CMakeFiles/rtv1.dir/src/v_oper/module.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/module.c > CMakeFiles/rtv1.dir/src/v_oper/module.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/module.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/module.c" -o CMakeFiles/rtv1.dir/src/v_oper/module.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/module.c -o CMakeFiles/rtv1.dir/src/v_oper/module.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/module.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/rtv1.dir/src/v_oper/module.c.o.provides.build: CMakeFiles/rtv1.dir/sr
 
 CMakeFiles/rtv1.dir/src/v_oper/normal.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/normal.c.o: ../src/v_oper/normal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/rtv1.dir/src/v_oper/normal.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/normal.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/normal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/rtv1.dir/src/v_oper/normal.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/normal.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/normal.c
 
 CMakeFiles/rtv1.dir/src/v_oper/normal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/normal.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/normal.c" > CMakeFiles/rtv1.dir/src/v_oper/normal.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/normal.c > CMakeFiles/rtv1.dir/src/v_oper/normal.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/normal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/normal.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/normal.c" -o CMakeFiles/rtv1.dir/src/v_oper/normal.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/normal.c -o CMakeFiles/rtv1.dir/src/v_oper/normal.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/normal.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/rtv1.dir/src/v_oper/normal.c.o.provides.build: CMakeFiles/rtv1.dir/sr
 
 CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.o: ../src/v_oper/v_copy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/v_copy.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/v_copy.c
 
 CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/v_copy.c" > CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/v_copy.c > CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/v_copy.c" -o CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/v_copy.c -o CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/rtv1.dir/src/v_oper/v_copy.c.o.provides.build: CMakeFiles/rtv1.dir/sr
 
 CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.o: ../src/v_oper/new_vector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/new_vector.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/new_vector.c
 
 CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/new_vector.c" > CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/new_vector.c > CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/new_vector.c" -o CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/new_vector.c -o CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/rtv1.dir/src/v_oper/new_vector.c.o.provides.build: CMakeFiles/rtv1.di
 
 CMakeFiles/rtv1.dir/src/events/buttons.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/events/buttons.c.o: ../src/events/buttons.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/rtv1.dir/src/events/buttons.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/buttons.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/buttons.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/rtv1.dir/src/events/buttons.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/buttons.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/buttons.c
 
 CMakeFiles/rtv1.dir/src/events/buttons.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/buttons.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/buttons.c" > CMakeFiles/rtv1.dir/src/events/buttons.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/buttons.c > CMakeFiles/rtv1.dir/src/events/buttons.c.i
 
 CMakeFiles/rtv1.dir/src/events/buttons.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/buttons.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/buttons.c" -o CMakeFiles/rtv1.dir/src/events/buttons.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/buttons.c -o CMakeFiles/rtv1.dir/src/events/buttons.c.s
 
 CMakeFiles/rtv1.dir/src/events/buttons.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/rtv1.dir/src/events/buttons.c.o.provides.build: CMakeFiles/rtv1.dir/s
 
 CMakeFiles/rtv1.dir/src/intersects/intersect.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/intersect.c.o: ../src/intersects/intersect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/intersect.c
 
 CMakeFiles/rtv1.dir/src/intersects/intersect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/intersect.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect.c" > CMakeFiles/rtv1.dir/src/intersects/intersect.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/intersect.c > CMakeFiles/rtv1.dir/src/intersects/intersect.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/intersect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/intersect.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect.c" -o CMakeFiles/rtv1.dir/src/intersects/intersect.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/intersect.c -o CMakeFiles/rtv1.dir/src/intersects/intersect.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/intersect.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/rtv1.dir/src/intersects/intersect.c.o.provides.build: CMakeFiles/rtv1
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o: ../src/intersects/intersect_ray_sphere.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_sphere.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_sphere.c
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_sphere.c" > CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_sphere.c > CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_sphere.c" -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_sphere.c -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o.provides.build: CMak
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o: ../src/intersects/intersect_ray_plane.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_plane.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_plane.c
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_plane.c" > CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_plane.c > CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_plane.c" -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_plane.c -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o.provides.build: CMake
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o: ../src/intersects/intersect_ray_cylinder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_cylinder.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_cylinder.c
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_cylinder.c" > CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_cylinder.c > CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_ray_cylinder.c" -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_cylinder.c -o CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o.provides.build: CM
 
 CMakeFiles/rtv1.dir/src/discriminant.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/discriminant.c.o: ../src/discriminant.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/rtv1.dir/src/discriminant.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/discriminant.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/discriminant.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/rtv1.dir/src/discriminant.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/discriminant.c.o   -c /nfs/2016/a/asoroka/rtv1/src/discriminant.c
 
 CMakeFiles/rtv1.dir/src/discriminant.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/discriminant.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/discriminant.c" > CMakeFiles/rtv1.dir/src/discriminant.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/discriminant.c > CMakeFiles/rtv1.dir/src/discriminant.c.i
 
 CMakeFiles/rtv1.dir/src/discriminant.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/discriminant.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/discriminant.c" -o CMakeFiles/rtv1.dir/src/discriminant.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/discriminant.c -o CMakeFiles/rtv1.dir/src/discriminant.c.s
 
 CMakeFiles/rtv1.dir/src/discriminant.c.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/rtv1.dir/src/discriminant.c.o.provides.build: CMakeFiles/rtv1.dir/src
 
 CMakeFiles/rtv1.dir/src/objects/create_obj.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/objects/create_obj.c.o: ../src/objects/create_obj.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/rtv1.dir/src/objects/create_obj.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_obj.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_obj.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/rtv1.dir/src/objects/create_obj.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_obj.c.o   -c /nfs/2016/a/asoroka/rtv1/src/objects/create_obj.c
 
 CMakeFiles/rtv1.dir/src/objects/create_obj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/objects/create_obj.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_obj.c" > CMakeFiles/rtv1.dir/src/objects/create_obj.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/objects/create_obj.c > CMakeFiles/rtv1.dir/src/objects/create_obj.c.i
 
 CMakeFiles/rtv1.dir/src/objects/create_obj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/objects/create_obj.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_obj.c" -o CMakeFiles/rtv1.dir/src/objects/create_obj.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/objects/create_obj.c -o CMakeFiles/rtv1.dir/src/objects/create_obj.c.s
 
 CMakeFiles/rtv1.dir/src/objects/create_obj.c.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/rtv1.dir/src/objects/create_obj.c.o.provides.build: CMakeFiles/rtv1.d
 
 CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o: ../src/objects/create_sphere.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_sphere.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o   -c /nfs/2016/a/asoroka/rtv1/src/objects/create_sphere.c
 
 CMakeFiles/rtv1.dir/src/objects/create_sphere.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/objects/create_sphere.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_sphere.c" > CMakeFiles/rtv1.dir/src/objects/create_sphere.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/objects/create_sphere.c > CMakeFiles/rtv1.dir/src/objects/create_sphere.c.i
 
 CMakeFiles/rtv1.dir/src/objects/create_sphere.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/objects/create_sphere.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_sphere.c" -o CMakeFiles/rtv1.dir/src/objects/create_sphere.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/objects/create_sphere.c -o CMakeFiles/rtv1.dir/src/objects/create_sphere.c.s
 
 CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o.provides.build: CMakeFiles/rtv
 
 CMakeFiles/rtv1.dir/src/objects/create_plane.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/objects/create_plane.c.o: ../src/objects/create_plane.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/rtv1.dir/src/objects/create_plane.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_plane.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_plane.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/rtv1.dir/src/objects/create_plane.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_plane.c.o   -c /nfs/2016/a/asoroka/rtv1/src/objects/create_plane.c
 
 CMakeFiles/rtv1.dir/src/objects/create_plane.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/objects/create_plane.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_plane.c" > CMakeFiles/rtv1.dir/src/objects/create_plane.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/objects/create_plane.c > CMakeFiles/rtv1.dir/src/objects/create_plane.c.i
 
 CMakeFiles/rtv1.dir/src/objects/create_plane.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/objects/create_plane.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_plane.c" -o CMakeFiles/rtv1.dir/src/objects/create_plane.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/objects/create_plane.c -o CMakeFiles/rtv1.dir/src/objects/create_plane.c.s
 
 CMakeFiles/rtv1.dir/src/objects/create_plane.c.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/rtv1.dir/src/objects/create_plane.c.o.provides.build: CMakeFiles/rtv1
 
 CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.o: ../src/objects/create_cylinder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cylinder.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.o   -c /nfs/2016/a/asoroka/rtv1/src/objects/create_cylinder.c
 
 CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cylinder.c" > CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/objects/create_cylinder.c > CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.i
 
 CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cylinder.c" -o CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/objects/create_cylinder.c -o CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.s
 
 CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/rtv1.dir/src/objects/create_cylinder.c.o.provides.build: CMakeFiles/r
 
 CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o: ../src/objects/fill_objects.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/fill_objects.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o   -c /nfs/2016/a/asoroka/rtv1/src/objects/fill_objects.c
 
 CMakeFiles/rtv1.dir/src/objects/fill_objects.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/objects/fill_objects.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/fill_objects.c" > CMakeFiles/rtv1.dir/src/objects/fill_objects.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/objects/fill_objects.c > CMakeFiles/rtv1.dir/src/objects/fill_objects.c.i
 
 CMakeFiles/rtv1.dir/src/objects/fill_objects.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/objects/fill_objects.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/fill_objects.c" -o CMakeFiles/rtv1.dir/src/objects/fill_objects.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/objects/fill_objects.c -o CMakeFiles/rtv1.dir/src/objects/fill_objects.c.s
 
 CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o.provides.build: CMakeFiles/rtv1
 
 CMakeFiles/rtv1.dir/src/v_oper/compare.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/v_oper/compare.c.o: ../src/v_oper/compare.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/rtv1.dir/src/v_oper/compare.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/compare.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/compare.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/rtv1.dir/src/v_oper/compare.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/v_oper/compare.c.o   -c /nfs/2016/a/asoroka/rtv1/src/v_oper/compare.c
 
 CMakeFiles/rtv1.dir/src/v_oper/compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/v_oper/compare.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/compare.c" > CMakeFiles/rtv1.dir/src/v_oper/compare.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/v_oper/compare.c > CMakeFiles/rtv1.dir/src/v_oper/compare.c.i
 
 CMakeFiles/rtv1.dir/src/v_oper/compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/v_oper/compare.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/v_oper/compare.c" -o CMakeFiles/rtv1.dir/src/v_oper/compare.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/v_oper/compare.c -o CMakeFiles/rtv1.dir/src/v_oper/compare.c.s
 
 CMakeFiles/rtv1.dir/src/v_oper/compare.c.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/rtv1.dir/src/v_oper/compare.c.o.provides.build: CMakeFiles/rtv1.dir/s
 
 CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o: ../src/objects/for_each_obj.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/for_each_obj.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o   -c /nfs/2016/a/asoroka/rtv1/src/objects/for_each_obj.c
 
 CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/for_each_obj.c" > CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/objects/for_each_obj.c > CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.i
 
 CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/for_each_obj.c" -o CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/objects/for_each_obj.c -o CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.s
 
 CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o.provides.build: CMakeFiles/rtv1
 
 CMakeFiles/rtv1.dir/src/events/change_pos.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/events/change_pos.c.o: ../src/events/change_pos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/rtv1.dir/src/events/change_pos.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/change_pos.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/change_pos.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/rtv1.dir/src/events/change_pos.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/change_pos.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/change_pos.c
 
 CMakeFiles/rtv1.dir/src/events/change_pos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/change_pos.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/change_pos.c" > CMakeFiles/rtv1.dir/src/events/change_pos.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/change_pos.c > CMakeFiles/rtv1.dir/src/events/change_pos.c.i
 
 CMakeFiles/rtv1.dir/src/events/change_pos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/change_pos.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/change_pos.c" -o CMakeFiles/rtv1.dir/src/events/change_pos.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/change_pos.c -o CMakeFiles/rtv1.dir/src/events/change_pos.c.s
 
 CMakeFiles/rtv1.dir/src/events/change_pos.c.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/rtv1.dir/src/events/change_pos.c.o.provides.build: CMakeFiles/rtv1.di
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o: ../src/intersects/intersect_cone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_cone.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_cone.c
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_cone.c" > CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_cone.c > CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersect_cone.c" -o CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/intersect_cone.c -o CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o.provides.build: CMakeFiles
 
 CMakeFiles/rtv1.dir/src/objects/create_cone.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/objects/create_cone.c.o: ../src/objects/create_cone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/rtv1.dir/src/objects/create_cone.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_cone.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cone.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/rtv1.dir/src/objects/create_cone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_cone.c.o   -c /nfs/2016/a/asoroka/rtv1/src/objects/create_cone.c
 
 CMakeFiles/rtv1.dir/src/objects/create_cone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/objects/create_cone.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cone.c" > CMakeFiles/rtv1.dir/src/objects/create_cone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/objects/create_cone.c > CMakeFiles/rtv1.dir/src/objects/create_cone.c.i
 
 CMakeFiles/rtv1.dir/src/objects/create_cone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/objects/create_cone.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_cone.c" -o CMakeFiles/rtv1.dir/src/objects/create_cone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/objects/create_cone.c -o CMakeFiles/rtv1.dir/src/objects/create_cone.c.s
 
 CMakeFiles/rtv1.dir/src/objects/create_cone.c.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/rtv1.dir/src/objects/create_cone.c.o.provides.build: CMakeFiles/rtv1.
 
 CMakeFiles/rtv1.dir/src/events/move_plane.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/events/move_plane.c.o: ../src/events/move_plane.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/rtv1.dir/src/events/move_plane.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_plane.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_plane.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/rtv1.dir/src/events/move_plane.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_plane.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/move_plane.c
 
 CMakeFiles/rtv1.dir/src/events/move_plane.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/move_plane.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_plane.c" > CMakeFiles/rtv1.dir/src/events/move_plane.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/move_plane.c > CMakeFiles/rtv1.dir/src/events/move_plane.c.i
 
 CMakeFiles/rtv1.dir/src/events/move_plane.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/move_plane.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_plane.c" -o CMakeFiles/rtv1.dir/src/events/move_plane.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/move_plane.c -o CMakeFiles/rtv1.dir/src/events/move_plane.c.s
 
 CMakeFiles/rtv1.dir/src/events/move_plane.c.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/rtv1.dir/src/events/move_plane.c.o.provides.build: CMakeFiles/rtv1.di
 
 CMakeFiles/rtv1.dir/src/events/move_sphere.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/events/move_sphere.c.o: ../src/events/move_sphere.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/rtv1.dir/src/events/move_sphere.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_sphere.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_sphere.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/rtv1.dir/src/events/move_sphere.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_sphere.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/move_sphere.c
 
 CMakeFiles/rtv1.dir/src/events/move_sphere.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/move_sphere.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_sphere.c" > CMakeFiles/rtv1.dir/src/events/move_sphere.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/move_sphere.c > CMakeFiles/rtv1.dir/src/events/move_sphere.c.i
 
 CMakeFiles/rtv1.dir/src/events/move_sphere.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/move_sphere.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_sphere.c" -o CMakeFiles/rtv1.dir/src/events/move_sphere.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/move_sphere.c -o CMakeFiles/rtv1.dir/src/events/move_sphere.c.s
 
 CMakeFiles/rtv1.dir/src/events/move_sphere.c.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/rtv1.dir/src/events/move_sphere.c.o.provides.build: CMakeFiles/rtv1.d
 
 CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o: ../src/events/move_cylinder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_cylinder.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/move_cylinder.c
 
 CMakeFiles/rtv1.dir/src/events/move_cylinder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/move_cylinder.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_cylinder.c" > CMakeFiles/rtv1.dir/src/events/move_cylinder.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/move_cylinder.c > CMakeFiles/rtv1.dir/src/events/move_cylinder.c.i
 
 CMakeFiles/rtv1.dir/src/events/move_cylinder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/move_cylinder.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_cylinder.c" -o CMakeFiles/rtv1.dir/src/events/move_cylinder.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/move_cylinder.c -o CMakeFiles/rtv1.dir/src/events/move_cylinder.c.s
 
 CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o.provides.build: CMakeFiles/rtv1
 
 CMakeFiles/rtv1.dir/src/events/move_cone.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/events/move_cone.c.o: ../src/events/move_cone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/rtv1.dir/src/events/move_cone.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_cone.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_cone.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/rtv1.dir/src/events/move_cone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_cone.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/move_cone.c
 
 CMakeFiles/rtv1.dir/src/events/move_cone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/move_cone.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_cone.c" > CMakeFiles/rtv1.dir/src/events/move_cone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/move_cone.c > CMakeFiles/rtv1.dir/src/events/move_cone.c.i
 
 CMakeFiles/rtv1.dir/src/events/move_cone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/move_cone.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/events/move_cone.c" -o CMakeFiles/rtv1.dir/src/events/move_cone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/move_cone.c -o CMakeFiles/rtv1.dir/src/events/move_cone.c.s
 
 CMakeFiles/rtv1.dir/src/events/move_cone.c.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/rtv1.dir/src/events/move_cone.c.o.provides.build: CMakeFiles/rtv1.dir
 
 CMakeFiles/rtv1.dir/src/objects/create_light.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/objects/create_light.c.o: ../src/objects/create_light.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/rtv1.dir/src/objects/create_light.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_light.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_light.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/rtv1.dir/src/objects/create_light.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/objects/create_light.c.o   -c /nfs/2016/a/asoroka/rtv1/src/objects/create_light.c
 
 CMakeFiles/rtv1.dir/src/objects/create_light.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/objects/create_light.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_light.c" > CMakeFiles/rtv1.dir/src/objects/create_light.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/objects/create_light.c > CMakeFiles/rtv1.dir/src/objects/create_light.c.i
 
 CMakeFiles/rtv1.dir/src/objects/create_light.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/objects/create_light.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/objects/create_light.c" -o CMakeFiles/rtv1.dir/src/objects/create_light.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/objects/create_light.c -o CMakeFiles/rtv1.dir/src/objects/create_light.c.s
 
 CMakeFiles/rtv1.dir/src/objects/create_light.c.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/rtv1.dir/src/objects/create_light.c.o.provides.build: CMakeFiles/rtv1
 
 CMakeFiles/rtv1.dir/src/b_zero.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/b_zero.c.o: ../src/b_zero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/rtv1.dir/src/b_zero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/b_zero.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/b_zero.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/rtv1.dir/src/b_zero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/b_zero.c.o   -c /nfs/2016/a/asoroka/rtv1/src/b_zero.c
 
 CMakeFiles/rtv1.dir/src/b_zero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/b_zero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/b_zero.c" > CMakeFiles/rtv1.dir/src/b_zero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/b_zero.c > CMakeFiles/rtv1.dir/src/b_zero.c.i
 
 CMakeFiles/rtv1.dir/src/b_zero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/b_zero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/b_zero.c" -o CMakeFiles/rtv1.dir/src/b_zero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/b_zero.c -o CMakeFiles/rtv1.dir/src/b_zero.c.s
 
 CMakeFiles/rtv1.dir/src/b_zero.c.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/rtv1.dir/src/b_zero.c.o.provides.build: CMakeFiles/rtv1.dir/src/b_zer
 
 CMakeFiles/rtv1.dir/src/pull_color.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/pull_color.c.o: ../src/pull_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/rtv1.dir/src/pull_color.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/pull_color.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/pull_color.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/rtv1.dir/src/pull_color.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/pull_color.c.o   -c /nfs/2016/a/asoroka/rtv1/src/pull_color.c
 
 CMakeFiles/rtv1.dir/src/pull_color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/pull_color.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/pull_color.c" > CMakeFiles/rtv1.dir/src/pull_color.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/pull_color.c > CMakeFiles/rtv1.dir/src/pull_color.c.i
 
 CMakeFiles/rtv1.dir/src/pull_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/pull_color.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/pull_color.c" -o CMakeFiles/rtv1.dir/src/pull_color.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/pull_color.c -o CMakeFiles/rtv1.dir/src/pull_color.c.s
 
 CMakeFiles/rtv1.dir/src/pull_color.c.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/rtv1.dir/src/pull_color.c.o.provides.build: CMakeFiles/rtv1.dir/src/p
 
 CMakeFiles/rtv1.dir/src/color/integrate_color.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/color/integrate_color.c.o: ../src/color/integrate_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/rtv1.dir/src/color/integrate_color.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/color/integrate_color.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/integrate_color.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/rtv1.dir/src/color/integrate_color.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/color/integrate_color.c.o   -c /nfs/2016/a/asoroka/rtv1/src/color/integrate_color.c
 
 CMakeFiles/rtv1.dir/src/color/integrate_color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/color/integrate_color.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/integrate_color.c" > CMakeFiles/rtv1.dir/src/color/integrate_color.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/color/integrate_color.c > CMakeFiles/rtv1.dir/src/color/integrate_color.c.i
 
 CMakeFiles/rtv1.dir/src/color/integrate_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/color/integrate_color.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/integrate_color.c" -o CMakeFiles/rtv1.dir/src/color/integrate_color.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/color/integrate_color.c -o CMakeFiles/rtv1.dir/src/color/integrate_color.c.s
 
 CMakeFiles/rtv1.dir/src/color/integrate_color.c.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/rtv1.dir/src/color/integrate_color.c.o.provides.build: CMakeFiles/rtv
 
 CMakeFiles/rtv1.dir/src/color/create_color.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/color/create_color.c.o: ../src/color/create_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/rtv1.dir/src/color/create_color.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/color/create_color.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/create_color.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/rtv1.dir/src/color/create_color.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/color/create_color.c.o   -c /nfs/2016/a/asoroka/rtv1/src/color/create_color.c
 
 CMakeFiles/rtv1.dir/src/color/create_color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/color/create_color.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/create_color.c" > CMakeFiles/rtv1.dir/src/color/create_color.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/color/create_color.c > CMakeFiles/rtv1.dir/src/color/create_color.c.i
 
 CMakeFiles/rtv1.dir/src/color/create_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/color/create_color.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/create_color.c" -o CMakeFiles/rtv1.dir/src/color/create_color.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/color/create_color.c -o CMakeFiles/rtv1.dir/src/color/create_color.c.s
 
 CMakeFiles/rtv1.dir/src/color/create_color.c.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/rtv1.dir/src/color/create_color.c.o.provides.build: CMakeFiles/rtv1.d
 
 CMakeFiles/rtv1.dir/src/for_each_point.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/for_each_point.c.o: ../src/for_each_point.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/rtv1.dir/src/for_each_point.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/for_each_point.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/for_each_point.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/rtv1.dir/src/for_each_point.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/for_each_point.c.o   -c /nfs/2016/a/asoroka/rtv1/src/for_each_point.c
 
 CMakeFiles/rtv1.dir/src/for_each_point.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/for_each_point.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/for_each_point.c" > CMakeFiles/rtv1.dir/src/for_each_point.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/for_each_point.c > CMakeFiles/rtv1.dir/src/for_each_point.c.i
 
 CMakeFiles/rtv1.dir/src/for_each_point.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/for_each_point.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/for_each_point.c" -o CMakeFiles/rtv1.dir/src/for_each_point.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/for_each_point.c -o CMakeFiles/rtv1.dir/src/for_each_point.c.s
 
 CMakeFiles/rtv1.dir/src/for_each_point.c.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/rtv1.dir/src/for_each_point.c.o.provides.build: CMakeFiles/rtv1.dir/s
 
 CMakeFiles/rtv1.dir/src/ray_trace.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/ray_trace.c.o: ../src/ray_trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/rtv1.dir/src/ray_trace.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/ray_trace.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/ray_trace.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/rtv1.dir/src/ray_trace.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/ray_trace.c.o   -c /nfs/2016/a/asoroka/rtv1/src/ray_trace.c
 
 CMakeFiles/rtv1.dir/src/ray_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/ray_trace.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/ray_trace.c" > CMakeFiles/rtv1.dir/src/ray_trace.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/ray_trace.c > CMakeFiles/rtv1.dir/src/ray_trace.c.i
 
 CMakeFiles/rtv1.dir/src/ray_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/ray_trace.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/ray_trace.c" -o CMakeFiles/rtv1.dir/src/ray_trace.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/ray_trace.c -o CMakeFiles/rtv1.dir/src/ray_trace.c.s
 
 CMakeFiles/rtv1.dir/src/ray_trace.c.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/rtv1.dir/src/ray_trace.c.o.provides.build: CMakeFiles/rtv1.dir/src/ra
 
 CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o: ../src/intersects/intersects_objects.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersects_objects.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/intersects_objects.c
 
 CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersects_objects.c" > CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/intersects_objects.c > CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/intersects_objects.c" -o CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/intersects_objects.c -o CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o.provides.build: CMakeF
 
 CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o: ../src/intersects/some_calculating.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/some_calculating.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/some_calculating.c
 
 CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/some_calculating.c" > CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/some_calculating.c > CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/some_calculating.c" -o CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/some_calculating.c -o CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o.provides.build: CMakeFil
 
 CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.o: ../src/intersects/identify_obj.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/identify_obj.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/identify_obj.c
 
 CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/identify_obj.c" > CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/identify_obj.c > CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/identify_obj.c" -o CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/identify_obj.c -o CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.o.provides.build: CMakeFiles/r
 
 CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o: ../src/intersects/find_hit_point.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/find_hit_point.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/find_hit_point.c
 
 CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/find_hit_point.c" > CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/find_hit_point.c > CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/find_hit_point.c" -o CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/find_hit_point.c -o CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o.provides.build: CMakeFiles
 
 CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o: ../src/intersects/find_nrml_light_ray.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/find_nrml_light_ray.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o   -c /nfs/2016/a/asoroka/rtv1/src/intersects/find_nrml_light_ray.c
 
 CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/find_nrml_light_ray.c" > CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/intersects/find_nrml_light_ray.c > CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.i
 
 CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/intersects/find_nrml_light_ray.c" -o CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/intersects/find_nrml_light_ray.c -o CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.s
 
 CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o.provides.build: CMake
 
 CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o: ../src/light/find_diffuse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/light/find_diffuse.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o   -c /nfs/2016/a/asoroka/rtv1/src/light/find_diffuse.c
 
 CMakeFiles/rtv1.dir/src/light/find_diffuse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/light/find_diffuse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/light/find_diffuse.c" > CMakeFiles/rtv1.dir/src/light/find_diffuse.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/light/find_diffuse.c > CMakeFiles/rtv1.dir/src/light/find_diffuse.c.i
 
 CMakeFiles/rtv1.dir/src/light/find_diffuse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/light/find_diffuse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/light/find_diffuse.c" -o CMakeFiles/rtv1.dir/src/light/find_diffuse.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/light/find_diffuse.c -o CMakeFiles/rtv1.dir/src/light/find_diffuse.c.s
 
 CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o.provides.build: CMakeFiles/rtv1.d
 
 CMakeFiles/rtv1.dir/src/color/calc_color.c.o: CMakeFiles/rtv1.dir/flags.make
 CMakeFiles/rtv1.dir/src/color/calc_color.c.o: ../src/color/calc_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/rtv1.dir/src/color/calc_color.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/color/calc_color.c.o   -c "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/calc_color.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/rtv1.dir/src/color/calc_color.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/color/calc_color.c.o   -c /nfs/2016/a/asoroka/rtv1/src/color/calc_color.c
 
 CMakeFiles/rtv1.dir/src/color/calc_color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/color/calc_color.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/calc_color.c" > CMakeFiles/rtv1.dir/src/color/calc_color.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/color/calc_color.c > CMakeFiles/rtv1.dir/src/color/calc_color.c.i
 
 CMakeFiles/rtv1.dir/src/color/calc_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/color/calc_color.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/nfs/2016/a/asoroka/Clion's projets/rtv1/src/color/calc_color.c" -o CMakeFiles/rtv1.dir/src/color/calc_color.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/color/calc_color.c -o CMakeFiles/rtv1.dir/src/color/calc_color.c.s
 
 CMakeFiles/rtv1.dir/src/color/calc_color.c.o.requires:
 
@@ -1231,6 +1231,102 @@ CMakeFiles/rtv1.dir/src/color/calc_color.c.o.provides: CMakeFiles/rtv1.dir/src/c
 .PHONY : CMakeFiles/rtv1.dir/src/color/calc_color.c.o.provides
 
 CMakeFiles/rtv1.dir/src/color/calc_color.c.o.provides.build: CMakeFiles/rtv1.dir/src/color/calc_color.c.o
+
+
+CMakeFiles/rtv1.dir/src/light/find_specular.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/light/find_specular.c.o: ../src/light/find_specular.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/rtv1.dir/src/light/find_specular.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/light/find_specular.c.o   -c /nfs/2016/a/asoroka/rtv1/src/light/find_specular.c
+
+CMakeFiles/rtv1.dir/src/light/find_specular.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/light/find_specular.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/light/find_specular.c > CMakeFiles/rtv1.dir/src/light/find_specular.c.i
+
+CMakeFiles/rtv1.dir/src/light/find_specular.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/light/find_specular.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/light/find_specular.c -o CMakeFiles/rtv1.dir/src/light/find_specular.c.s
+
+CMakeFiles/rtv1.dir/src/light/find_specular.c.o.requires:
+
+.PHONY : CMakeFiles/rtv1.dir/src/light/find_specular.c.o.requires
+
+CMakeFiles/rtv1.dir/src/light/find_specular.c.o.provides: CMakeFiles/rtv1.dir/src/light/find_specular.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/light/find_specular.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/light/find_specular.c.o.provides
+
+CMakeFiles/rtv1.dir/src/light/find_specular.c.o.provides.build: CMakeFiles/rtv1.dir/src/light/find_specular.c.o
+
+
+CMakeFiles/rtv1.dir/src/events/move_x.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/events/move_x.c.o: ../src/events/move_x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/rtv1.dir/src/events/move_x.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_x.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/move_x.c
+
+CMakeFiles/rtv1.dir/src/events/move_x.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/move_x.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/move_x.c > CMakeFiles/rtv1.dir/src/events/move_x.c.i
+
+CMakeFiles/rtv1.dir/src/events/move_x.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/move_x.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/move_x.c -o CMakeFiles/rtv1.dir/src/events/move_x.c.s
+
+CMakeFiles/rtv1.dir/src/events/move_x.c.o.requires:
+
+.PHONY : CMakeFiles/rtv1.dir/src/events/move_x.c.o.requires
+
+CMakeFiles/rtv1.dir/src/events/move_x.c.o.provides: CMakeFiles/rtv1.dir/src/events/move_x.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_x.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/events/move_x.c.o.provides
+
+CMakeFiles/rtv1.dir/src/events/move_x.c.o.provides.build: CMakeFiles/rtv1.dir/src/events/move_x.c.o
+
+
+CMakeFiles/rtv1.dir/src/events/move_y.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/events/move_y.c.o: ../src/events/move_y.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/rtv1.dir/src/events/move_y.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_y.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/move_y.c
+
+CMakeFiles/rtv1.dir/src/events/move_y.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/move_y.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/move_y.c > CMakeFiles/rtv1.dir/src/events/move_y.c.i
+
+CMakeFiles/rtv1.dir/src/events/move_y.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/move_y.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/move_y.c -o CMakeFiles/rtv1.dir/src/events/move_y.c.s
+
+CMakeFiles/rtv1.dir/src/events/move_y.c.o.requires:
+
+.PHONY : CMakeFiles/rtv1.dir/src/events/move_y.c.o.requires
+
+CMakeFiles/rtv1.dir/src/events/move_y.c.o.provides: CMakeFiles/rtv1.dir/src/events/move_y.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_y.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/events/move_y.c.o.provides
+
+CMakeFiles/rtv1.dir/src/events/move_y.c.o.provides.build: CMakeFiles/rtv1.dir/src/events/move_y.c.o
+
+
+CMakeFiles/rtv1.dir/src/events/move_z.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/events/move_z.c.o: ../src/events/move_z.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/rtv1.dir/src/events/move_z.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/move_z.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/move_z.c
+
+CMakeFiles/rtv1.dir/src/events/move_z.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/move_z.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/move_z.c > CMakeFiles/rtv1.dir/src/events/move_z.c.i
+
+CMakeFiles/rtv1.dir/src/events/move_z.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/move_z.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/move_z.c -o CMakeFiles/rtv1.dir/src/events/move_z.c.s
+
+CMakeFiles/rtv1.dir/src/events/move_z.c.o.requires:
+
+.PHONY : CMakeFiles/rtv1.dir/src/events/move_z.c.o.requires
+
+CMakeFiles/rtv1.dir/src/events/move_z.c.o.provides: CMakeFiles/rtv1.dir/src/events/move_z.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_z.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/events/move_z.c.o.provides
+
+CMakeFiles/rtv1.dir/src/events/move_z.c.o.provides.build: CMakeFiles/rtv1.dir/src/events/move_z.c.o
 
 
 # Object files for target rtv1
@@ -1283,7 +1379,11 @@ rtv1_OBJECTS = \
 "CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o" \
 "CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o" \
 "CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o" \
-"CMakeFiles/rtv1.dir/src/color/calc_color.c.o"
+"CMakeFiles/rtv1.dir/src/color/calc_color.c.o" \
+"CMakeFiles/rtv1.dir/src/light/find_specular.c.o" \
+"CMakeFiles/rtv1.dir/src/events/move_x.c.o" \
+"CMakeFiles/rtv1.dir/src/events/move_y.c.o" \
+"CMakeFiles/rtv1.dir/src/events/move_z.c.o"
 
 # External object files for target rtv1
 rtv1_EXTERNAL_OBJECTS =
@@ -1337,9 +1437,13 @@ rtv1: CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o
 rtv1: CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o
 rtv1: CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o
 rtv1: CMakeFiles/rtv1.dir/src/color/calc_color.c.o
+rtv1: CMakeFiles/rtv1.dir/src/light/find_specular.c.o
+rtv1: CMakeFiles/rtv1.dir/src/events/move_x.c.o
+rtv1: CMakeFiles/rtv1.dir/src/events/move_y.c.o
+rtv1: CMakeFiles/rtv1.dir/src/events/move_z.c.o
 rtv1: CMakeFiles/rtv1.dir/build.make
 rtv1: CMakeFiles/rtv1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Linking C executable rtv1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking C executable rtv1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtv1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1396,6 +1500,10 @@ CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/intersects/find_hit_point.
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/color/calc_color.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/light/find_specular.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/move_x.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/move_y.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/move_z.c.o.requires
 
 .PHONY : CMakeFiles/rtv1.dir/requires
 
@@ -1404,6 +1512,6 @@ CMakeFiles/rtv1.dir/clean:
 .PHONY : CMakeFiles/rtv1.dir/clean
 
 CMakeFiles/rtv1.dir/depend:
-	cd "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/nfs/2016/a/asoroka/Clion's projets/rtv1" "/nfs/2016/a/asoroka/Clion's projets/rtv1" "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug" "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug" "/nfs/2016/a/asoroka/Clion's projets/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /nfs/2016/a/asoroka/rtv1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/2016/a/asoroka/rtv1 /nfs/2016/a/asoroka/rtv1 /nfs/2016/a/asoroka/rtv1/cmake-build-debug /nfs/2016/a/asoroka/rtv1/cmake-build-debug /nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rtv1.dir/depend
 

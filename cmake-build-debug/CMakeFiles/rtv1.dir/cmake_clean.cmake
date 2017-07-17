@@ -48,6 +48,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtv1.dir/src/intersects/find_nrml_light_ray.c.o"
   "CMakeFiles/rtv1.dir/src/light/find_diffuse.c.o"
   "CMakeFiles/rtv1.dir/src/color/calc_color.c.o"
+  "CMakeFiles/rtv1.dir/src/light/find_specular.c.o"
+  "CMakeFiles/rtv1.dir/src/events/move_x.c.o"
+  "CMakeFiles/rtv1.dir/src/events/move_y.c.o"
+  "CMakeFiles/rtv1.dir/src/events/move_z.c.o"
   "rtv1.pdb"
   "rtv1"
 )

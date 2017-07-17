@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/a/asoroka/rtv1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/a/asoroka/rtv1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/a/asoroka/rtv1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rtv1">
-				<Option output="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug/rtv1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option output="/nfs/2016/a/asoroka/rtv1/cmake-build-debug/rtv1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/a/asoroka/rtv1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtv1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtv1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rtv1/fast">
-				<Option output="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug/rtv1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/cmake-build-debug"/>
+				<Option output="/nfs/2016/a/asoroka/rtv1/cmake-build-debug/rtv1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/a/asoroka/rtv1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,164 +75,176 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtv1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/Clion&apos;s\ projets/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtv1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/a/asoroka/rtv1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/rtv1.h">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/rtv1.h">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/b_zero.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/b_zero.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/color/calc_color.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/color/calc_color.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/color/create_color.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/color/create_color.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/color/integrate_color.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/color/integrate_color.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/create_image.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/create_image.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/create_win.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/create_win.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/discriminant.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/discriminant.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/emit_rays.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/emit_rays.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/events/buttons.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/buttons.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/events/change_pos.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/change_pos.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/events/move_cone.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/move_cone.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/events/move_cylinder.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/move_cylinder.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/events/move_plane.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/move_plane.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/events/move_sphere.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/move_sphere.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/for_each_point.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/move_x.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/init_pos_screen.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/move_y.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/find_hit_point.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/move_z.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/find_nrml_light_ray.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/for_each_point.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/identify_obj.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/find_hit_point.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect_cone.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/find_nrml_light_ray.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect_ray_cylinder.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/identify_obj.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect_ray_plane.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/intersect.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersect_ray_sphere.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_cone.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/intersects_objects.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_cylinder.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/intersects/some_calculating.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_plane.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/light/find_diffuse.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_sphere.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/main.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/intersects_objects.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_cone.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/some_calculating.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_cylinder.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/light/find_diffuse.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_light.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/light/find_specular.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_obj.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/main.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_plane.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/create_cone.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/create_sphere.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/create_cylinder.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/fill_objects.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/create_light.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/objects/for_each_obj.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/create_obj.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/pull_color.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/create_plane.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/put_pixel.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/create_sphere.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/ray_trace.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/fill_objects.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/add.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/for_each_obj.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/compare.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/pull_color.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/div.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/put_pixel.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/module.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/ray_trace.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/mult.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/add.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/new_vector.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/compare.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/normal.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/div.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/scalar_mult.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/module.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/sub.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/mult.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/src/v_oper/v_copy.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/new_vector.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/Clion&apos;s projets/rtv1/CMakeLists.txt">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/normal.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/scalar_mult.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/sub.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/v_oper/v_copy.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
