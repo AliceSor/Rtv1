@@ -8,17 +8,15 @@ void 			move_x(int keycode, t_rt *rt)
 {
 	if (keycode == 0)
 	{
-		rt->lights->l->c->x -= 500;
-		rt->lights->f->l_change_pos = 1;
+		rt->lights->l->c->x -= 5 * rt->speed_move;
+		rt->l_sphere->s->center->x -= 5 * rt->speed_move;
 		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
 	}
 	else if (keycode == 2)
 	{
-		rt->lights->l->c->x += 500;
-		rt->lights->f->l_change_pos = 1;
+		rt->lights->l->c->x += 5 * rt->speed_move;
+		rt->l_sphere->s->center->x += 5 * rt->speed_move;
 		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
 	}
 	else if (keycode == 7)// && A < 14)
 	{

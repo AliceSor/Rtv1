@@ -66,6 +66,7 @@ typedef struct 		s_flags
 	int 				l_change_pos;
 	int 				chosen;
 	int 				for_light;
+	int 				is_visible;
 }					t_flags;
 
 /* type_obj = 0 */
@@ -116,6 +117,7 @@ typedef struct 		s_light
 {
 	t_v				*c;
 	double 			brightness;
+	void			 *sphere;
 }					t_light;
 
 typedef struct		s_obj
@@ -160,6 +162,7 @@ typedef struct		s_rt
 	int 				costul;
 	double 			speed_move;
 	double 			speed_rotate;
+    t_obj           *l_sphere;
 }					t_rt;
 
 //typedef struct		s_thrd
@@ -249,5 +252,6 @@ void 			move_x(int keycode, t_rt *rt);
 void 			move_y(int keycode, t_rt *rt);
 void 			move_z(int keycode, t_rt *rt);
 void 			absolute_rotate(t_v *p, t_rt *rt, t_v *res);
+void            change_size(int kc, t_rt *rt);
 
 #endif

@@ -58,6 +58,10 @@ stdio.h
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
+/nfs/2016/a/asoroka/rtv1/src/events/change_size.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
 /nfs/2016/a/asoroka/rtv1/src/events/move_cone.c
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h

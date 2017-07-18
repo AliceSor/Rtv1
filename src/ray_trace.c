@@ -36,29 +36,20 @@ int				intersect_light(t_rt *rt, t_v *d, t_v *p0, double *t)
 	t_obj		*obj;
 	int 		is_intersect;
 	double 		min_t;
-	t_v			*res;
 
 	obj = rt->obj;
-	res = NULL;
 	min_t = *t;
-//	res = (t_v *)malloc(sizeof(t_v) + 1);
 	while (obj)
 	{
-	//	*t = 2000000;
-		is_intersect = identify_obj(d, p0, obj, t);
-		if (is_intersect)
-			if (*t < min_t - 1)
-			{
-				return (0);
-			}
+        if (obj->f->for_light == 0)
+        {
+            is_intersect = identify_obj(d, p0, obj, t);
+            if (is_intersect)
+                if (*t < min_t - 1)
+                    return (0);
+        }
 		obj = obj->next;
 	}
-//	*t = min_t;
-////	if (*t < HUGE)
-////	{
-//		res = (t_v *) malloc(sizeof(t_v) + 1);
-//		find_hit_point(*t, d, p0, res);
-//	}
 	return (1);
 }
 
@@ -68,8 +59,6 @@ void 		ray_trace(t_rt *rt)
 	int     color;
 	int		i;
 	t_obj	*obj;
-//	t_obj	*shadow_obj;
-	t_v		*light_ray_hit;
 	t_v		*light_ray;
 	t_v		*hit_point;
 	double 	t;

@@ -8,6 +8,7 @@
 # define A rt->screen->alpha
 # define B rt->screen->beta
 # define G rt->screen->gamma
+# define F obj->f->for_light
 
 # include <math.h>
 # include <mlx.h>
@@ -61,10 +62,11 @@ typedef struct		s_color
 
 typedef struct 		s_flags
 {
-	int 				change_pos;
-	int 				l_change_pos;
-	int 				chosen;
-	int 				for_light;
+	int 			change_pos;
+	int 			l_change_pos;
+	int 			chosen;
+	int 			for_light;
+	int             is_visible;
 }					t_flags;
 
 /* type_obj = 0 */
@@ -153,6 +155,7 @@ typedef struct		s_rt
 	t_screen			*screen;
 	t_obj			*obj;
 	t_obj			*lights;
+    t_obj			*l_sphere;
 	t_obj			*chosen;
 	double 			speed;
 	double 			dist;
@@ -248,6 +251,7 @@ void 			move_x(int keycode, t_rt *rt);
 void 			move_y(int keycode, t_rt *rt);
 void 			move_z(int keycode, t_rt *rt);
 void 			absolute_rotate(t_v *p, t_rt *rt, t_v *res);
+void 		    change_size(int keycode, t_rt *rt);
 
 #endif
 

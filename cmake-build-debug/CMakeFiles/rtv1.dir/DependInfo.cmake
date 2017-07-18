@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/a/asoroka/rtv1/src/emit_rays.c" "/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/emit_rays.c.o"
   "/nfs/2016/a/asoroka/rtv1/src/events/buttons.c" "/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/events/buttons.c.o"
   "/nfs/2016/a/asoroka/rtv1/src/events/change_pos.c" "/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/events/change_pos.c.o"
+  "/nfs/2016/a/asoroka/rtv1/src/events/change_size.c" "/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/events/change_size.c.o"
   "/nfs/2016/a/asoroka/rtv1/src/events/move_cone.c" "/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/events/move_cone.c.o"
   "/nfs/2016/a/asoroka/rtv1/src/events/move_cylinder.c" "/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/events/move_cylinder.c.o"
   "/nfs/2016/a/asoroka/rtv1/src/events/move_plane.c" "/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles/rtv1.dir/src/events/move_plane.c.o"

@@ -23,12 +23,11 @@ int 				calc_color(t_obj *obj, double diffuse, int is_shadow, double specular)
 	}
 	else
 	{
-//		coef = diffuse * 30  +  specular * 30 + 5 + is_shadow * 20;
 		coef = s * diffuse * 50 * is_shadow + is_shadow * 10 * diffuse + 20;
 		r = obj->color->r * coef;
 		g = obj->color->g * coef;
 		b = obj->color->b * coef;
 	}
-	res = integrate_color(r, g, b);
+	res = (obj->f->for_light) ? integrate_color(100, 100, 100) : integrate_color(r, g, b);
 	return (res);
 }

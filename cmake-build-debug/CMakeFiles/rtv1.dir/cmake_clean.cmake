@@ -52,6 +52,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtv1.dir/src/events/move_x.c.o"
   "CMakeFiles/rtv1.dir/src/events/move_y.c.o"
   "CMakeFiles/rtv1.dir/src/events/move_z.c.o"
+  "CMakeFiles/rtv1.dir/src/events/change_size.c.o"
   "rtv1.pdb"
   "rtv1"
 )

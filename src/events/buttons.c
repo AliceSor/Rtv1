@@ -10,7 +10,6 @@ void				put_image(t_rt *rt)
 	mlx_destroy_image(rt->mlx->mlx, rt->mlx->im);
 	create_image(rt->mlx);
 	ray_trace(rt);
-//	emit_rays(rt);
 	mlx_put_image_to_window(rt->mlx->mlx, rt->mlx->win, rt->mlx->im, 0, 0);
 }
 
@@ -28,23 +27,34 @@ int					buttons(int keycode, t_rt *rt)
 	if (keycode == 115)
 	{
 		rt->chosen->f->chosen = 0;
-
 		rt->chosen = (rt->chosen->next) ? rt->chosen->next : rt->obj;
 		rt->chosen->f->chosen = 1;
-
-		printf("%d", rt->chosen->type_obj);
-		put_image(rt);
+        if (rt->chosen->f->for_light)
+        {
+            rt->chosen->f->chosen = 0;
+            rt->chosen = (rt->chosen->next) ? rt->chosen->next : rt->obj;
+            rt->chosen->f->chosen = 1;
+        }
 	}
-	else if (rt->chosen->type_obj == 0)
-		move_sphere(keycode, rt);
-	else if (rt->chosen->type_obj == 1)
-		move_plane(keycode, rt);
-	else if (rt->chosen->type_obj == 2)
-		move_cylinder(keycode, rt);
+	if (keycode == 51)
+        rt->chosen->f->is_visible = (rt->chosen->f->is_visible) ? 0 : 1;
+    else if (rt->chosen->type_obj == 0)
+    {
+        move_sphere(keycode, rt);
+        change_size(keycode, rt);
+    }
+        else if (rt->chosen->type_obj == 1)
+        move_plane(keycode, rt);
+    else if (rt->chosen->type_obj == 2)
+    {
+        move_cylinder(keycode, rt);
+        change_size(keycode, rt);
+    }
 	else if (rt->chosen->type_obj == 3)
 		move_cone(keycode, rt);
 
-	else if (keycode == 92)
+    put_image(rt);
+	if (keycode == 92)
 	{
 		rt->speed_move += 10;
 	}
@@ -65,5 +75,3 @@ int					buttons(int keycode, t_rt *rt)
 	return (0);
 
 }
-
-

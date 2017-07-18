@@ -30,6 +30,9 @@ CMakeFiles/rtv1.dir/src/events/buttons.c.o: ../src/events/buttons.c
 CMakeFiles/rtv1.dir/src/events/change_pos.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/events/change_pos.c.o: ../src/events/change_pos.c
 
+CMakeFiles/rtv1.dir/src/events/change_size.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/events/change_size.c.o: ../src/events/change_size.c
+
 CMakeFiles/rtv1.dir/src/events/move_cone.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/events/move_cone.c.o: ../src/events/move_cone.c
 

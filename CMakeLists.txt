@@ -67,6 +67,6 @@ set(SOURCE_FILES
         src/light/find_specular.c
         src/events/move_x.c
         src/events/move_y.c
-        src/events/move_z.c)
+        src/events/move_z.c src/events/change_size.c)
 
 add_executable(rtv1 ${SOURCE_FILES})

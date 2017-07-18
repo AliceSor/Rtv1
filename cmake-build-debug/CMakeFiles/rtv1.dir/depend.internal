@@ -30,6 +30,9 @@ CMakeFiles/rtv1.dir/src/events/buttons.c.o
 CMakeFiles/rtv1.dir/src/events/change_pos.c.o
  /nfs/2016/a/asoroka/rtv1/rtv1.h
  /nfs/2016/a/asoroka/rtv1/src/events/change_pos.c
+CMakeFiles/rtv1.dir/src/events/change_size.c.o
+ /nfs/2016/a/asoroka/rtv1/rtv1.h
+ /nfs/2016/a/asoroka/rtv1/src/events/change_size.c
 CMakeFiles/rtv1.dir/src/events/move_cone.c.o
  /nfs/2016/a/asoroka/rtv1/rtv1.h
  /nfs/2016/a/asoroka/rtv1/src/events/move_cone.c

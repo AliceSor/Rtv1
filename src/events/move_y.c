@@ -9,16 +9,14 @@ void 			move_y(int keycode, t_rt *rt)
 	if (keycode == 1)
 	{
 		rt->lights->l->c->y -= 5 * rt->speed_move;
-		rt->lights->f->l_change_pos = 1;
+		rt->l_sphere->s->center->y -= 5 * rt->speed_move;
 		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
 	}
 	else if (keycode == 13)
 	{
 		rt->lights->l->c->y += 5 * rt->speed_move;
-		rt->lights->f->l_change_pos = 1;
+		rt->l_sphere->s->center->y += 5 * rt->speed_move;
 		put_image(rt);
-		rt->lights->f->l_change_pos = 0;
 	}
 	else if (keycode == 16)
 	{

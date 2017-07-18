@@ -393,6 +393,33 @@ src/events/change_pos.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_pos.c.s
 .PHONY : src/events/change_pos.c.s
 
+src/events/change_size.o: src/events/change_size.c.o
+
+.PHONY : src/events/change_size.o
+
+# target to build an object file
+src/events/change_size.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_size.c.o
+.PHONY : src/events/change_size.c.o
+
+src/events/change_size.i: src/events/change_size.c.i
+
+.PHONY : src/events/change_size.i
+
+# target to preprocess a source file
+src/events/change_size.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_size.c.i
+.PHONY : src/events/change_size.c.i
+
+src/events/change_size.s: src/events/change_size.c.s
+
+.PHONY : src/events/change_size.s
+
+# target to generate assembly for a file
+src/events/change_size.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_size.c.s
+.PHONY : src/events/change_size.c.s
+
 src/events/move_cone.o: src/events/move_cone.c.o
 
 .PHONY : src/events/move_cone.o
@@ -1593,6 +1620,9 @@ help:
 	@echo "... src/events/change_pos.o"
 	@echo "... src/events/change_pos.i"
 	@echo "... src/events/change_pos.s"
+	@echo "... src/events/change_size.o"
+	@echo "... src/events/change_size.i"
+	@echo "... src/events/change_size.s"
 	@echo "... src/events/move_cone.o"
 	@echo "... src/events/move_cone.i"
 	@echo "... src/events/move_cone.s"

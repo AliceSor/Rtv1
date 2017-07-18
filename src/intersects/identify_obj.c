@@ -6,13 +6,13 @@
 
 int 				identify_obj(t_v *d, t_v *p0, t_obj *obj, double *t)
 {
-	if (obj->type_obj == 0)
+	if (obj->type_obj == 0 && obj->f->is_visible)
 		return (intersect_sphere(d, p0, obj->s, t));
-	if (obj->type_obj == 1)
+	else if (obj->type_obj == 1 && obj->f->is_visible)
 		return (intersect_plane(d, p0, obj->p, t));
-	if (obj->type_obj == 2)
+	else if (obj->type_obj == 2 && obj->f->is_visible)
 		return (intersect_cylinder(d, p0, obj->cl, t));
-	if (obj->type_obj == 3)
+	else if (obj->type_obj == 3 && obj->f->is_visible)
 		return (intersect_cone(d, p0, obj->cn, t));
 	else
 		return (0);

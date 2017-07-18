@@ -7,45 +7,15 @@
 void 			move_cylinder(int keycode, t_rt *rt)
 {
 	if (keycode == 123)
-	{
 		rt->chosen->cl->c->x -= 100;
-		rt->chosen->f->change_pos = 0;
-		put_image(rt);
-		rt->chosen->f->change_pos = 1;
-	}
-	if (keycode == 124)
-	{
+	else if (keycode == 124)
 		rt->chosen->cl->c->x += 100;
-		rt->chosen->f->change_pos = 0;
-		put_image(rt);
-		rt->chosen->f->change_pos = 1;
-	}
-	if (keycode == 126)
-	{
+	else if (keycode == 126)
 		rt->chosen->cl->c->y -= 100;
-		rt->chosen->f->change_pos = 0;
-		put_image(rt);
-		rt->chosen->f->change_pos = 1;
-	}
-	if (keycode == 125)
-	{
+	else if (keycode == 125)
 		rt->chosen->cl->c->y += 100;
-		rt->chosen->f->change_pos = 0;
-		put_image(rt);
-		rt->chosen->f->change_pos = 1;
-	}
-	if (keycode == 78)
-	{
+	else if (keycode == 78)
 		rt->chosen->cl->c->z += 100;
-		rt->chosen->f->change_pos = 0;
-		put_image(rt);
-		rt->chosen->f->change_pos = 1;
-	}
-	if (keycode == 69)
-	{
+	else if (keycode == 69)
 		rt->chosen->cl->c->z -= 100;
-		rt->chosen->f->change_pos = 0;
-		put_image(rt);
-		rt->chosen->f->change_pos = 1;
-	}
 }
