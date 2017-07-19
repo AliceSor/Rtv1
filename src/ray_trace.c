@@ -1,15 +1,11 @@
-//
-// Created by Alisa Soroka on 6/28/17.
-//
-
 #include "../rtv1.h"
 
 t_obj			*intersect(t_rt *rt, t_v *d, double *t)
 {
 	t_obj		*res;
 	t_obj		*obj;
-	int 		is_intersect;
-	double 		min_t;
+	int			is_intersect;
+	double		min_t;
 
 	obj = rt->obj;
 	res = NULL;
@@ -34,62 +30,65 @@ t_obj			*intersect(t_rt *rt, t_v *d, double *t)
 int				intersect_light(t_rt *rt, t_v *d, t_v *p0, double *t)
 {
 	t_obj		*obj;
-	int 		is_intersect;
-	double 		min_t;
+	int			is_intersect;
+	double		min_t;
 
 	obj = rt->obj;
 	min_t = *t;
 	while (obj)
 	{
-        if (obj->f->for_light == 0)
-        {
-            is_intersect = identify_obj(d, p0, obj, t);
-            if (is_intersect)
-                if (*t < min_t - 1)
-                    return (0);
-        }
+		if (obj->f->for_light == 0)
+		{
+			is_intersect = identify_obj(d, p0, obj, t);
+			if (is_intersect)
+				if (*t < min_t - 1)
+					return (0);
+		}
 		obj = obj->next;
 	}
 	return (1);
 }
 
+static int	find_light(t_rt *rt, t_obj *obj, t_v *d, double *t)
+{
+	double	diffuse;
+	double	specular;
+	int		is_shadow;
+
+	diffuse = 0;
+	specular = 0;
+	find_hit_point(*t, d, EYE, rt->hit_point);
+	find_nrml_light_ray(rt->hit_point, rt->lights->l->c, rt->light_ray);
+	sub(rt->hit_point, rt->lights->l->c, rt->temp_sub);
+	*t = module(rt->temp_sub);
+	is_shadow = intersect_light(rt, rt->light_ray, rt->lights->l->c, t);
+	if (is_shadow)
+	{
+		diffuse = find_diffuse(obj, rt->hit_point, rt->light_ray);
+		specular = find_specular(obj, rt->hit_point, d, rt->light_ray);
+	}
+	return (calc_color(obj, diffuse, is_shadow, specular));
+}
+
 void 		ray_trace(t_rt *rt)
 {
-	t_v     *d;
-	int     color;
+	t_v		*d;
+	int		color;
 	int		i;
 	t_obj	*obj;
-	t_v		*light_ray;
-	t_v		*hit_point;
-	double 	t;
-	double	diffuse;
-	double 	specular;
-	int 	is_shadow;
-	t_v		temp_sub;
+	double	t;
 
 	i = 0;
 	d = rt->screen->directions;
-	/* move this code in rt-structure */
-	hit_point = (t_v *)malloc(sizeof(t_v) + 1);
-	light_ray = (t_v *)malloc(sizeof(t_v) + 1);
 	while (i  < WIDTH * HEIGHT - 10)
 	{
 		obj = intersect(rt, &(d[i]), &t);
 		if (obj)
 		{
-			diffuse = 0;
-			specular = 0;
-			find_hit_point(t, &(d[i]), EYE, hit_point);
-			find_nrml_light_ray(hit_point, rt->lights->l->c, light_ray);
-			sub(hit_point, rt->lights->l->c, &temp_sub);
-			t = module(&temp_sub);
-			is_shadow = intersect_light(rt, light_ray, rt->lights->l->c, &t);
-			if (is_shadow)
-			{
-				diffuse = find_diffuse(obj, hit_point, light_ray);
-				specular = find_specular(obj, hit_point, &(d[i]), light_ray);
-			}
-			color = calc_color(obj, diffuse, is_shadow, specular);
+			if (rt->is_light)
+				color  = find_light(rt, obj, &(d[i]), &t);
+			else
+				color = integrate_color(CR, CG, CB);
 		}
 		else
 			color = 0;

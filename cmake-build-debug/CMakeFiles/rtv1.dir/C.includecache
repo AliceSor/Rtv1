@@ -20,8 +20,6 @@ unistd.h
 stdio.h
 -
 
-/nfs/2016/a/asoroka/rtv1/src/b_zero.c
-
 /nfs/2016/a/asoroka/rtv1/src/color/calc_color.c
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
@@ -46,19 +44,15 @@ stdio.h
 ../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/rtv1/src/emit_rays.c
-../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
 /nfs/2016/a/asoroka/rtv1/src/events/buttons.c
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/rtv1/src/events/change_pos.c
+/nfs/2016/a/asoroka/rtv1/src/events/change_size.c
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/rtv1/src/events/change_size.c
+/nfs/2016/a/asoroka/rtv1/src/events/change_speed.c
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
@@ -110,31 +104,13 @@ stdio.h
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/rtv1/src/intersects/intersect.c
-../../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
-/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_cone.c
-../../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
-/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_cylinder.c
-../../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
-/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_plane.c
-../../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
-/nfs/2016/a/asoroka/rtv1/src/intersects/intersect_ray_sphere.c
-../../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
 /nfs/2016/a/asoroka/rtv1/src/intersects/intersects_objects.c
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
 /nfs/2016/a/asoroka/rtv1/src/intersects/some_calculating.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
 
 /nfs/2016/a/asoroka/rtv1/src/light/find_diffuse.c
 ../../rtv1.h
@@ -176,14 +152,6 @@ stdio.h
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/rtv1/src/objects/for_each_obj.c
-../../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
-/nfs/2016/a/asoroka/rtv1/src/pull_color.c
-../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
 /nfs/2016/a/asoroka/rtv1/src/put_pixel.c
 ../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
@@ -193,10 +161,6 @@ stdio.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
 /nfs/2016/a/asoroka/rtv1/src/v_oper/add.c
-../../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
-/nfs/2016/a/asoroka/rtv1/src/v_oper/compare.c
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 

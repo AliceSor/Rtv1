@@ -1,12 +1,20 @@
-//
-// Created by Alisa Soroka on 6/29/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   find_hit_point.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/19 17:15:53 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/19 17:15:59 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../../rtv1.h"
 
 void			find_hit_point(double t, t_v *d, t_v *p0, t_v *res)
 {
-	t_v 		tmp_mult;
+	t_v			tmp_mult;
 
 	mult(d, t, &tmp_mult);
 	add(&tmp_mult, p0, res);

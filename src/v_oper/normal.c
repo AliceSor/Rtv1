@@ -1,21 +1,21 @@
-//
-// Created by Alisa Soroka on 5/21/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   normal.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/19 14:52:47 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/19 14:53:42 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../../rtv1.h"
 
 void				normal(t_v *v1, t_v *res)
 {
-//    t_v			temp;
-    if (res && v1)
-    {
-//        write(1, "22\n", 3);
-//		temp.x = v1->x;
-//		temp.y = v1->y;
-//		temp.z = v1->z;
-//        division(&temp, module(&temp), res);
+	if (res && v1)
+	{
 		division(v1, module(v1), res);
-//        printf("(%f, %f, %f) + (%f, %f, %f) = (%f, %f, %f)\n", v1->x, v1->y, v1->z, v2->x, v2->y, v2->z, res->x, res->y, res->z);
-    }
-    /* return (NULL); */
+	}
 }

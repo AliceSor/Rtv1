@@ -1,19 +1,25 @@
-//
-// Created by Alisa Soroka on 5/31/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   create_plane.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/19 14:39:14 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/19 14:39:18 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../../rtv1.h"
 
-t_plane			*create_plane(t_v *c, t_v *n, int color, double dist)
+t_plane			*create_plane(t_v *n, double dist)
 {
 	t_plane		*s;
 
 	s = (t_plane *)malloc(sizeof(t_sphere) + 1);
 	if (s)
 	{
-		s->c = c;
 		s->n = n;
-		s->color = color;
 		s->dist = dist;
 		return (s);
 	}

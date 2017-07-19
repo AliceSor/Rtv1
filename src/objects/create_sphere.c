@@ -1,10 +1,18 @@
-//
-// Created by Alisa Soroka on 5/31/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   create_sphere.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/19 14:38:55 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/19 14:38:57 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../../rtv1.h"
 
-t_sphere			*create_sphere(t_v *c, double r, int color)
+t_sphere			*create_sphere(t_v *c, double r)
 {
 	t_sphere		*s;
 
@@ -13,9 +21,7 @@ t_sphere			*create_sphere(t_v *c, double r, int color)
 	{
 		s->center = c;
 		s->radius = r;
-		s->color = color;
 		return (s);
 	}
-	return (NULL);
 	exit(1);
 }

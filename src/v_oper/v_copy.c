@@ -1,12 +1,20 @@
-//
-// Created by Alisa Soroka on 5/21/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   v_copy.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/19 14:52:14 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/19 14:52:18 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../../rtv1.h"
 
-void            v_copy(t_v *dest, t_v *src)
+void		v_copy(t_v *dest, t_v *src)
 {
-    src->x = dest->x;
-    src->y = dest->y;
-    src->z = dest->z;
+	src->x = dest->x;
+	src->y = dest->y;
+	src->z = dest->z;
 }

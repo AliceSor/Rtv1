@@ -1,10 +1,6 @@
-//
-// Created by Alisa Soroka on 7/11/17.
-//
-
 #include "../../rtv1.h"
 
-void 			move_z(int keycode, t_rt *rt)
+void			move_z(int keycode, t_rt *rt)
 {
 	if (keycode == 116)
 	{

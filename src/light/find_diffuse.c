@@ -1,12 +1,23 @@
-//
-// Created by Alisa Soroka on 6/29/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   find_diffuse.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/19 16:17:18 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/19 16:17:20 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../../rtv1.h"
 
 static void		normal_cylinder(t_obj *obj, t_v *hit_p, t_v *res)
 {
-	t_v a,b,temp;
+	t_v			a;
+	t_v			b;
+	t_v			temp;
+
 	sub(hit_p, obj->cl->c, &b);
 	mult(obj->cl->n, scalar_mult(&b, obj->cl->n), &a);
 	sub(&a, &b, &temp);
@@ -15,7 +26,7 @@ static void		normal_cylinder(t_obj *obj, t_v *hit_p, t_v *res)
 
 static void		normal_cone(t_obj *obj, t_v *hit_p, t_v *res)
 {
-	double 		m;
+	double		m;
 	t_v			c_h;
 	t_v			temp_mult;
 	t_v			temp_sub;
@@ -44,16 +55,15 @@ void			find_normal(t_obj *obj, t_v *hit_p, t_v *res)
 		normal_cone(obj, hit_p, res);
 }
 
- double 		find_diffuse(t_obj *obj, t_v *hit_p, t_v *light_ray)
+double			find_diffuse(t_obj *obj, t_v *hit_p, t_v *light_ray)
 {
 	t_v			*nrml;
-	t_v			temp;
-	double 		diffuse;
+	double		diffuse;
 
 	nrml = (t_v *)malloc(sizeof(t_v) + 1);
-    find_normal(obj, hit_p, nrml);
-    diffuse = scalar_mult(nrml, light_ray);
-    if (diffuse < 0.0f)
-        diffuse = 0.0f;
+	find_normal(obj, hit_p, nrml);
+	diffuse = scalar_mult(nrml, light_ray);
+	if (diffuse < 0.0f)
+		diffuse = 0.0f;
 	return (diffuse);
 }

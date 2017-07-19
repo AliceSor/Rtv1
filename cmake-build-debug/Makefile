@@ -123,33 +123,6 @@ rtv1/fast:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/build
 .PHONY : rtv1/fast
 
-src/b_zero.o: src/b_zero.c.o
-
-.PHONY : src/b_zero.o
-
-# target to build an object file
-src/b_zero.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/b_zero.c.o
-.PHONY : src/b_zero.c.o
-
-src/b_zero.i: src/b_zero.c.i
-
-.PHONY : src/b_zero.i
-
-# target to preprocess a source file
-src/b_zero.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/b_zero.c.i
-.PHONY : src/b_zero.c.i
-
-src/b_zero.s: src/b_zero.c.s
-
-.PHONY : src/b_zero.s
-
-# target to generate assembly for a file
-src/b_zero.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/b_zero.c.s
-.PHONY : src/b_zero.c.s
-
 src/color/calc_color.o: src/color/calc_color.c.o
 
 .PHONY : src/color/calc_color.o
@@ -312,33 +285,6 @@ src/discriminant.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/discriminant.c.s
 .PHONY : src/discriminant.c.s
 
-src/emit_rays.o: src/emit_rays.c.o
-
-.PHONY : src/emit_rays.o
-
-# target to build an object file
-src/emit_rays.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/emit_rays.c.o
-.PHONY : src/emit_rays.c.o
-
-src/emit_rays.i: src/emit_rays.c.i
-
-.PHONY : src/emit_rays.i
-
-# target to preprocess a source file
-src/emit_rays.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/emit_rays.c.i
-.PHONY : src/emit_rays.c.i
-
-src/emit_rays.s: src/emit_rays.c.s
-
-.PHONY : src/emit_rays.s
-
-# target to generate assembly for a file
-src/emit_rays.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/emit_rays.c.s
-.PHONY : src/emit_rays.c.s
-
 src/events/buttons.o: src/events/buttons.c.o
 
 .PHONY : src/events/buttons.o
@@ -366,33 +312,6 @@ src/events/buttons.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/buttons.c.s
 .PHONY : src/events/buttons.c.s
 
-src/events/change_pos.o: src/events/change_pos.c.o
-
-.PHONY : src/events/change_pos.o
-
-# target to build an object file
-src/events/change_pos.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_pos.c.o
-.PHONY : src/events/change_pos.c.o
-
-src/events/change_pos.i: src/events/change_pos.c.i
-
-.PHONY : src/events/change_pos.i
-
-# target to preprocess a source file
-src/events/change_pos.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_pos.c.i
-.PHONY : src/events/change_pos.c.i
-
-src/events/change_pos.s: src/events/change_pos.c.s
-
-.PHONY : src/events/change_pos.s
-
-# target to generate assembly for a file
-src/events/change_pos.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_pos.c.s
-.PHONY : src/events/change_pos.c.s
-
 src/events/change_size.o: src/events/change_size.c.o
 
 .PHONY : src/events/change_size.o
@@ -419,6 +338,33 @@ src/events/change_size.s: src/events/change_size.c.s
 src/events/change_size.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_size.c.s
 .PHONY : src/events/change_size.c.s
+
+src/events/change_speed.o: src/events/change_speed.c.o
+
+.PHONY : src/events/change_speed.o
+
+# target to build an object file
+src/events/change_speed.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_speed.c.o
+.PHONY : src/events/change_speed.c.o
+
+src/events/change_speed.i: src/events/change_speed.c.i
+
+.PHONY : src/events/change_speed.i
+
+# target to preprocess a source file
+src/events/change_speed.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_speed.c.i
+.PHONY : src/events/change_speed.c.i
+
+src/events/change_speed.s: src/events/change_speed.c.s
+
+.PHONY : src/events/change_speed.s
+
+# target to generate assembly for a file
+src/events/change_speed.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/change_speed.c.s
+.PHONY : src/events/change_speed.c.s
 
 src/events/move_cone.o: src/events/move_cone.c.o
 
@@ -744,141 +690,6 @@ src/intersects/identify_obj.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/identify_obj.c.s
 .PHONY : src/intersects/identify_obj.c.s
 
-src/intersects/intersect.o: src/intersects/intersect.c.o
-
-.PHONY : src/intersects/intersect.o
-
-# target to build an object file
-src/intersects/intersect.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect.c.o
-.PHONY : src/intersects/intersect.c.o
-
-src/intersects/intersect.i: src/intersects/intersect.c.i
-
-.PHONY : src/intersects/intersect.i
-
-# target to preprocess a source file
-src/intersects/intersect.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect.c.i
-.PHONY : src/intersects/intersect.c.i
-
-src/intersects/intersect.s: src/intersects/intersect.c.s
-
-.PHONY : src/intersects/intersect.s
-
-# target to generate assembly for a file
-src/intersects/intersect.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect.c.s
-.PHONY : src/intersects/intersect.c.s
-
-src/intersects/intersect_cone.o: src/intersects/intersect_cone.c.o
-
-.PHONY : src/intersects/intersect_cone.o
-
-# target to build an object file
-src/intersects/intersect_cone.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.o
-.PHONY : src/intersects/intersect_cone.c.o
-
-src/intersects/intersect_cone.i: src/intersects/intersect_cone.c.i
-
-.PHONY : src/intersects/intersect_cone.i
-
-# target to preprocess a source file
-src/intersects/intersect_cone.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.i
-.PHONY : src/intersects/intersect_cone.c.i
-
-src/intersects/intersect_cone.s: src/intersects/intersect_cone.c.s
-
-.PHONY : src/intersects/intersect_cone.s
-
-# target to generate assembly for a file
-src/intersects/intersect_cone.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_cone.c.s
-.PHONY : src/intersects/intersect_cone.c.s
-
-src/intersects/intersect_ray_cylinder.o: src/intersects/intersect_ray_cylinder.c.o
-
-.PHONY : src/intersects/intersect_ray_cylinder.o
-
-# target to build an object file
-src/intersects/intersect_ray_cylinder.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.o
-.PHONY : src/intersects/intersect_ray_cylinder.c.o
-
-src/intersects/intersect_ray_cylinder.i: src/intersects/intersect_ray_cylinder.c.i
-
-.PHONY : src/intersects/intersect_ray_cylinder.i
-
-# target to preprocess a source file
-src/intersects/intersect_ray_cylinder.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.i
-.PHONY : src/intersects/intersect_ray_cylinder.c.i
-
-src/intersects/intersect_ray_cylinder.s: src/intersects/intersect_ray_cylinder.c.s
-
-.PHONY : src/intersects/intersect_ray_cylinder.s
-
-# target to generate assembly for a file
-src/intersects/intersect_ray_cylinder.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_cylinder.c.s
-.PHONY : src/intersects/intersect_ray_cylinder.c.s
-
-src/intersects/intersect_ray_plane.o: src/intersects/intersect_ray_plane.c.o
-
-.PHONY : src/intersects/intersect_ray_plane.o
-
-# target to build an object file
-src/intersects/intersect_ray_plane.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.o
-.PHONY : src/intersects/intersect_ray_plane.c.o
-
-src/intersects/intersect_ray_plane.i: src/intersects/intersect_ray_plane.c.i
-
-.PHONY : src/intersects/intersect_ray_plane.i
-
-# target to preprocess a source file
-src/intersects/intersect_ray_plane.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.i
-.PHONY : src/intersects/intersect_ray_plane.c.i
-
-src/intersects/intersect_ray_plane.s: src/intersects/intersect_ray_plane.c.s
-
-.PHONY : src/intersects/intersect_ray_plane.s
-
-# target to generate assembly for a file
-src/intersects/intersect_ray_plane.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_plane.c.s
-.PHONY : src/intersects/intersect_ray_plane.c.s
-
-src/intersects/intersect_ray_sphere.o: src/intersects/intersect_ray_sphere.c.o
-
-.PHONY : src/intersects/intersect_ray_sphere.o
-
-# target to build an object file
-src/intersects/intersect_ray_sphere.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.o
-.PHONY : src/intersects/intersect_ray_sphere.c.o
-
-src/intersects/intersect_ray_sphere.i: src/intersects/intersect_ray_sphere.c.i
-
-.PHONY : src/intersects/intersect_ray_sphere.i
-
-# target to preprocess a source file
-src/intersects/intersect_ray_sphere.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.i
-.PHONY : src/intersects/intersect_ray_sphere.c.i
-
-src/intersects/intersect_ray_sphere.s: src/intersects/intersect_ray_sphere.c.s
-
-.PHONY : src/intersects/intersect_ray_sphere.s
-
-# target to generate assembly for a file
-src/intersects/intersect_ray_sphere.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/intersects/intersect_ray_sphere.c.s
-.PHONY : src/intersects/intersect_ray_sphere.c.s
-
 src/intersects/intersects_objects.o: src/intersects/intersects_objects.c.o
 
 .PHONY : src/intersects/intersects_objects.o
@@ -1203,60 +1014,6 @@ src/objects/fill_objects.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/objects/fill_objects.c.s
 .PHONY : src/objects/fill_objects.c.s
 
-src/objects/for_each_obj.o: src/objects/for_each_obj.c.o
-
-.PHONY : src/objects/for_each_obj.o
-
-# target to build an object file
-src/objects/for_each_obj.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.o
-.PHONY : src/objects/for_each_obj.c.o
-
-src/objects/for_each_obj.i: src/objects/for_each_obj.c.i
-
-.PHONY : src/objects/for_each_obj.i
-
-# target to preprocess a source file
-src/objects/for_each_obj.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.i
-.PHONY : src/objects/for_each_obj.c.i
-
-src/objects/for_each_obj.s: src/objects/for_each_obj.c.s
-
-.PHONY : src/objects/for_each_obj.s
-
-# target to generate assembly for a file
-src/objects/for_each_obj.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/objects/for_each_obj.c.s
-.PHONY : src/objects/for_each_obj.c.s
-
-src/pull_color.o: src/pull_color.c.o
-
-.PHONY : src/pull_color.o
-
-# target to build an object file
-src/pull_color.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/pull_color.c.o
-.PHONY : src/pull_color.c.o
-
-src/pull_color.i: src/pull_color.c.i
-
-.PHONY : src/pull_color.i
-
-# target to preprocess a source file
-src/pull_color.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/pull_color.c.i
-.PHONY : src/pull_color.c.i
-
-src/pull_color.s: src/pull_color.c.s
-
-.PHONY : src/pull_color.s
-
-# target to generate assembly for a file
-src/pull_color.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/pull_color.c.s
-.PHONY : src/pull_color.c.s
-
 src/put_pixel.o: src/put_pixel.c.o
 
 .PHONY : src/put_pixel.o
@@ -1337,33 +1094,6 @@ src/v_oper/add.s: src/v_oper/add.c.s
 src/v_oper/add.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/v_oper/add.c.s
 .PHONY : src/v_oper/add.c.s
-
-src/v_oper/compare.o: src/v_oper/compare.c.o
-
-.PHONY : src/v_oper/compare.o
-
-# target to build an object file
-src/v_oper/compare.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/v_oper/compare.c.o
-.PHONY : src/v_oper/compare.c.o
-
-src/v_oper/compare.i: src/v_oper/compare.c.i
-
-.PHONY : src/v_oper/compare.i
-
-# target to preprocess a source file
-src/v_oper/compare.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/v_oper/compare.c.i
-.PHONY : src/v_oper/compare.c.i
-
-src/v_oper/compare.s: src/v_oper/compare.c.s
-
-.PHONY : src/v_oper/compare.s
-
-# target to generate assembly for a file
-src/v_oper/compare.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/v_oper/compare.c.s
-.PHONY : src/v_oper/compare.c.s
 
 src/v_oper/div.o: src/v_oper/div.c.o
 
@@ -1590,9 +1320,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... rtv1"
-	@echo "... src/b_zero.o"
-	@echo "... src/b_zero.i"
-	@echo "... src/b_zero.s"
 	@echo "... src/color/calc_color.o"
 	@echo "... src/color/calc_color.i"
 	@echo "... src/color/calc_color.s"
@@ -1611,18 +1338,15 @@ help:
 	@echo "... src/discriminant.o"
 	@echo "... src/discriminant.i"
 	@echo "... src/discriminant.s"
-	@echo "... src/emit_rays.o"
-	@echo "... src/emit_rays.i"
-	@echo "... src/emit_rays.s"
 	@echo "... src/events/buttons.o"
 	@echo "... src/events/buttons.i"
 	@echo "... src/events/buttons.s"
-	@echo "... src/events/change_pos.o"
-	@echo "... src/events/change_pos.i"
-	@echo "... src/events/change_pos.s"
 	@echo "... src/events/change_size.o"
 	@echo "... src/events/change_size.i"
 	@echo "... src/events/change_size.s"
+	@echo "... src/events/change_speed.o"
+	@echo "... src/events/change_speed.i"
+	@echo "... src/events/change_speed.s"
 	@echo "... src/events/move_cone.o"
 	@echo "... src/events/move_cone.i"
 	@echo "... src/events/move_cone.s"
@@ -1659,21 +1383,6 @@ help:
 	@echo "... src/intersects/identify_obj.o"
 	@echo "... src/intersects/identify_obj.i"
 	@echo "... src/intersects/identify_obj.s"
-	@echo "... src/intersects/intersect.o"
-	@echo "... src/intersects/intersect.i"
-	@echo "... src/intersects/intersect.s"
-	@echo "... src/intersects/intersect_cone.o"
-	@echo "... src/intersects/intersect_cone.i"
-	@echo "... src/intersects/intersect_cone.s"
-	@echo "... src/intersects/intersect_ray_cylinder.o"
-	@echo "... src/intersects/intersect_ray_cylinder.i"
-	@echo "... src/intersects/intersect_ray_cylinder.s"
-	@echo "... src/intersects/intersect_ray_plane.o"
-	@echo "... src/intersects/intersect_ray_plane.i"
-	@echo "... src/intersects/intersect_ray_plane.s"
-	@echo "... src/intersects/intersect_ray_sphere.o"
-	@echo "... src/intersects/intersect_ray_sphere.i"
-	@echo "... src/intersects/intersect_ray_sphere.s"
 	@echo "... src/intersects/intersects_objects.o"
 	@echo "... src/intersects/intersects_objects.i"
 	@echo "... src/intersects/intersects_objects.s"
@@ -1710,12 +1419,6 @@ help:
 	@echo "... src/objects/fill_objects.o"
 	@echo "... src/objects/fill_objects.i"
 	@echo "... src/objects/fill_objects.s"
-	@echo "... src/objects/for_each_obj.o"
-	@echo "... src/objects/for_each_obj.i"
-	@echo "... src/objects/for_each_obj.s"
-	@echo "... src/pull_color.o"
-	@echo "... src/pull_color.i"
-	@echo "... src/pull_color.s"
 	@echo "... src/put_pixel.o"
 	@echo "... src/put_pixel.i"
 	@echo "... src/put_pixel.s"
@@ -1725,9 +1428,6 @@ help:
 	@echo "... src/v_oper/add.o"
 	@echo "... src/v_oper/add.i"
 	@echo "... src/v_oper/add.s"
-	@echo "... src/v_oper/compare.o"
-	@echo "... src/v_oper/compare.i"
-	@echo "... src/v_oper/compare.s"
 	@echo "... src/v_oper/div.o"
 	@echo "... src/v_oper/div.i"
 	@echo "... src/v_oper/div.s"

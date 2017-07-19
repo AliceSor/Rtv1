@@ -1,18 +1,14 @@
-//
-// Created by Alisa Soroka on 7/3/17.
-//
-
 #include "../../rtv1.h"
 
-int 				calc_color(t_obj *obj, double diffuse, int is_shadow, double specular)
+int				calc_color(t_obj *obj, double diffuse, int is_shadow, double specular)
 {
-	double 		r;
-	double	 	g;
-	double 		b;
-	int 			res;
-	double 		coef;
+	double		r;
+	double		g;
+	double		b;
+	int			res;
+	double		coef;
+	double		s;
 
-	double s;
 	s = specular + pow(specular, 400);
 	if (obj->f->chosen == 1)
 	{

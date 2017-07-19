@@ -14,9 +14,6 @@
 
 void			put_pixel(int i, int color, t_mlx *mlx)
 {
-//	int			i;
-//
-//	i = mlx->ls * y / 4 + x;
-	if (i < WIDTH * HEIGHT && i > 0)
+	if (mlx && i < WIDTH * HEIGHT && i > 0)
 		mlx->imdata[i] = color;
 }

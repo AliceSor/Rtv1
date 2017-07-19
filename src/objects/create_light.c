@@ -1,10 +1,18 @@
-//
-// Created by Alisa Soroka on 6/12/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   create_light.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/19 14:40:33 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/19 14:40:35 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../../rtv1.h"
 
-t_light			*create_light(t_v *c, double brightness)
+t_light			*create_light(t_v *c)
 {
 	t_light		*s;
 
@@ -12,7 +20,6 @@ t_light			*create_light(t_v *c, double brightness)
 	if (s)
 	{
 		s->c = c;
-		s->brightness = brightness;
 		return (s);
 	}
 	exit(1);

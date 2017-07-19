@@ -16,7 +16,7 @@ t_mlx			*create_win(void)
 {
 	t_mlx		*nw;
 
-	nw = (t_mlx *)malloc(sizeof(t_mlx));
+	nw = (t_mlx *)malloc(sizeof(t_mlx) + 100);
 	if (nw)
 	{
 		nw->mlx = mlx_init();

@@ -1,10 +1,6 @@
-//
-// Created by Alisa Soroka on 7/11/17.
-//
-
 #include "../../rtv1.h"
 
-void 			move_x(int keycode, t_rt *rt)
+void			move_x(int keycode, t_rt *rt)
 {
 	if (keycode == 0)
 	{
@@ -18,7 +14,7 @@ void 			move_x(int keycode, t_rt *rt)
 		rt->l_sphere->s->center->x += 5 * rt->speed_move;
 		put_image(rt);
 	}
-	else if (keycode == 7)// && A < 14)
+	else if (keycode == 7)
 	{
 		A  += 2 * rt->speed_rotate;
 		rt->costul = 1;
@@ -26,7 +22,7 @@ void 			move_x(int keycode, t_rt *rt)
 		fill_directions(rt->screen->r_points, rt->screen->directions, rt->screen, rt);
 		put_image(rt);
 	}
-	else if (keycode == 8)// && A < 14)
+	else if (keycode == 8)
 	{
 		A  -= 2 * rt->speed_rotate;
 		rt->costul = 1;

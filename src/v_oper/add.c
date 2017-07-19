@@ -19,7 +19,5 @@ void			add(t_v *v1, t_v *v2, t_v *res)
 		res->x = v1->x + v2->x;
 		res->y = v1->y + v2->y;
 		res->z = v1->z + v2->z;
-//		printf("(%f, %f, %f) + (%f, %f, %f) = (%f, %f, %f)\n", v1->x, v1->y, v1->z, v2->x, v2->y, v2->z, res->x, res->y, res->z);
 	}
-	/* return (NULL); */
 }

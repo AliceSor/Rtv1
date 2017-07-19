@@ -1,14 +1,10 @@
-//
-// Created by Alisa Soroka on 7/18/17.
-//
-
 #include "../../rtv1.h"
 
-void 		change_size(int keycode, t_rt *rt)
+void		change_size(int keycode, t_rt *rt)
 {
-    if (keycode == 24)
-        (rt->chosen->type_obj == 0) ? (rt->chosen->s->radius += 10.0) : (rt->chosen->cl->r += 10.0);
-    if (keycode == 27)
-        (rt->chosen->type_obj == 0) ? (rt->chosen->s->radius -= 10.0) : (rt->chosen->cl->r -= 10.0);
-    write(1, ".", 1);
+	if (keycode == 24)
+		(rt->chosen->type_obj == 0) ? (rt->chosen->s->radius += 10.0) : (rt->chosen->cl->r += 10.0);
+	if (keycode == 27)
+		(rt->chosen->type_obj == 0) ? (rt->chosen->s->radius -= 10.0) : (rt->chosen->cl->r -= 10.0);
+	write(1, ".", 1);
 }

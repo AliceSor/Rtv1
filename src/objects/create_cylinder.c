@@ -1,10 +1,18 @@
-//
-// Created by Alisa Soroka on 5/31/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   create_cylinder.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/19 14:39:27 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/19 14:39:30 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../../rtv1.h"
 
-t_cylinder		*create_cylinder(t_v *c, t_v *n, int color)
+t_cylinder		*create_cylinder(t_v *c, t_v *n)
 {
 	t_cylinder	*s;
 
@@ -13,7 +21,6 @@ t_cylinder		*create_cylinder(t_v *c, t_v *n, int color)
 	{
 		s->c = c;
 		s->n = n;
-		s->color = color;
 		s->r = 100;
 		return (s);
 	}

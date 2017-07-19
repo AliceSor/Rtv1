@@ -1,12 +1,9 @@
-//
-// Created by Alisa Soroka on 6/12/17.
-//
-
 #include "../../rtv1.h"
 
 t_color			*create_color(double r, double g, double b)
 {
 	t_color		*n_c;
+
 	n_c = (t_color *)malloc(sizeof(t_color) + 1);
 	if (n_c)
 	{
