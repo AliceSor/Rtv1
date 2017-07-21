@@ -17,8 +17,6 @@ pthread.h
 -
 unistd.h
 -
-stdio.h
--
 
 /nfs/2016/a/asoroka/rtv1/src/color/calc_color.c
 ../../rtv1.h
@@ -84,12 +82,8 @@ stdio.h
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
-/nfs/2016/a/asoroka/rtv1/src/for_each_point.c
-../rtv1.h
-/nfs/2016/a/asoroka/rtv1/rtv1.h
-
-/nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c
-../rtv1.h
+/nfs/2016/a/asoroka/rtv1/src/events/simple_move.c
+../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
 /nfs/2016/a/asoroka/rtv1/src/intersects/find_hit_point.c
@@ -149,6 +143,22 @@ stdio.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 
 /nfs/2016/a/asoroka/rtv1/src/objects/fill_objects.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/rtv1/src/points/for_each_point.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/rtv1/src/points/init_pos_screen.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/rtv1/src/points/move_back.c
+../../rtv1.h
+/nfs/2016/a/asoroka/rtv1/rtv1.h
+
+/nfs/2016/a/asoroka/rtv1/src/points/move_forward.c
 ../../rtv1.h
 /nfs/2016/a/asoroka/rtv1/rtv1.h
 

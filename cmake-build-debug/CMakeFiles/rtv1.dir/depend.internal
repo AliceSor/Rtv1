@@ -49,12 +49,9 @@ CMakeFiles/rtv1.dir/src/events/move_y.c.o
 CMakeFiles/rtv1.dir/src/events/move_z.c.o
  /nfs/2016/a/asoroka/rtv1/rtv1.h
  /nfs/2016/a/asoroka/rtv1/src/events/move_z.c
-CMakeFiles/rtv1.dir/src/for_each_point.c.o
+CMakeFiles/rtv1.dir/src/events/simple_move.c.o
  /nfs/2016/a/asoroka/rtv1/rtv1.h
- /nfs/2016/a/asoroka/rtv1/src/for_each_point.c
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.o
- /nfs/2016/a/asoroka/rtv1/rtv1.h
- /nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c
+ /nfs/2016/a/asoroka/rtv1/src/events/simple_move.c
 CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o
  /nfs/2016/a/asoroka/rtv1/rtv1.h
  /nfs/2016/a/asoroka/rtv1/src/intersects/find_hit_point.c
@@ -100,6 +97,18 @@ CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o
 CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o
  /nfs/2016/a/asoroka/rtv1/rtv1.h
  /nfs/2016/a/asoroka/rtv1/src/objects/fill_objects.c
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.o
+ /nfs/2016/a/asoroka/rtv1/rtv1.h
+ /nfs/2016/a/asoroka/rtv1/src/points/for_each_point.c
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o
+ /nfs/2016/a/asoroka/rtv1/rtv1.h
+ /nfs/2016/a/asoroka/rtv1/src/points/init_pos_screen.c
+CMakeFiles/rtv1.dir/src/points/move_back.c.o
+ /nfs/2016/a/asoroka/rtv1/rtv1.h
+ /nfs/2016/a/asoroka/rtv1/src/points/move_back.c
+CMakeFiles/rtv1.dir/src/points/move_forward.c.o
+ /nfs/2016/a/asoroka/rtv1/rtv1.h
+ /nfs/2016/a/asoroka/rtv1/src/points/move_forward.c
 CMakeFiles/rtv1.dir/src/put_pixel.c.o
  /nfs/2016/a/asoroka/rtv1/rtv1.h
  /nfs/2016/a/asoroka/rtv1/src/put_pixel.c

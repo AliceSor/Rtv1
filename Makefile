@@ -21,7 +21,7 @@ HEADER = rtv1.h
 SRC = src/main.c						\
 	src/create_image.c					\
 	src/create_win.c					\
-	src/init_pos_screen.c				\
+	src/points/init_pos_screen.c		\
 	src/put_pixel.c						\
 	src/v_oper/add.c					\
 	src/v_oper/sub.c					\
@@ -33,12 +33,12 @@ SRC = src/main.c						\
 	src/v_oper/v_copy.c					\
 	src/v_oper/new_vector.c				\
 	src/events/buttons.c				\
-	src/discriminant.c	                \
-	src/objects/create_obj.c	        \
-	src/objects/create_sphere.c		     \
-	src/objects/create_plane.c		\
+	src/discriminant.c					\
+	src/objects/create_obj.c			\
+	src/objects/create_sphere.c			\
+	src/objects/create_plane.c			\
 	src/objects/create_cylinder.c		\
-	src/objects/fill_objects.c		\
+	src/objects/fill_objects.c			\
 	src/objects/create_cone.c			\
 	src/events/move_plane.c				\
 	src/events/move_sphere.c			\
@@ -47,7 +47,7 @@ SRC = src/main.c						\
 	src/objects/create_light.c			\
 	src/color/integrate_color.c			\
 	src/color/create_color.c			\
-	src/for_each_point.c				\
+	src/points/for_each_point.c			\
 	src/ray_trace.c						\
 	src/intersects/intersects_objects.c	\
 	src/intersects/some_calculating.c	\
@@ -61,7 +61,10 @@ SRC = src/main.c						\
 	src/events/move_y.c					\
 	src/events/move_z.c					\
 	src/events/change_size.c			\
-	src/events/change_speed.c           \
+	src/events/change_speed.c			\
+	src/points/move_forward.c			\
+	src/points/move_back.c				\
+	src/events/simple_move.c			\
 
 BINS = $(SRC:.c=.o)
 
@@ -80,4 +83,3 @@ fclean: clean
 	/bin/rm -f $(NAME)
 
 re: fclean all
-

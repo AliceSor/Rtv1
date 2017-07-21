@@ -1,11 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   calc_color.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/21 18:49:22 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/21 18:49:24 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../rtv1.h"
 
-int				calc_color(t_obj *obj, double diffuse, int is_shadow, double specular)
+int				calc_color(t_obj *obj, double diffuse,
+						int is_shadow, double specular)
 {
 	double		r;
 	double		g;
 	double		b;
-	int			res;
 	double		coef;
 	double		s;
 
@@ -24,6 +36,6 @@ int				calc_color(t_obj *obj, double diffuse, int is_shadow, double specular)
 		g = obj->color->g * coef;
 		b = obj->color->b * coef;
 	}
-	res = (obj->f->for_light) ? integrate_color(100, 100, 100) : integrate_color(r, g, b);
-	return (res);
+	return ((obj->f->for_light) ?
+			integrate_color(100, 100, 100) : integrate_color(r, g, b));
 }

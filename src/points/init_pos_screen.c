@@ -10,13 +10,32 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../rtv1.h"
+#include "../../rtv1.h"
+
+static void			fill_fields(t_screen *s)
+{
+	if (s)
+	{
+		s->alpha = 0;
+		s->beta = 0;
+		s->gamma = 0;
+		s->eye->x = 0.1;
+		s->eye->y = 0.1;
+		s->eye->z = -1000.1;
+		s->r_eye->x = 0;
+		s->r_eye->y = 0;
+		s->r_eye->z = -1000;
+		s->center->x = 0.0f;
+		s->center->y = 0.0f;
+		s->center->z = 0.0f;
+	}
+}
 
 static void			fill_points(t_v *points)
 {
 	double			x;
 	double			y;
-	int 			i;
+	int				i;
 	t_v				*p;
 
 	p = points;
@@ -37,18 +56,19 @@ static void			fill_points(t_v *points)
 	}
 }
 
-void				fill_directions(t_v *p, t_v *directions, t_screen *screen, t_rt *rt)
+void				fill_directions(t_v *p, t_v *directions
+		, t_screen *screen, t_rt *rt)
 {
-	int 			i_max;
-	int 			i;
+	int				i_max;
+	int				i;
 	t_v				*d;
 	t_v				temp;
 	t_v				temp_sub;
-//	t_v				p1;
 
 	i_max = HEIGHT * WIDTH;
 	i = -1;
-	d = directions;
+	if (rt)
+		d = directions;
 	while (++i < i_max)
 	{
 		sub(&(p[i]), screen->r_eye, &temp_sub);
@@ -60,17 +80,17 @@ void				fill_directions(t_v *p, t_v *directions, t_screen *screen, t_rt *rt)
 
 void				fill_r_points(t_v *r_p, t_v *p, t_rt *rt)
 {
-	int 			i;
+	int				i;
 
 	i = 0;
-	while (i  < WIDTH * HEIGHT - 10)
+	while (i < WIDTH * HEIGHT - 10)
 	{
 		if (rt->costul > 0)
 		{
-		if (rt->costul == 3)
-			rotate_z_point(&(p[i]), rt, &(r_p[i]));
-		else
-			absolute_rotate(&(p[i]), rt, &(r_p[i]));
+			if (rt->costul == 3)
+				rotate_z_point(&(p[i]), rt, &(r_p[i]));
+			else
+				absolute_rotate(&(p[i]), rt, &(r_p[i]));
 		}
 		else
 		{
@@ -82,37 +102,23 @@ void				fill_r_points(t_v *r_p, t_v *p, t_rt *rt)
 	}
 	if (rt->costul > 0)
 	{
-		if (rt->costul == 3)
-			rotate_x_point(rt->screen->eye, rt, rt->screen->r_eye);
-		else
-			absolute_rotate(rt->screen->eye, rt, rt->screen->r_eye);
+		rt->costul == 3 ? rotate_z_point(EYE, rt, REYE)
+						: absolute_rotate(EYE, rt, REYE);
 	}
 }
 
 t_screen			*init_pos_screen(t_rt *rt)
 {
 	t_screen		*s;
+
 	s = (t_screen *)malloc(sizeof(t_screen) + 1);
-	s->alpha = 0;
-	s->beta = 0;
-	s->gamma = 0;
 	s->eye = (t_v *)malloc(sizeof(t_v) + 1);
 	s->r_eye = (t_v *)malloc(sizeof(t_v) + 1);
 	s->center = (t_v *)malloc(sizeof(t_v) + 1);
-	s->eye->x = 0.1;
-	s->eye->y = 0.1;
-	s->eye->z = -1000.1;
-	s->r_eye->x = 0;
-	s->r_eye->y = 0;
-	s->r_eye->z = -1000;
-	s->center->x = 0.0f;
-	s->center->y = 0.0f;
-	s->center->z = 0.0f;
 	s->points = (t_v *)malloc((WIDTH * HEIGHT + 1) * sizeof(t_v));
 	s->r_points = (t_v *)malloc((WIDTH * HEIGHT + 1) * sizeof(t_v));
 	s->directions = (t_v *)malloc((WIDTH * HEIGHT + 1) * sizeof(t_v));
-	if (!s->points)
-		exit(1);
+	fill_fields(s);
 	rt->costul = 0;
 	fill_points(s->points);
 	fill_r_points(s->r_points, s->points, rt);

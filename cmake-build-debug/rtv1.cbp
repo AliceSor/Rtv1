@@ -133,10 +133,7 @@
 		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/move_z.c">
 			<Option target="rtv1"/>
 		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/for_each_point.c">
-			<Option target="rtv1"/>
-		</Unit>
-		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c">
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/events/simple_move.c">
 			<Option target="rtv1"/>
 		</Unit>
 		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/intersects/find_hit_point.c">
@@ -182,6 +179,18 @@
 			<Option target="rtv1"/>
 		</Unit>
 		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/objects/fill_objects.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/points/for_each_point.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/points/init_pos_screen.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/points/move_back.c">
+			<Option target="rtv1"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/points/move_forward.c">
 			<Option target="rtv1"/>
 		</Unit>
 		<Unit filename="/nfs/2016/a/asoroka/rtv1/src/put_pixel.c">

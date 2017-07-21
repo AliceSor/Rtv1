@@ -129,28 +129,28 @@ CMakeFiles/rtv1.dir/src/create_win.c.o.provides: CMakeFiles/rtv1.dir/src/create_
 CMakeFiles/rtv1.dir/src/create_win.c.o.provides.build: CMakeFiles/rtv1.dir/src/create_win.c.o
 
 
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.o: CMakeFiles/rtv1.dir/flags.make
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.o: ../src/init_pos_screen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtv1.dir/src/init_pos_screen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/init_pos_screen.c.o   -c /nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o: ../src/points/init_pos_screen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o   -c /nfs/2016/a/asoroka/rtv1/src/points/init_pos_screen.c
 
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/init_pos_screen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c > CMakeFiles/rtv1.dir/src/init_pos_screen.c.i
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/points/init_pos_screen.c > CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.i
 
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/init_pos_screen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/init_pos_screen.c -o CMakeFiles/rtv1.dir/src/init_pos_screen.c.s
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/points/init_pos_screen.c -o CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.s
 
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.requires:
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o.requires:
 
-.PHONY : CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.requires
+.PHONY : CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o.requires
 
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.provides: CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.requires
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.provides.build
-.PHONY : CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.provides
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o.provides: CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o.provides
 
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.provides.build: CMakeFiles/rtv1.dir/src/init_pos_screen.c.o
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o.provides.build: CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o
 
 
 CMakeFiles/rtv1.dir/src/put_pixel.c.o: CMakeFiles/rtv1.dir/flags.make
@@ -753,28 +753,28 @@ CMakeFiles/rtv1.dir/src/color/create_color.c.o.provides: CMakeFiles/rtv1.dir/src
 CMakeFiles/rtv1.dir/src/color/create_color.c.o.provides.build: CMakeFiles/rtv1.dir/src/color/create_color.c.o
 
 
-CMakeFiles/rtv1.dir/src/for_each_point.c.o: CMakeFiles/rtv1.dir/flags.make
-CMakeFiles/rtv1.dir/src/for_each_point.c.o: ../src/for_each_point.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/rtv1.dir/src/for_each_point.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/for_each_point.c.o   -c /nfs/2016/a/asoroka/rtv1/src/for_each_point.c
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.o: ../src/points/for_each_point.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/rtv1.dir/src/points/for_each_point.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/points/for_each_point.c.o   -c /nfs/2016/a/asoroka/rtv1/src/points/for_each_point.c
 
-CMakeFiles/rtv1.dir/src/for_each_point.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/for_each_point.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/for_each_point.c > CMakeFiles/rtv1.dir/src/for_each_point.c.i
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/points/for_each_point.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/points/for_each_point.c > CMakeFiles/rtv1.dir/src/points/for_each_point.c.i
 
-CMakeFiles/rtv1.dir/src/for_each_point.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/for_each_point.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/for_each_point.c -o CMakeFiles/rtv1.dir/src/for_each_point.c.s
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/points/for_each_point.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/points/for_each_point.c -o CMakeFiles/rtv1.dir/src/points/for_each_point.c.s
 
-CMakeFiles/rtv1.dir/src/for_each_point.c.o.requires:
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.o.requires:
 
-.PHONY : CMakeFiles/rtv1.dir/src/for_each_point.c.o.requires
+.PHONY : CMakeFiles/rtv1.dir/src/points/for_each_point.c.o.requires
 
-CMakeFiles/rtv1.dir/src/for_each_point.c.o.provides: CMakeFiles/rtv1.dir/src/for_each_point.c.o.requires
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/for_each_point.c.o.provides.build
-.PHONY : CMakeFiles/rtv1.dir/src/for_each_point.c.o.provides
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.o.provides: CMakeFiles/rtv1.dir/src/points/for_each_point.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/for_each_point.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/points/for_each_point.c.o.provides
 
-CMakeFiles/rtv1.dir/src/for_each_point.c.o.provides.build: CMakeFiles/rtv1.dir/src/for_each_point.c.o
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.o.provides.build: CMakeFiles/rtv1.dir/src/points/for_each_point.c.o
 
 
 CMakeFiles/rtv1.dir/src/ray_trace.c.o: CMakeFiles/rtv1.dir/flags.make
@@ -1113,12 +1113,84 @@ CMakeFiles/rtv1.dir/src/events/change_speed.c.o.provides: CMakeFiles/rtv1.dir/sr
 CMakeFiles/rtv1.dir/src/events/change_speed.c.o.provides.build: CMakeFiles/rtv1.dir/src/events/change_speed.c.o
 
 
+CMakeFiles/rtv1.dir/src/points/move_forward.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/points/move_forward.c.o: ../src/points/move_forward.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/rtv1.dir/src/points/move_forward.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/points/move_forward.c.o   -c /nfs/2016/a/asoroka/rtv1/src/points/move_forward.c
+
+CMakeFiles/rtv1.dir/src/points/move_forward.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/points/move_forward.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/points/move_forward.c > CMakeFiles/rtv1.dir/src/points/move_forward.c.i
+
+CMakeFiles/rtv1.dir/src/points/move_forward.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/points/move_forward.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/points/move_forward.c -o CMakeFiles/rtv1.dir/src/points/move_forward.c.s
+
+CMakeFiles/rtv1.dir/src/points/move_forward.c.o.requires:
+
+.PHONY : CMakeFiles/rtv1.dir/src/points/move_forward.c.o.requires
+
+CMakeFiles/rtv1.dir/src/points/move_forward.c.o.provides: CMakeFiles/rtv1.dir/src/points/move_forward.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/move_forward.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/points/move_forward.c.o.provides
+
+CMakeFiles/rtv1.dir/src/points/move_forward.c.o.provides.build: CMakeFiles/rtv1.dir/src/points/move_forward.c.o
+
+
+CMakeFiles/rtv1.dir/src/points/move_back.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/points/move_back.c.o: ../src/points/move_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/rtv1.dir/src/points/move_back.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/points/move_back.c.o   -c /nfs/2016/a/asoroka/rtv1/src/points/move_back.c
+
+CMakeFiles/rtv1.dir/src/points/move_back.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/points/move_back.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/points/move_back.c > CMakeFiles/rtv1.dir/src/points/move_back.c.i
+
+CMakeFiles/rtv1.dir/src/points/move_back.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/points/move_back.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/points/move_back.c -o CMakeFiles/rtv1.dir/src/points/move_back.c.s
+
+CMakeFiles/rtv1.dir/src/points/move_back.c.o.requires:
+
+.PHONY : CMakeFiles/rtv1.dir/src/points/move_back.c.o.requires
+
+CMakeFiles/rtv1.dir/src/points/move_back.c.o.provides: CMakeFiles/rtv1.dir/src/points/move_back.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/move_back.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/points/move_back.c.o.provides
+
+CMakeFiles/rtv1.dir/src/points/move_back.c.o.provides.build: CMakeFiles/rtv1.dir/src/points/move_back.c.o
+
+
+CMakeFiles/rtv1.dir/src/events/simple_move.c.o: CMakeFiles/rtv1.dir/flags.make
+CMakeFiles/rtv1.dir/src/events/simple_move.c.o: ../src/events/simple_move.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/rtv1.dir/src/events/simple_move.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtv1.dir/src/events/simple_move.c.o   -c /nfs/2016/a/asoroka/rtv1/src/events/simple_move.c
+
+CMakeFiles/rtv1.dir/src/events/simple_move.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtv1.dir/src/events/simple_move.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/a/asoroka/rtv1/src/events/simple_move.c > CMakeFiles/rtv1.dir/src/events/simple_move.c.i
+
+CMakeFiles/rtv1.dir/src/events/simple_move.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtv1.dir/src/events/simple_move.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/a/asoroka/rtv1/src/events/simple_move.c -o CMakeFiles/rtv1.dir/src/events/simple_move.c.s
+
+CMakeFiles/rtv1.dir/src/events/simple_move.c.o.requires:
+
+.PHONY : CMakeFiles/rtv1.dir/src/events/simple_move.c.o.requires
+
+CMakeFiles/rtv1.dir/src/events/simple_move.c.o.provides: CMakeFiles/rtv1.dir/src/events/simple_move.c.o.requires
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/simple_move.c.o.provides.build
+.PHONY : CMakeFiles/rtv1.dir/src/events/simple_move.c.o.provides
+
+CMakeFiles/rtv1.dir/src/events/simple_move.c.o.provides.build: CMakeFiles/rtv1.dir/src/events/simple_move.c.o
+
+
 # Object files for target rtv1
 rtv1_OBJECTS = \
 "CMakeFiles/rtv1.dir/src/main.c.o" \
 "CMakeFiles/rtv1.dir/src/create_image.c.o" \
 "CMakeFiles/rtv1.dir/src/create_win.c.o" \
-"CMakeFiles/rtv1.dir/src/init_pos_screen.c.o" \
+"CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o" \
 "CMakeFiles/rtv1.dir/src/put_pixel.c.o" \
 "CMakeFiles/rtv1.dir/src/v_oper/add.c.o" \
 "CMakeFiles/rtv1.dir/src/v_oper/sub.c.o" \
@@ -1144,7 +1216,7 @@ rtv1_OBJECTS = \
 "CMakeFiles/rtv1.dir/src/objects/create_light.c.o" \
 "CMakeFiles/rtv1.dir/src/color/integrate_color.c.o" \
 "CMakeFiles/rtv1.dir/src/color/create_color.c.o" \
-"CMakeFiles/rtv1.dir/src/for_each_point.c.o" \
+"CMakeFiles/rtv1.dir/src/points/for_each_point.c.o" \
 "CMakeFiles/rtv1.dir/src/ray_trace.c.o" \
 "CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o" \
 "CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o" \
@@ -1158,7 +1230,10 @@ rtv1_OBJECTS = \
 "CMakeFiles/rtv1.dir/src/events/move_y.c.o" \
 "CMakeFiles/rtv1.dir/src/events/move_z.c.o" \
 "CMakeFiles/rtv1.dir/src/events/change_size.c.o" \
-"CMakeFiles/rtv1.dir/src/events/change_speed.c.o"
+"CMakeFiles/rtv1.dir/src/events/change_speed.c.o" \
+"CMakeFiles/rtv1.dir/src/points/move_forward.c.o" \
+"CMakeFiles/rtv1.dir/src/points/move_back.c.o" \
+"CMakeFiles/rtv1.dir/src/events/simple_move.c.o"
 
 # External object files for target rtv1
 rtv1_EXTERNAL_OBJECTS =
@@ -1166,7 +1241,7 @@ rtv1_EXTERNAL_OBJECTS =
 rtv1: CMakeFiles/rtv1.dir/src/main.c.o
 rtv1: CMakeFiles/rtv1.dir/src/create_image.c.o
 rtv1: CMakeFiles/rtv1.dir/src/create_win.c.o
-rtv1: CMakeFiles/rtv1.dir/src/init_pos_screen.c.o
+rtv1: CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o
 rtv1: CMakeFiles/rtv1.dir/src/put_pixel.c.o
 rtv1: CMakeFiles/rtv1.dir/src/v_oper/add.c.o
 rtv1: CMakeFiles/rtv1.dir/src/v_oper/sub.c.o
@@ -1192,7 +1267,7 @@ rtv1: CMakeFiles/rtv1.dir/src/events/move_cone.c.o
 rtv1: CMakeFiles/rtv1.dir/src/objects/create_light.c.o
 rtv1: CMakeFiles/rtv1.dir/src/color/integrate_color.c.o
 rtv1: CMakeFiles/rtv1.dir/src/color/create_color.c.o
-rtv1: CMakeFiles/rtv1.dir/src/for_each_point.c.o
+rtv1: CMakeFiles/rtv1.dir/src/points/for_each_point.c.o
 rtv1: CMakeFiles/rtv1.dir/src/ray_trace.c.o
 rtv1: CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o
 rtv1: CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o
@@ -1207,9 +1282,12 @@ rtv1: CMakeFiles/rtv1.dir/src/events/move_y.c.o
 rtv1: CMakeFiles/rtv1.dir/src/events/move_z.c.o
 rtv1: CMakeFiles/rtv1.dir/src/events/change_size.c.o
 rtv1: CMakeFiles/rtv1.dir/src/events/change_speed.c.o
+rtv1: CMakeFiles/rtv1.dir/src/points/move_forward.c.o
+rtv1: CMakeFiles/rtv1.dir/src/points/move_back.c.o
+rtv1: CMakeFiles/rtv1.dir/src/events/simple_move.c.o
 rtv1: CMakeFiles/rtv1.dir/build.make
 rtv1: CMakeFiles/rtv1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking C executable rtv1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/a/asoroka/rtv1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking C executable rtv1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtv1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1220,7 +1298,7 @@ CMakeFiles/rtv1.dir/build: rtv1
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/main.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/create_image.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/create_win.c.o.requires
-CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/init_pos_screen.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/put_pixel.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/v_oper/add.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/v_oper/sub.c.o.requires
@@ -1246,7 +1324,7 @@ CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/move_cone.c.o.requi
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/objects/create_light.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/color/integrate_color.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/color/create_color.c.o.requires
-CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/for_each_point.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/points/for_each_point.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/ray_trace.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/intersects/intersects_objects.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/intersects/some_calculating.c.o.requires
@@ -1261,6 +1339,9 @@ CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/move_y.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/move_z.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/change_size.c.o.requires
 CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/change_speed.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/points/move_forward.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/points/move_back.c.o.requires
+CMakeFiles/rtv1.dir/requires: CMakeFiles/rtv1.dir/src/events/simple_move.c.o.requires
 
 .PHONY : CMakeFiles/rtv1.dir/requires
 

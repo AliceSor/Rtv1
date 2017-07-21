@@ -555,59 +555,32 @@ src/events/move_z.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/move_z.c.s
 .PHONY : src/events/move_z.c.s
 
-src/for_each_point.o: src/for_each_point.c.o
+src/events/simple_move.o: src/events/simple_move.c.o
 
-.PHONY : src/for_each_point.o
-
-# target to build an object file
-src/for_each_point.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/for_each_point.c.o
-.PHONY : src/for_each_point.c.o
-
-src/for_each_point.i: src/for_each_point.c.i
-
-.PHONY : src/for_each_point.i
-
-# target to preprocess a source file
-src/for_each_point.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/for_each_point.c.i
-.PHONY : src/for_each_point.c.i
-
-src/for_each_point.s: src/for_each_point.c.s
-
-.PHONY : src/for_each_point.s
-
-# target to generate assembly for a file
-src/for_each_point.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/for_each_point.c.s
-.PHONY : src/for_each_point.c.s
-
-src/init_pos_screen.o: src/init_pos_screen.c.o
-
-.PHONY : src/init_pos_screen.o
+.PHONY : src/events/simple_move.o
 
 # target to build an object file
-src/init_pos_screen.c.o:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/init_pos_screen.c.o
-.PHONY : src/init_pos_screen.c.o
+src/events/simple_move.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/simple_move.c.o
+.PHONY : src/events/simple_move.c.o
 
-src/init_pos_screen.i: src/init_pos_screen.c.i
+src/events/simple_move.i: src/events/simple_move.c.i
 
-.PHONY : src/init_pos_screen.i
+.PHONY : src/events/simple_move.i
 
 # target to preprocess a source file
-src/init_pos_screen.c.i:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/init_pos_screen.c.i
-.PHONY : src/init_pos_screen.c.i
+src/events/simple_move.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/simple_move.c.i
+.PHONY : src/events/simple_move.c.i
 
-src/init_pos_screen.s: src/init_pos_screen.c.s
+src/events/simple_move.s: src/events/simple_move.c.s
 
-.PHONY : src/init_pos_screen.s
+.PHONY : src/events/simple_move.s
 
 # target to generate assembly for a file
-src/init_pos_screen.c.s:
-	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/init_pos_screen.c.s
-.PHONY : src/init_pos_screen.c.s
+src/events/simple_move.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/events/simple_move.c.s
+.PHONY : src/events/simple_move.c.s
 
 src/intersects/find_hit_point.o: src/intersects/find_hit_point.c.o
 
@@ -1014,6 +987,114 @@ src/objects/fill_objects.c.s:
 	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/objects/fill_objects.c.s
 .PHONY : src/objects/fill_objects.c.s
 
+src/points/for_each_point.o: src/points/for_each_point.c.o
+
+.PHONY : src/points/for_each_point.o
+
+# target to build an object file
+src/points/for_each_point.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/for_each_point.c.o
+.PHONY : src/points/for_each_point.c.o
+
+src/points/for_each_point.i: src/points/for_each_point.c.i
+
+.PHONY : src/points/for_each_point.i
+
+# target to preprocess a source file
+src/points/for_each_point.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/for_each_point.c.i
+.PHONY : src/points/for_each_point.c.i
+
+src/points/for_each_point.s: src/points/for_each_point.c.s
+
+.PHONY : src/points/for_each_point.s
+
+# target to generate assembly for a file
+src/points/for_each_point.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/for_each_point.c.s
+.PHONY : src/points/for_each_point.c.s
+
+src/points/init_pos_screen.o: src/points/init_pos_screen.c.o
+
+.PHONY : src/points/init_pos_screen.o
+
+# target to build an object file
+src/points/init_pos_screen.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o
+.PHONY : src/points/init_pos_screen.c.o
+
+src/points/init_pos_screen.i: src/points/init_pos_screen.c.i
+
+.PHONY : src/points/init_pos_screen.i
+
+# target to preprocess a source file
+src/points/init_pos_screen.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.i
+.PHONY : src/points/init_pos_screen.c.i
+
+src/points/init_pos_screen.s: src/points/init_pos_screen.c.s
+
+.PHONY : src/points/init_pos_screen.s
+
+# target to generate assembly for a file
+src/points/init_pos_screen.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.s
+.PHONY : src/points/init_pos_screen.c.s
+
+src/points/move_back.o: src/points/move_back.c.o
+
+.PHONY : src/points/move_back.o
+
+# target to build an object file
+src/points/move_back.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/move_back.c.o
+.PHONY : src/points/move_back.c.o
+
+src/points/move_back.i: src/points/move_back.c.i
+
+.PHONY : src/points/move_back.i
+
+# target to preprocess a source file
+src/points/move_back.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/move_back.c.i
+.PHONY : src/points/move_back.c.i
+
+src/points/move_back.s: src/points/move_back.c.s
+
+.PHONY : src/points/move_back.s
+
+# target to generate assembly for a file
+src/points/move_back.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/move_back.c.s
+.PHONY : src/points/move_back.c.s
+
+src/points/move_forward.o: src/points/move_forward.c.o
+
+.PHONY : src/points/move_forward.o
+
+# target to build an object file
+src/points/move_forward.c.o:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/move_forward.c.o
+.PHONY : src/points/move_forward.c.o
+
+src/points/move_forward.i: src/points/move_forward.c.i
+
+.PHONY : src/points/move_forward.i
+
+# target to preprocess a source file
+src/points/move_forward.c.i:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/move_forward.c.i
+.PHONY : src/points/move_forward.c.i
+
+src/points/move_forward.s: src/points/move_forward.c.s
+
+.PHONY : src/points/move_forward.s
+
+# target to generate assembly for a file
+src/points/move_forward.c.s:
+	$(MAKE) -f CMakeFiles/rtv1.dir/build.make CMakeFiles/rtv1.dir/src/points/move_forward.c.s
+.PHONY : src/points/move_forward.c.s
+
 src/put_pixel.o: src/put_pixel.c.o
 
 .PHONY : src/put_pixel.o
@@ -1368,12 +1449,9 @@ help:
 	@echo "... src/events/move_z.o"
 	@echo "... src/events/move_z.i"
 	@echo "... src/events/move_z.s"
-	@echo "... src/for_each_point.o"
-	@echo "... src/for_each_point.i"
-	@echo "... src/for_each_point.s"
-	@echo "... src/init_pos_screen.o"
-	@echo "... src/init_pos_screen.i"
-	@echo "... src/init_pos_screen.s"
+	@echo "... src/events/simple_move.o"
+	@echo "... src/events/simple_move.i"
+	@echo "... src/events/simple_move.s"
 	@echo "... src/intersects/find_hit_point.o"
 	@echo "... src/intersects/find_hit_point.i"
 	@echo "... src/intersects/find_hit_point.s"
@@ -1419,6 +1497,18 @@ help:
 	@echo "... src/objects/fill_objects.o"
 	@echo "... src/objects/fill_objects.i"
 	@echo "... src/objects/fill_objects.s"
+	@echo "... src/points/for_each_point.o"
+	@echo "... src/points/for_each_point.i"
+	@echo "... src/points/for_each_point.s"
+	@echo "... src/points/init_pos_screen.o"
+	@echo "... src/points/init_pos_screen.i"
+	@echo "... src/points/init_pos_screen.s"
+	@echo "... src/points/move_back.o"
+	@echo "... src/points/move_back.i"
+	@echo "... src/points/move_back.s"
+	@echo "... src/points/move_forward.o"
+	@echo "... src/points/move_forward.i"
+	@echo "... src/points/move_forward.s"
 	@echo "... src/put_pixel.o"
 	@echo "... src/put_pixel.i"
 	@echo "... src/put_pixel.s"

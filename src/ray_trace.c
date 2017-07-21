@@ -1,11 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ray_trace.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/21 19:39:11 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/21 19:39:14 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../rtv1.h"
 
-t_obj			*intersect(t_rt *rt, t_v *d, double *t)
+t_obj		*intersect(t_rt *rt, t_v *d, double *t)
 {
-	t_obj		*res;
-	t_obj		*obj;
-	int			is_intersect;
-	double		min_t;
+	t_obj	*res;
+	t_obj	*obj;
+	int		is_intersect;
+	double	min_t;
 
 	obj = rt->obj;
 	res = NULL;
@@ -27,11 +39,11 @@ t_obj			*intersect(t_rt *rt, t_v *d, double *t)
 	return (res);
 }
 
-int				intersect_light(t_rt *rt, t_v *d, t_v *p0, double *t)
+int			intersect_light(t_rt *rt, t_v *d, t_v *p0, double *t)
 {
-	t_obj		*obj;
-	int			is_intersect;
-	double		min_t;
+	t_obj	*obj;
+	int		is_intersect;
+	double	min_t;
 
 	obj = rt->obj;
 	min_t = *t;
@@ -70,7 +82,7 @@ static int	find_light(t_rt *rt, t_obj *obj, t_v *d, double *t)
 	return (calc_color(obj, diffuse, is_shadow, specular));
 }
 
-void 		ray_trace(t_rt *rt)
+void		ray_trace(t_rt *rt)
 {
 	t_v		*d;
 	int		color;
@@ -80,13 +92,13 @@ void 		ray_trace(t_rt *rt)
 
 	i = 0;
 	d = rt->screen->directions;
-	while (i  < WIDTH * HEIGHT - 10)
+	while (i < WIDTH * HEIGHT - 10)
 	{
 		obj = intersect(rt, &(d[i]), &t);
 		if (obj)
 		{
 			if (rt->is_light)
-				color  = find_light(rt, obj, &(d[i]), &t);
+				color = find_light(rt, obj, &(d[i]), &t);
 			else
 				color = integrate_color(CR, CG, CB);
 		}

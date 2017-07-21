@@ -49,11 +49,8 @@ CMakeFiles/rtv1.dir/src/events/move_y.c.o: ../src/events/move_y.c
 CMakeFiles/rtv1.dir/src/events/move_z.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/events/move_z.c.o: ../src/events/move_z.c
 
-CMakeFiles/rtv1.dir/src/for_each_point.c.o: ../rtv1.h
-CMakeFiles/rtv1.dir/src/for_each_point.c.o: ../src/for_each_point.c
-
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.o: ../rtv1.h
-CMakeFiles/rtv1.dir/src/init_pos_screen.c.o: ../src/init_pos_screen.c
+CMakeFiles/rtv1.dir/src/events/simple_move.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/events/simple_move.c.o: ../src/events/simple_move.c
 
 CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/intersects/find_hit_point.c.o: ../src/intersects/find_hit_point.c
@@ -99,6 +96,18 @@ CMakeFiles/rtv1.dir/src/objects/create_sphere.c.o: ../src/objects/create_sphere.
 
 CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/objects/fill_objects.c.o: ../src/objects/fill_objects.c
+
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/points/for_each_point.c.o: ../src/points/for_each_point.c
+
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/points/init_pos_screen.c.o: ../src/points/init_pos_screen.c
+
+CMakeFiles/rtv1.dir/src/points/move_back.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/points/move_back.c.o: ../src/points/move_back.c
+
+CMakeFiles/rtv1.dir/src/points/move_forward.c.o: ../rtv1.h
+CMakeFiles/rtv1.dir/src/points/move_forward.c.o: ../src/points/move_forward.c
 
 CMakeFiles/rtv1.dir/src/put_pixel.c.o: ../rtv1.h
 CMakeFiles/rtv1.dir/src/put_pixel.c.o: ../src/put_pixel.c

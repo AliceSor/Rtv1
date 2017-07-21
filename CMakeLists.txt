@@ -12,7 +12,7 @@ set(SOURCE_FILES
 
         src/create_win.c
 
-        src/init_pos_screen.c
+        src/points/init_pos_screen.c
 
         src/put_pixel.c
 
@@ -43,7 +43,7 @@ set(SOURCE_FILES
         src/objects/create_light.c
         src/color/integrate_color.c
         src/color/create_color.c
-        src/for_each_point.c
+        src/points/for_each_point.c
         src/ray_trace.c
         src/intersects/intersects_objects.c
         src/intersects/some_calculating.c
@@ -57,6 +57,7 @@ set(SOURCE_FILES
         src/events/move_y.c
         src/events/move_z.c
         src/events/change_size.c
-        src/events/change_speed.c)
+        src/events/change_speed.c
+        src/points/move_forward.c src/points/move_back.c src/events/simple_move.c)
 
 add_executable(rtv1 ${SOURCE_FILES})

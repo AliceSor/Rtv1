@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   integrate_color.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/07/21 18:49:44 by asoroka           #+#    #+#             */
+/*   Updated: 2017/07/21 18:49:45 by asoroka          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../rtv1.h"
 
-int 			integrate_color(double r, double g, double b)
+int				integrate_color(double r, double g, double b)
 {
-	int 		res;
+	int			res;
 
 	r = (r / 100) * 255;
 	g = (g / 100) * 255;
