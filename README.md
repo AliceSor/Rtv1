@@ -2,9 +2,13 @@
 Program, that visualizes simple 3d objects (sphere, plane, cone and cylinder), using ray-tracing method
 
 ## compile
-'''make'''
+'''
+make
+'''
 
 ## launching
-'''./Rtv1'''
+'''
+./Rtv1
+'''
 
 ## screenshots
