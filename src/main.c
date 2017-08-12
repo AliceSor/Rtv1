@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/21 19:38:53 by asoroka           #+#    #+#             */
-/*   Updated: 2017/07/21 19:39:00 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/22 14:27:36 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,12 @@ int				main(void)
 {
 	t_rt		*rt;
 
-	rt = (t_rt *)malloc(sizeof(t_rt) + 50);
+	rt = (t_rt *)malloc(sizeof(t_rt) + 1);
 	rt->costul = 0;
 	rt->mlx = create_win();
 	create_image(rt->mlx);
 	rt->screen = init_pos_screen(rt);
+	rt->objects = (t_obj **)malloc(sizeof(t_obj *) * 10 + 1);
 	fill_objects(rt);
 	rt->chosen = rt->obj;
 	rt->chosen->f->chosen = 1;

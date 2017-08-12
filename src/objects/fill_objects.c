@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/19 14:39:41 by asoroka           #+#    #+#             */
-/*   Updated: 2017/07/19 14:40:14 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/22 16:47:33 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,12 @@ static void		fill_cylinder(t_obj *cl, t_v *n, t_color *color, t_v *c)
 
 static void		add_objects(t_rt *rt, t_obj **objects)
 {
+	objects[6] = create_obj(1);
+	fill_plane(objects[6], NV(0, 1, 0), CC(0, 150, 150), 1500.0);
+	objects[7] = create_obj(1);
+	fill_plane(objects[7], NV(0, 0, 1), CC(100, 150, 150), 4801);
+	add_obj(rt->obj, objects[7]);
+	add_obj(rt->obj, objects[6]);
 	add_obj(rt->obj, objects[5]);
 	add_obj(rt->obj, objects[4]);
 	add_obj(rt->obj, objects[3]);
@@ -54,8 +60,7 @@ void			fill_objects(t_rt *rt)
 {
 	t_obj		**objects;
 
-	objects = (t_obj **)malloc(sizeof(t_obj *) * 10 + 1);
-	objects[0] = create_obj(1);
+	objects = rt->objects;
 	rt->obj = create_obj(-1);
 	rt->obj->f->chosen = 1;
 	objects[0] = create_obj(1);

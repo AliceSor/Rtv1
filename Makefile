@@ -6,13 +6,13 @@
 #    By: asoroka <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/25 18:13:07 by asoroka           #+#    #+#              #
-#    Updated: 2017/07/18 19:48:30 by asoroka          ###   ########.fr        #
+#    Updated: 2017/07/22 16:26:16 by asoroka          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = rtv1
+NAME = RTv1
 
-FLAGS = -c# -Wall -Wextra -Werror 
+FLAGS = -c -Wall -Wextra -Werror 
 
 MLX = -lmlx -framework OpenGL -framework AppKit
 

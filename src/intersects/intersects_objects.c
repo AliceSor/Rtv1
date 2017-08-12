@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/19 17:00:46 by asoroka           #+#    #+#             */
-/*   Updated: 2017/07/19 17:00:49 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/22 14:09:44 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ int				intersect_sphere(t_v *d, t_v *p0, t_sphere *s, double *t)
 	abc.b = scalar_mult(&temp_mul, &temp_sub);
 	abc.c = scalar_mult(temp_sub1, temp_sub1) - (s->radius * s->radius);
 	disc = abc.b * abc.b - 4 * abc.a * abc.c;
+	free(temp_sub1);
 	if (disc > 0.001f && discriminant(t, abc) == 1)
 		return (1);
 	return (0);

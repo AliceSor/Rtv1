@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/19 16:17:18 by asoroka           #+#    #+#             */
-/*   Updated: 2017/07/19 16:17:20 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/22 14:07:23 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,6 +63,7 @@ double			find_diffuse(t_obj *obj, t_v *hit_p, t_v *light_ray)
 	nrml = (t_v *)malloc(sizeof(t_v) + 1);
 	find_normal(obj, hit_p, nrml);
 	diffuse = scalar_mult(nrml, light_ray);
+	free(nrml);
 	if (diffuse < 0.0f)
 		diffuse = 0.0f;
 	return (diffuse);

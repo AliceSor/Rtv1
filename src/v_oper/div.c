@@ -14,7 +14,7 @@
 
 void		division(t_v *v1, double d, t_v *res)
 {
-	if (res && v1)
+	if (res && v1 && d != 0)
 	{
 		res->x = v1->x / d;
 		res->y = v1->y / d;

@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/21 18:51:12 by asoroka           #+#    #+#             */
-/*   Updated: 2017/07/21 18:51:14 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/22 14:16:19 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,5 +76,6 @@ int					buttons(int keycode, t_rt *rt)
 	change_speed(keycode, rt);
 	if (keycode == 53)
 		exit(0);
+	put_image(rt);
 	return (0);
 }

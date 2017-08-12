@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/21 19:52:00 by asoroka           #+#    #+#             */
-/*   Updated: 2017/07/21 19:52:04 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/22 14:51:34 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -152,6 +152,7 @@ typedef struct		s_rt
 	t_v				*hit_point;
 	t_v				*light_ray;
 	t_v				*temp_sub;
+	t_obj			**objects;
 }					t_rt;
 
 t_mlx				*create_win(void);
