@@ -15,5 +15,5 @@ make
 
 ![sphere](http://imgur.com/fJLSFDI.png)
 ![cone](http://imgur.com/mTw8nLw.png)
-![cylinder](http://imgur.com/DF8PDiWE.png)
+![cylinder](https://i.imgur.com/DF8PDWE.png)
 ![all](http://i.imgur.com/6eHqIij.png)
