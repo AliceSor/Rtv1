@@ -12,7 +12,7 @@
 
 NAME = RTv1
 
-FLAGS = -c -Wall -Wextra -Werror 
+FLAGS = -c #-Wall -Wextra -Werror 
 
 MLX = -lmlx -lXext -lX11 -lm
 

@@ -14,6 +14,7 @@
 # define RTV1_H
 # define HEIGHT 800
 # define WIDTH 1000
+# define SIDEBAR_W 400
 # define RAD 3.14166667/180
 # define HUGE 214748364.0
 # define EYE rt->screen->eye
@@ -139,6 +140,7 @@ typedef struct		s_screen
 typedef struct		s_rt
 {
 	t_mlx			*mlx;
+	t_mlx			*mlx1;
 	t_screen		*screen;
 	t_obj			*obj;
 	t_obj			*lights;
@@ -156,6 +158,7 @@ typedef struct		s_rt
 }					t_rt;
 
 t_mlx				*create_win(void);
+t_mlx				*create_mlx(void);
 void				create_image(t_mlx *mlx, int height, int width);
 void				fill_objects(t_rt *rt);
 void				put_pixel(int i, int color, t_mlx *mlx);
