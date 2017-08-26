@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/19 14:39:41 by asoroka           #+#    #+#             */
-/*   Updated: 2017/08/12 18:34:24 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/22 16:47:33 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,15 +70,15 @@ void			fill_objects(t_rt *rt)
 	objects[2] = create_obj(0);
 	fill_sphere(objects[2], NV(-200, -100, 10), CC(80, 20, 200), 100);
 	objects[3] = create_obj(0);
-	fill_sphere(objects[3], NV(100, -300, -2000), CC(255, 255, 255), 20);
+	fill_sphere(objects[3], NV(0, -80, 0), CC(255, 255, 255), 20);
 	objects[3]->f->for_light = 1;
 	objects[4] = create_obj(2);
 	fill_cylinder(objects[4], NV(1, 0, 1), CC(20, 80, 150), NV(-100, 200, 900));
 	objects[5] = create_obj(3);
 	objects[5]->color = CC(20, 150, 50);
-	objects[5]->cn = create_cone(NV(400, -700, 2500), NV(0, 1, 0), 20);
+	objects[5]->cn = create_cone(NV(400, -300, 1400), NV(0, 1, 0), 20);
 	rt->lights = create_obj(4);
-	rt->lights->l = create_light(NV(100, -300, -2000));
+	rt->lights->l = create_light(NV(0, -80, 0));
 	rt->l_sphere = objects[3];
 	add_objects(rt, objects);
 }

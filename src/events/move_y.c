@@ -31,7 +31,7 @@ void			move_y(int keycode, t_rt *rt)
 		fill_r_points(rt->screen->r_points, rt->screen->points, rt);
 		fill_directions(rt->screen->r_points, DIRS, rt->screen, rt);
 	}
-	else if (keycode == 32)
+	else if (keycode == 121)
 	{
 		B -= 2 * rt->speed_rotate;
 		rt->costul = 2;

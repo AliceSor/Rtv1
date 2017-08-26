@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/21 19:52:00 by asoroka           #+#    #+#             */
-/*   Updated: 2017/07/22 14:51:34 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/31 13:37:43 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define RTV1_H
 # define HEIGHT 800
 # define WIDTH 1000
+# define SIDEBAR_W 400
 # define RAD 3.14166667/180
 # define HUGE 214748364.0
 # define EYE rt->screen->eye
@@ -28,7 +29,7 @@
 # define CG obj->color->g * 100
 # define DIRS rt->screen->directions
 # include <math.h>
-# include <mlx.h>
+# include "mlx.h"
 # include <stdlib.h>
 # include <pthread.h>
 # include <unistd.h>
@@ -139,6 +140,7 @@ typedef struct		s_screen
 typedef struct		s_rt
 {
 	t_mlx			*mlx;
+	t_mlx			*mlx1;
 	t_screen		*screen;
 	t_obj			*obj;
 	t_obj			*lights;
@@ -156,7 +158,8 @@ typedef struct		s_rt
 }					t_rt;
 
 t_mlx				*create_win(void);
-void				create_image(t_mlx *mlx);
+t_mlx				*create_mlx(void);
+void				create_image(t_mlx *mlx, int height, int width);
 void				fill_objects(t_rt *rt);
 void				put_pixel(int i, int color, t_mlx *mlx);
 void				add(t_v *v1, t_v *v2, t_v *res);

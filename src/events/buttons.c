@@ -11,12 +11,13 @@
 /* ************************************************************************** */
 
 #include "../../rtv1.h"
+#include <stdio.h>
 
 void				put_image(t_rt *rt)
 {
 	mlx_clear_window(rt->mlx->mlx, rt->mlx->win);
-	mlx_destroy_image(rt->mlx->mlx, rt->mlx->im);
-	create_image(rt->mlx);
+//	mlx_destroy_image(rt->mlx->mlx, rt->mlx->im);
+	create_image(rt->mlx, WIDTH, HEIGHT);
 	ray_trace(rt);
 	mlx_put_image_to_window(rt->mlx->mlx, rt->mlx->win, rt->mlx->im, 0, 0);
 }
@@ -46,7 +47,7 @@ static void			for_chosen_objects(int keycode, t_rt *rt)
 
 static void			for_chosen(int keycode, t_rt *rt)
 {
-	if (keycode == 115)
+	if (keycode == 96)
 	{
 		rt->chosen->f->chosen = 0;
 		rt->chosen = (rt->chosen->next) ? rt->chosen->next : rt->obj;
@@ -58,23 +59,24 @@ static void			for_chosen(int keycode, t_rt *rt)
 			rt->chosen->f->chosen = 1;
 		}
 	}
-	if (keycode == 51)
+	if (keycode == 65288)
 		rt->chosen->f->is_visible = (rt->chosen->f->is_visible) ? 0 : 1;
 }
 
 int					buttons(int keycode, t_rt *rt)
 {
+	printf("keycode : %d\n", keycode);
 	move_x(keycode, rt);
 	move_y(keycode, rt);
 	move_z(keycode, rt);
 	for_chosen(keycode, rt);
 	for_chosen_objects(keycode, rt);
-	if (keycode == 49)
+	if (keycode == 32)
 		rt->is_light = (rt->is_light) ? 0 : 1;
 	simple_move(keycode, rt);
 	put_image(rt);
 	change_speed(keycode, rt);
-	if (keycode == 53)
+	if (keycode == 65307)
 		exit(0);
 	put_image(rt);
 	return (0);
