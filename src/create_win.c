@@ -20,7 +20,7 @@ t_mlx			*create_win(void)
 	if (nw)
 	{
 		nw->mlx = mlx_init();
-		nw->win = mlx_new_window(nw->mlx, WIDTH - 1, HEIGHT - 2, "42");
+		nw->win = mlx_new_window(nw->mlx, WIDTH - 1 + 400, HEIGHT - 2, "42");
 		return (nw);
 	}
 	return (NULL);

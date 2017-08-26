@@ -6,7 +6,7 @@
 /*   By: asoroka <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/21 19:52:00 by asoroka           #+#    #+#             */
-/*   Updated: 2017/07/22 14:51:34 by asoroka          ###   ########.fr       */
+/*   Updated: 2017/07/31 13:37:43 by asoroka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@
 # define CG obj->color->g * 100
 # define DIRS rt->screen->directions
 # include <math.h>
-# include <mlx.h>
+# include "mlx.h"
 # include <stdlib.h>
 # include <pthread.h>
 # include <unistd.h>
