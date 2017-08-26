@@ -17,7 +17,7 @@ void				put_image(t_rt *rt)
 {
 	mlx_clear_window(rt->mlx->mlx, rt->mlx->win);
 //	mlx_destroy_image(rt->mlx->mlx, rt->mlx->im);
-	create_image(rt->mlx);
+	create_image(rt->mlx, WIDTH, HEIGHT);
 	ray_trace(rt);
 	mlx_put_image_to_window(rt->mlx->mlx, rt->mlx->win, rt->mlx->im, 0, 0);
 }

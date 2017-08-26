@@ -12,11 +12,11 @@
 
 #include "../rtv1.h"
 
-void			create_image(t_mlx *mlx)
+void			create_image(t_mlx *mlx, int width, int height)
 {
 	int			bpss;
 	int			endian;
 
-	mlx->im = mlx_new_image(mlx->mlx, WIDTH, HEIGHT);
+	mlx->im = mlx_new_image(mlx->mlx, width, height);
 	mlx->imdata = (int *)mlx_get_data_addr(mlx->im, &bpss, &mlx->ls, &endian);
 }

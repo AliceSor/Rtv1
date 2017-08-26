@@ -156,7 +156,7 @@ typedef struct		s_rt
 }					t_rt;
 
 t_mlx				*create_win(void);
-void				create_image(t_mlx *mlx);
+void				create_image(t_mlx *mlx, int height, int width);
 void				fill_objects(t_rt *rt);
 void				put_pixel(int i, int color, t_mlx *mlx);
 void				add(t_v *v1, t_v *v2, t_v *res);

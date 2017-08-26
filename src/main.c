@@ -19,7 +19,7 @@ int				main(void)
 	rt = (t_rt *)malloc(sizeof(t_rt) + 1);
 	rt->costul = 0;
 	rt->mlx = create_win();
-	create_image(rt->mlx);
+	create_image(rt->mlx, WIDTH, HEIGHT);
 	rt->screen = init_pos_screen(rt);
 	rt->objects = (t_obj **)malloc(sizeof(t_obj *) * 10 + 1);
 	fill_objects(rt);
